@@ -66,7 +66,7 @@ class AppWindow(QWidget):  # Reusable
         super().__init__()
         self.ui = Ui_Pokemon_Info()  # Ui底線後面改名稱
         self.ui.setupUi(self)
-        print("Loading Pokemon Data......")
+        print("Loading Pokémon Data......")
         self.Pokemon_data_source = Pokemon_data_refresh_ETL()
         self.Pokemon_data = self.Pokemon_data_source.copy()
         self.Pokemon_img = QPixmap()
@@ -83,8 +83,9 @@ class AppWindow(QWidget):  # Reusable
         self.ui.Pokemon_Image.setScene(QtWidgets.QGraphicsScene())
         self.ui.Pokemon_Image.setBackgroundBrush(QBrush(Qt.black, Qt.SolidPattern))
 
+        self.ui.KeyWord_Text.clear()
         self.ui.Pokemon_ComboBox.clear()
-        self.ui.Pokemon_ComboBox.addItem("Choose Pokemon")
+        self.ui.Pokemon_ComboBox.addItem("Choose Pokémon")
         self.ui.Pokemon_ID_Name = list(self.Pokemon_data["ID_Name"])
         for ID_Name in self.ui.Pokemon_ID_Name:
             self.ui.Pokemon_ComboBox.addItem(ID_Name)
@@ -99,18 +100,33 @@ class AppWindow(QWidget):  # Reusable
         self.ui.Search_Button.clicked.connect(
             lambda: self.Search_Button_Clicked(self.ui.Pokemon_ComboBox.currentText()))
         self.ui.Refresh_Button.clicked.connect(self.Refresh_Button_Clicked)
-        self.ui.Type_ComboBox.currentTextChanged.connect(self.Type_ComboBox_select_change)
 
-    def Type_ComboBox_select_change(self):
-        if self.ui.Type_ComboBox.currentText() == "All Types":
-            self.Pokemon_data = self.Pokemon_data_source.copy()
-        elif self.ui.Type_ComboBox.currentText() is None:
+        self.ui.Type_ComboBox.currentTextChanged.connect(
+            lambda: self.Filter_Change(self.ui.KeyWord_Text.text().strip(), self.ui.Type_ComboBox.currentText()))
+        self.ui.KeyWord_Text.textChanged.connect(
+            lambda: self.Filter_Change(self.ui.KeyWord_Text.text().strip(), self.ui.Type_ComboBox.currentText()))
+
+    def Filter_Change(self, Pokemon_Name_Keyword, Pokemon_Type):
+        if Pokemon_Type is None:
             return None
+
+        self.Pokemon_data = self.Pokemon_data_source.copy()
+        if Pokemon_Type == "All Types" and Pokemon_Name_Keyword != "":
+            self.Pokemon_data = self.Pokemon_data[
+                self.Pokemon_data["Name"].str.contains(Pokemon_Name_Keyword, regex=False)]
+        elif Pokemon_Type == "All Types" and Pokemon_Name_Keyword == "":
+            pass
+        elif Pokemon_Type != "All Types" and Pokemon_Name_Keyword != "":
+            self.Pokemon_data = self.Pokemon_data[self.Pokemon_data["Type"].str.contains(Pokemon_Type, regex=False)]
+            self.Pokemon_data = self.Pokemon_data[
+                self.Pokemon_data["Name"].str.contains(Pokemon_Name_Keyword, regex=False)]
+        elif Pokemon_Type != "All Types" and Pokemon_Name_Keyword == "":
+            self.Pokemon_data = self.Pokemon_data[self.Pokemon_data["Type"].str.contains(Pokemon_Type, regex=False)]
         else:
-            self.Pokemon_data = self.Pokemon_data_source[
-                self.Pokemon_data_source["Type"].str.contains(self.ui.Type_ComboBox.currentText(), regex=False)].copy()
+            return None
+
         self.ui.Pokemon_ComboBox.clear()
-        self.ui.Pokemon_ComboBox.addItem("Choose Pokemon")
+        self.ui.Pokemon_ComboBox.addItem("Choose Pokémon")
         self.ui.Pokemon_ID_Name = list(self.Pokemon_data["ID_Name"])
         for ID_Name in self.ui.Pokemon_ID_Name:
             self.ui.Pokemon_ComboBox.addItem(ID_Name)
@@ -118,7 +134,7 @@ class AppWindow(QWidget):  # Reusable
     def Search_Button_Clicked(self, Pokemon_ID_Name):
         selected_Pokemon_data = self.Pokemon_data[self.Pokemon_data["ID_Name"] == Pokemon_ID_Name]
         if len(selected_Pokemon_data) == 0:
-            print("Please Choose Pokemon!")
+            print("Please Choose Pokémon!")
             return None
         print(Pokemon_ID_Name)
         self.ui.Genus_Text.setText(selected_Pokemon_data["Genus"].values[0])
@@ -137,12 +153,13 @@ class AppWindow(QWidget):  # Reusable
         # self.ui.Pokemon_Image.setAlignment(Qt.AlignCenter)
 
     def Refresh_Button_Clicked(self):
-        print("Refreshing Pokemon Data......")
+        print("Refreshing Pokémon Data......")
         self.Pokemon_data_source = Pokemon_data_refresh_ETL()
         self.Pokemon_data = self.Pokemon_data_source.copy()
 
+        self.ui.KeyWord_Text.clear()
         self.ui.Pokemon_ComboBox.clear()
-        self.ui.Pokemon_ComboBox.addItem("Choose Pokemon")
+        self.ui.Pokemon_ComboBox.addItem("Choose Pokémon")
         self.ui.Pokemon_ID_Name = list(self.Pokemon_data["ID_Name"])
         for ID_Name in self.ui.Pokemon_ID_Name:
             self.ui.Pokemon_ComboBox.addItem(ID_Name)

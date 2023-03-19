@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'Pokemon_Info_UI_V02sELcMr.ui'
+## Form generated from reading UI file 'Pokemon_Info_UI_V02FebgVo.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -17,7 +17,7 @@ class Ui_Pokemon_Info(object):
     def setupUi(self, Pokemon_Info):
         if not Pokemon_Info.objectName():
             Pokemon_Info.setObjectName(u"Pokemon_Info")
-        Pokemon_Info.resize(967, 725)
+        Pokemon_Info.resize(960, 725)
         self.label_1 = QLabel(Pokemon_Info)
         self.label_1.setObjectName(u"label_1")
         self.label_1.setGeometry(QRect(20, 140, 341, 31))
@@ -133,13 +133,61 @@ class Ui_Pokemon_Info(object):
         self.Type_ComboBox = QComboBox(Pokemon_Info)
         self.Type_ComboBox.addItem("")
         self.Type_ComboBox.setObjectName(u"Type_ComboBox")
-        self.Type_ComboBox.setGeometry(QRect(350, 60, 291, 41))
+        self.Type_ComboBox.setGeometry(QRect(560, 60, 241, 41))
         self.Type_ComboBox.setFont(font1)
         self.label_3 = QLabel(Pokemon_Info)
         self.label_3.setObjectName(u"label_3")
-        self.label_3.setGeometry(QRect(350, 20, 341, 31))
+        self.label_3.setGeometry(QRect(560, 20, 341, 31))
         self.label_3.setFont(font)
         self.label_3.setAlignment(Qt.AlignJustify|Qt.AlignVCenter)
+        self.KeyWord_Text = QLineEdit(Pokemon_Info)
+        self.KeyWord_Text.setObjectName(u"KeyWord_Text")
+        self.KeyWord_Text.setGeometry(QRect(230, 60, 251, 41))
+        self.KeyWord_Text.setFont(font1)
+        self.KeyWord_Text.setEchoMode(QLineEdit.Normal)
+        self.KeyWord_Text.setAlignment(Qt.AlignCenter)
+        self.KeyWord_Text.setReadOnly(False)
+        self.label_4 = QLabel(Pokemon_Info)
+        self.label_4.setObjectName(u"label_4")
+        self.label_4.setGeometry(QRect(230, 20, 341, 31))
+        self.label_4.setFont(font)
+        self.label_4.setAlignment(Qt.AlignJustify|Qt.AlignVCenter)
+        self.label_9 = QLabel(Pokemon_Info)
+        self.label_9.setObjectName(u"label_9")
+        self.label_9.setGeometry(QRect(10, 110, 941, 31))
+        self.label_9.setFont(font)
+        self.label_9.setAlignment(Qt.AlignJustify|Qt.AlignVCenter)
+        self.label_10 = QLabel(Pokemon_Info)
+        self.label_10.setObjectName(u"label_10")
+        self.label_10.setGeometry(QRect(20, 30, 181, 71))
+        self.label_10.setFont(font)
+        self.label_10.setAlignment(Qt.AlignJustify|Qt.AlignVCenter)
+        self.Keyword_Button = QPushButton(Pokemon_Info)
+        self.Keyword_Button.setObjectName(u"Keyword_Button")
+        self.Keyword_Button.setEnabled(True)
+        self.Keyword_Button.setGeometry(QRect(440, 60, 41, 41))
+        self.Keyword_Button.setFont(font2)
+        self.Keyword_Button.raise_()
+        self.label_1.raise_()
+        self.Pokemon_ComboBox.raise_()
+        self.Search_Button.raise_()
+        self.Refresh_Button.raise_()
+        self.label_6.raise_()
+        self.Desc_TextEdit.raise_()
+        self.label_2.raise_()
+        self.Genus_Text.raise_()
+        self.label_5.raise_()
+        self.Type1_Text.raise_()
+        self.label_7.raise_()
+        self.label_8.raise_()
+        self.Type2_Text.raise_()
+        self.Pokemon_Image.raise_()
+        self.Type_ComboBox.raise_()
+        self.label_3.raise_()
+        self.label_4.raise_()
+        self.label_9.raise_()
+        self.label_10.raise_()
+        self.KeyWord_Text.raise_()
 
         self.retranslateUi(Pokemon_Info)
 
@@ -147,21 +195,25 @@ class Ui_Pokemon_Info(object):
     # setupUi
 
     def retranslateUi(self, Pokemon_Info):
-        Pokemon_Info.setWindowTitle(QCoreApplication.translate("Pokemon_Info", u"Pokemon_Info", None))
-        self.label_1.setText(QCoreApplication.translate("Pokemon_Info", u"Pokemon ID_Name: ", None))
+        Pokemon_Info.setWindowTitle(QCoreApplication.translate("Pokemon_Info", u"Pok\u00e9dex", None))
+        self.label_1.setText(QCoreApplication.translate("Pokemon_Info", u"Pok\u00e9mon ID_Name: ", None))
         self.Pokemon_ComboBox.setItemText(0, QCoreApplication.translate("Pokemon_Info", u"Choose Pokemon", None))
 
         self.Pokemon_ComboBox.setCurrentText(QCoreApplication.translate("Pokemon_Info", u"Choose Pokemon", None))
         self.Search_Button.setText(QCoreApplication.translate("Pokemon_Info", u"Search", None))
         self.Refresh_Button.setText(QCoreApplication.translate("Pokemon_Info", u"Refresh Data", None))
         self.label_6.setText(QCoreApplication.translate("Pokemon_Info", u"Developed by WillyF", None))
-        self.label_2.setText(QCoreApplication.translate("Pokemon_Info", u"Pokemon Info: ", None))
-        self.label_5.setText(QCoreApplication.translate("Pokemon_Info", u"Pokemon Genus:", None))
-        self.label_7.setText(QCoreApplication.translate("Pokemon_Info", u"Pokemon Type:", None))
-        self.label_8.setText(QCoreApplication.translate("Pokemon_Info", u"Pokemon Desc:", None))
+        self.label_2.setText(QCoreApplication.translate("Pokemon_Info", u"Pok\u00e9mon Info: ", None))
+        self.label_5.setText(QCoreApplication.translate("Pokemon_Info", u"Pok\u00e9mon Genus:", None))
+        self.label_7.setText(QCoreApplication.translate("Pokemon_Info", u"Pok\u00e9mon Type:", None))
+        self.label_8.setText(QCoreApplication.translate("Pokemon_Info", u"Pok\u00e9mon Desc:", None))
         self.Type_ComboBox.setItemText(0, QCoreApplication.translate("Pokemon_Info", u"All Types", None))
 
         self.Type_ComboBox.setCurrentText(QCoreApplication.translate("Pokemon_Info", u"All Types", None))
-        self.label_3.setText(QCoreApplication.translate("Pokemon_Info", u"Pokemon Type Filter: ", None))
+        self.label_3.setText(QCoreApplication.translate("Pokemon_Info", u"Type: ", None))
+        self.label_4.setText(QCoreApplication.translate("Pokemon_Info", u"Name Keyword: ", None))
+        self.label_9.setText(QCoreApplication.translate("Pokemon_Info", u"================================================================================================", None))
+        self.label_10.setText(QCoreApplication.translate("Pokemon_Info", u"Filters: ", None))
+        self.Keyword_Button.setText(QCoreApplication.translate("Pokemon_Info", u"\u279c", None))
     # retranslateUi
 
