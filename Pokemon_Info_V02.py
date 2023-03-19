@@ -23,7 +23,7 @@ Created on 03/12, 2023
 
 from UI_V02 import *
 # from PySide2.QtWidgets import QMessageBox
-from PySide2 import QtGui
+# from PySide2 import QtGui
 from PySide2 import QtWidgets
 import pandas as pd
 import urllib.request
@@ -67,7 +67,8 @@ class AppWindow(QWidget):  # Reusable
         self.ui = Ui_Pokemon_Info()  # Ui底線後面改名稱
         self.ui.setupUi(self)
         print("Loading Pokemon Data......")
-        self.Pokemon_data = Pokemon_data_refresh_ETL()
+        self.Pokemon_data_source = Pokemon_data_refresh_ETL()
+        self.Pokemon_data = self.Pokemon_data_source.copy()
         self.Pokemon_img = QPixmap()
         self.setup_control()
         self.show()
@@ -81,15 +82,38 @@ class AppWindow(QWidget):  # Reusable
         self.setWindowIcon(QIcon(self.ui.WinIcon_img))
         self.ui.Pokemon_Image.setScene(QtWidgets.QGraphicsScene())
         self.ui.Pokemon_Image.setBackgroundBrush(QBrush(Qt.black, Qt.SolidPattern))
+
         self.ui.Pokemon_ComboBox.clear()
         self.ui.Pokemon_ComboBox.addItem("Choose Pokemon")
         self.ui.Pokemon_ID_Name = list(self.Pokemon_data["ID_Name"])
         for ID_Name in self.ui.Pokemon_ID_Name:
             self.ui.Pokemon_ComboBox.addItem(ID_Name)
-        self.ui.Pokemon_ComboBox.setCurrentIndex(658)
+        self.ui.Pokemon_ComboBox.setCurrentIndex(658)  # 初始預設甲賀忍蛙
+
+        self.ui.Type_ComboBox.clear()
+        self.ui.Type_ComboBox.addItem("All Types")
+        self.ui.Pokemon_Type = sorted(set(self.Pokemon_data["Type1"]))
+        for PType in self.ui.Pokemon_Type:
+            self.ui.Type_ComboBox.addItem(PType)
+
         self.ui.Search_Button.clicked.connect(
             lambda: self.Search_Button_Clicked(self.ui.Pokemon_ComboBox.currentText()))
         self.ui.Refresh_Button.clicked.connect(self.Refresh_Button_Clicked)
+        self.ui.Type_ComboBox.currentTextChanged.connect(self.Type_ComboBox_select_change)
+
+    def Type_ComboBox_select_change(self):
+        if self.ui.Type_ComboBox.currentText() == "All Types":
+            self.Pokemon_data = self.Pokemon_data_source.copy()
+        elif self.ui.Type_ComboBox.currentText() is None:
+            return None
+        else:
+            self.Pokemon_data = self.Pokemon_data_source[
+                self.Pokemon_data_source["Type"].str.contains(self.ui.Type_ComboBox.currentText(), regex=False)].copy()
+        self.ui.Pokemon_ComboBox.clear()
+        self.ui.Pokemon_ComboBox.addItem("Choose Pokemon")
+        self.ui.Pokemon_ID_Name = list(self.Pokemon_data["ID_Name"])
+        for ID_Name in self.ui.Pokemon_ID_Name:
+            self.ui.Pokemon_ComboBox.addItem(ID_Name)
 
     def Search_Button_Clicked(self, Pokemon_ID_Name):
         selected_Pokemon_data = self.Pokemon_data[self.Pokemon_data["ID_Name"] == Pokemon_ID_Name]
@@ -102,7 +126,8 @@ class AppWindow(QWidget):  # Reusable
         self.ui.Type2_Text.setText(selected_Pokemon_data["Type2"].values[0])
         self.ui.Desc_TextEdit.setText(selected_Pokemon_data["Desc"].values[0])
         # self.ui.Desc_TextEdit.setAlignment(Qt.AlignLeft)
-        url = "https://raw.githubusercontent.com/LeBronWilly/Pokemon_Info/main/data/images/official-artwork/" + Pokemon_ID_Name.split(".")[0] + ".png"
+        url = "https://raw.githubusercontent.com/LeBronWilly/Pokemon_Info/main/data/images/official-artwork/" + \
+              Pokemon_ID_Name.split(".")[0] + ".png"
         img_data = urllib.request.urlopen(url).read()
         self.Pokemon_img.loadFromData(img_data)
         self.Pokemon_img = self.Pokemon_img.scaled(350, 350)
@@ -111,16 +136,24 @@ class AppWindow(QWidget):  # Reusable
         self.ui.Pokemon_Image.setScene(Pokemon_scene)
         # self.ui.Pokemon_Image.setAlignment(Qt.AlignCenter)
 
-
     def Refresh_Button_Clicked(self):
         print("Refreshing Pokemon Data......")
-        self.Pokemon_data = Pokemon_data_refresh_ETL()
+        self.Pokemon_data_source = Pokemon_data_refresh_ETL()
+        self.Pokemon_data = self.Pokemon_data_source.copy()
+
         self.ui.Pokemon_ComboBox.clear()
         self.ui.Pokemon_ComboBox.addItem("Choose Pokemon")
         self.ui.Pokemon_ID_Name = list(self.Pokemon_data["ID_Name"])
         for ID_Name in self.ui.Pokemon_ID_Name:
             self.ui.Pokemon_ComboBox.addItem(ID_Name)
         self.ui.Pokemon_ComboBox.setCurrentIndex(658)
+
+        self.ui.Type_ComboBox.clear()
+        self.ui.Type_ComboBox.addItem("All Types")
+        self.ui.Pokemon_Type = sorted(set(self.Pokemon_data["Type1"]))
+        for PType in self.ui.Pokemon_Type:
+            self.ui.Type_ComboBox.addItem(PType)
+
         self.ui.Genus_Text.clear()
         self.ui.Type1_Text.clear()
         self.ui.Type2_Text.clear()
@@ -128,9 +161,9 @@ class AppWindow(QWidget):  # Reusable
         self.ui.Pokemon_Image.setScene(QtWidgets.QGraphicsScene())
 
 
-
 if __name__ == "__main__":  # Reusable
     import sys
+
     app = QApplication(sys.argv)
     Pokemon_Info = AppWindow()  # 改名稱
     Pokemon_Info.show()  # 改名稱

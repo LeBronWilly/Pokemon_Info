@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'Pokemon_Info_UI_V02PsIWri.ui'
+## Form generated from reading UI file 'Pokemon_Info_UI_V02sELcMr.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -130,6 +130,16 @@ class Ui_Pokemon_Info(object):
         self.Pokemon_Image.setSizePolicy(sizePolicy)
         self.Pokemon_Image.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
         self.Pokemon_Image.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
+        self.Type_ComboBox = QComboBox(Pokemon_Info)
+        self.Type_ComboBox.addItem("")
+        self.Type_ComboBox.setObjectName(u"Type_ComboBox")
+        self.Type_ComboBox.setGeometry(QRect(350, 60, 291, 41))
+        self.Type_ComboBox.setFont(font1)
+        self.label_3 = QLabel(Pokemon_Info)
+        self.label_3.setObjectName(u"label_3")
+        self.label_3.setGeometry(QRect(350, 20, 341, 31))
+        self.label_3.setFont(font)
+        self.label_3.setAlignment(Qt.AlignJustify|Qt.AlignVCenter)
 
         self.retranslateUi(Pokemon_Info)
 
@@ -149,5 +159,9 @@ class Ui_Pokemon_Info(object):
         self.label_5.setText(QCoreApplication.translate("Pokemon_Info", u"Pokemon Genus:", None))
         self.label_7.setText(QCoreApplication.translate("Pokemon_Info", u"Pokemon Type:", None))
         self.label_8.setText(QCoreApplication.translate("Pokemon_Info", u"Pokemon Desc:", None))
+        self.Type_ComboBox.setItemText(0, QCoreApplication.translate("Pokemon_Info", u"All Types", None))
+
+        self.Type_ComboBox.setCurrentText(QCoreApplication.translate("Pokemon_Info", u"All Types", None))
+        self.label_3.setText(QCoreApplication.translate("Pokemon_Info", u"Pokemon Type Filter: ", None))
     # retranslateUi
 
