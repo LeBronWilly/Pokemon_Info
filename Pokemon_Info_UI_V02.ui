@@ -117,7 +117,7 @@
     <rect>
      <x>10</x>
      <y>690</y>
-     <width>411</width>
+     <width>611</width>
      <height>31</height>
     </rect>
    </property>
@@ -527,6 +527,31 @@
     <string>➜</string>
    </property>
   </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>690</y>
+     <width>581</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Remembering Ash and Pikachu for this 26-year-journey with us!</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
   <zorder>Keyword_Button</zorder>
   <zorder>label_1</zorder>
   <zorder>Pokemon_ComboBox</zorder>
@@ -548,6 +573,7 @@
   <zorder>label_9</zorder>
   <zorder>label_10</zorder>
   <zorder>KeyWord_Text</zorder>
+  <zorder>label_11</zorder>
  </widget>
  <resources/>
  <connections/>

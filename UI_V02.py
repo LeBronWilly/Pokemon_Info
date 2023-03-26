@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'Pokemon_Info_UI_V02FebgVo.ui'
+## Form generated from reading UI file 'Pokemon_Info_UI_V02EpczPv.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -54,7 +54,7 @@ class Ui_Pokemon_Info(object):
         self.Refresh_Button.setFont(font2)
         self.label_6 = QLabel(Pokemon_Info)
         self.label_6.setObjectName(u"label_6")
-        self.label_6.setGeometry(QRect(10, 690, 411, 31))
+        self.label_6.setGeometry(QRect(10, 690, 611, 31))
         font3 = QFont()
         font3.setFamily(u"Arial")
         font3.setPointSize(10)
@@ -167,6 +167,11 @@ class Ui_Pokemon_Info(object):
         self.Keyword_Button.setEnabled(True)
         self.Keyword_Button.setGeometry(QRect(440, 60, 41, 41))
         self.Keyword_Button.setFont(font2)
+        self.label_11 = QLabel(Pokemon_Info)
+        self.label_11.setObjectName(u"label_11")
+        self.label_11.setGeometry(QRect(370, 690, 581, 31))
+        self.label_11.setFont(font3)
+        self.label_11.setAlignment(Qt.AlignRight|Qt.AlignTrailing|Qt.AlignVCenter)
         self.Keyword_Button.raise_()
         self.label_1.raise_()
         self.Pokemon_ComboBox.raise_()
@@ -188,6 +193,7 @@ class Ui_Pokemon_Info(object):
         self.label_9.raise_()
         self.label_10.raise_()
         self.KeyWord_Text.raise_()
+        self.label_11.raise_()
 
         self.retranslateUi(Pokemon_Info)
 
@@ -215,5 +221,6 @@ class Ui_Pokemon_Info(object):
         self.label_9.setText(QCoreApplication.translate("Pokemon_Info", u"================================================================================================", None))
         self.label_10.setText(QCoreApplication.translate("Pokemon_Info", u"Filters: ", None))
         self.Keyword_Button.setText(QCoreApplication.translate("Pokemon_Info", u"\u279c", None))
+        self.label_11.setText(QCoreApplication.translate("Pokemon_Info", u"Remembering Ash and Pikachu for this 26-year-journey with us!", None))
     # retranslateUi
 
