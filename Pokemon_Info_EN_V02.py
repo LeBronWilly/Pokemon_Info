@@ -19,6 +19,9 @@ Created on 03/12, 2023
 # https://stackoverflow.com/questions/20025882/add-a-string-prefix-to-each-value-in-a-string-column-using-pandas
 # https://ithelp.ithome.com.tw/articles/10293715
 # https://stackoverflow.com/questions/3558786/setting-a-plain-background-color-for-a-qgraphicsview-widget
+# https://stackoverflow.com/questions/1549641/how-can-i-capitalize-the-first-letter-of-each-word-in-a-string
+# https://flexiple.com/python/python-uppercase/
+# https://www.programiz.com/python-programming/methods/string/lower
 
 
 from UI_V02 import *
@@ -52,12 +55,14 @@ def Pokemon_data_refresh_ETL():
     pokemon_data["Desc"] = ['\n⭐️'.join(map(str, lst)) for lst in pokemon_data["Desc"]]
     pokemon_data["Desc_EN"] = "⭐️" + pokemon_data["Desc_EN"]
     pokemon_data["Desc"] = "⭐️" + pokemon_data["Desc"]
-    pokemon_data[['Type1', 'Type2']] = pokemon_data["Type"].str.split(",", expand=True)
+    pokemon_data["Type_EN"] = pokemon_data["Type_EN"].str.title()
+    pokemon_data[['Type1', 'Type2']] = pokemon_data["Type_EN"].str.split(",", expand=True)
     pokemon_data['Type2'] = pokemon_data['Type2'].apply(lambda x: x.strip() if x != None else "")
-    pokemon_data["ID_Name"] = pokemon_data["ID"].astype(str) + ". " + pokemon_data["Name"]
+    pokemon_data["ID_Name"] = pokemon_data["ID"].astype(str) + ". " + pokemon_data["Name_EN"]
+    pokemon_data["Name_EN_lower"] = pokemon_data["Name_EN"].str.lower()
     pokemon_data.index += 1
     pokemon_data = pokemon_data[["ID_Name", 'ID', 'Name', 'Name_EN', "Type1", "Type2", "Type", "Type_EN",
-                                 "Genus", "Genus_EN", "Desc", "Desc_EN"]]
+                                 "Genus", "Genus_EN", "Desc", "Desc_EN", "Name_EN_lower"]]
     return pokemon_data
 
 
@@ -114,15 +119,23 @@ class AppWindow(QWidget):  # Reusable
         self.Pokemon_data = self.Pokemon_data_source.copy()
         if Pokemon_Type == "All Types" and Pokemon_Name_Keyword != "":
             self.Pokemon_data = self.Pokemon_data[
-                self.Pokemon_data["Name"].str.contains(Pokemon_Name_Keyword, regex=False)]
+                self.Pokemon_data["Name_EN"].str.contains(Pokemon_Name_Keyword, regex=False) |
+                self.Pokemon_data["Name_EN"].str.contains(Pokemon_Name_Keyword.upper(), regex=False) |
+                self.Pokemon_data["Name_EN"].str.contains(Pokemon_Name_Keyword.lower(), regex=False) |
+                self.Pokemon_data["Name_EN"].str.contains(Pokemon_Name_Keyword.title(), regex=False) |
+                self.Pokemon_data["Name_EN_lower"].str.contains(Pokemon_Name_Keyword.lower(), regex=False)]
         elif Pokemon_Type == "All Types" and Pokemon_Name_Keyword == "":
             pass
         elif Pokemon_Type != "All Types" and Pokemon_Name_Keyword != "":
-            self.Pokemon_data = self.Pokemon_data[self.Pokemon_data["Type"].str.contains(Pokemon_Type, regex=False)]
+            self.Pokemon_data = self.Pokemon_data[self.Pokemon_data["Type_EN"].str.contains(Pokemon_Type, regex=False)]
             self.Pokemon_data = self.Pokemon_data[
-                self.Pokemon_data["Name"].str.contains(Pokemon_Name_Keyword, regex=False)]
+                self.Pokemon_data["Name_EN"].str.contains(Pokemon_Name_Keyword, regex=False) |
+                self.Pokemon_data["Name_EN"].str.contains(Pokemon_Name_Keyword.upper(), regex=False) |
+                self.Pokemon_data["Name_EN"].str.contains(Pokemon_Name_Keyword.lower(), regex=False) |
+                self.Pokemon_data["Name_EN"].str.contains(Pokemon_Name_Keyword.title(), regex=False) |
+                self.Pokemon_data["Name_EN_lower"].str.contains(Pokemon_Name_Keyword.lower(), regex=False)]
         elif Pokemon_Type != "All Types" and Pokemon_Name_Keyword == "":
-            self.Pokemon_data = self.Pokemon_data[self.Pokemon_data["Type"].str.contains(Pokemon_Type, regex=False)]
+            self.Pokemon_data = self.Pokemon_data[self.Pokemon_data["Type_EN"].str.contains(Pokemon_Type, regex=False)]
         else:
             return None
 
@@ -138,10 +151,10 @@ class AppWindow(QWidget):  # Reusable
             print("Please Choose Pokémon!")
             return None
         print(Pokemon_ID_Name)
-        self.ui.Genus_Text.setText(selected_Pokemon_data["Genus"].values[0])
+        self.ui.Genus_Text.setText(selected_Pokemon_data["Genus_EN"].values[0])
         self.ui.Type1_Text.setText(selected_Pokemon_data["Type1"].values[0])
         self.ui.Type2_Text.setText(selected_Pokemon_data["Type2"].values[0])
-        self.ui.Desc_TextEdit.setText(selected_Pokemon_data["Desc"].values[0])
+        self.ui.Desc_TextEdit.setText(selected_Pokemon_data["Desc_EN"].values[0])
         # self.ui.Desc_TextEdit.setAlignment(Qt.AlignLeft)
         url = "https://raw.githubusercontent.com/LeBronWilly/Pokemon_Info/main/data/images/official-artwork/" + \
               Pokemon_ID_Name.split(".")[0] + ".png"
