@@ -38,15 +38,14 @@ filterwarnings("ignore")
 # pd.set_option('display.max_columns', 500)
 # pd.set_option('display.max_rows', 500)
 
-
+# data_source = "https://raw.githubusercontent.com/rayc2045/pokedex/main/data/PokeApi.json"
 def Pokemon_data_refresh_ETL():
     species_strength = pd.read_csv(
         "https://raw.githubusercontent.com/LeBronWilly/Pokemon_Info/main/data/info/Pokemon_Species_Strength.csv",
         encoding='utf8')
-    type_chart = pd.read_csv("https://raw.githubusercontent.com/LeBronWilly/Pokemon_Info/main/data/info/Type_Chart.csv",
-                             encoding='utf8')
-
-    # data_source = "https://raw.githubusercontent.com/rayc2045/pokedex/main/data/PokeApi.json"
+    # type_chart = pd.read_csv(
+    #     "https://raw.githubusercontent.com/LeBronWilly/Pokemon_Info/main/data/info/Type_Chart.csv",
+    #     encoding='utf8')
     data_source = "https://raw.githubusercontent.com/LeBronWilly/Pokemon_Info/main/data/info/PokeApi.json"
     json_url = urllib.request.urlopen(data_source)
     data = json.loads(json_url.read())
@@ -101,9 +100,12 @@ class AppWindow(QWidget):  # Reusable
 
         self.ui.Type_ComboBox.clear()
         self.ui.Type_ComboBox.addItem("All Types")
+        self.ui.Type2_ComboBox.clear()
+        self.ui.Type2_ComboBox.addItem("All Types")
         self.ui.Pokemon_Type = sorted(set(self.Pokemon_data["Type1"]))
         for PType in self.ui.Pokemon_Type:
             self.ui.Type_ComboBox.addItem(PType)
+            self.ui.Type2_ComboBox.addItem(PType)
 
         self.ui.Search_Button.clicked.connect(
             lambda: self.Search_Button_Clicked(self.ui.Pokemon_ComboBox.currentText()))
@@ -111,28 +113,50 @@ class AppWindow(QWidget):  # Reusable
         self.Search_Button_Clicked(self.ui.Pokemon_ComboBox.currentText())
 
         self.ui.Type_ComboBox.currentTextChanged.connect(
-            lambda: self.Filter_Change(self.ui.KeyWord_Text.text().strip(), self.ui.Type_ComboBox.currentText()))
+            lambda: self.Filter_Change(self.ui.KeyWord_Text.text().strip(),
+                                       self.ui.Type_ComboBox.currentText(),
+                                       self.ui.Type2_ComboBox.currentText()))
+        self.ui.Type2_ComboBox.currentTextChanged.connect(
+            lambda: self.Filter_Change(self.ui.KeyWord_Text.text().strip(),
+                                       self.ui.Type_ComboBox.currentText(),
+                                       self.ui.Type2_ComboBox.currentText()))
         self.ui.KeyWord_Text.textChanged.connect(
-            lambda: self.Filter_Change(self.ui.KeyWord_Text.text().strip(), self.ui.Type_ComboBox.currentText()))
+            lambda: self.Filter_Change(self.ui.KeyWord_Text.text().strip(),
+                                       self.ui.Type_ComboBox.currentText(),
+                                       self.ui.Type2_ComboBox.currentText()))
 
-    def Filter_Change(self, Pokemon_Name_Keyword, Pokemon_Type):
-        if Pokemon_Type is None:
+    def Filter_Change(self, Pokemon_Name_Keyword, Pokemon_Type, Pokemon_Type2):
+        if Pokemon_Type is None or Pokemon_Type2 is None:
             return None
+        if Pokemon_Type == "All Types":
+            Pokemon_Type = ""
+        if Pokemon_Type2 == "All Types":
+            Pokemon_Type2 = ""
 
         self.Pokemon_data = self.Pokemon_data_source.copy()
-        if Pokemon_Type == "All Types" and Pokemon_Name_Keyword != "":
+        self.Pokemon_data = self.Pokemon_data[self.Pokemon_data["Type"].str.contains(Pokemon_Type, regex=False)]
+        self.Pokemon_data = self.Pokemon_data[self.Pokemon_data["Type"].str.contains(Pokemon_Type2, regex=False)]
+        if Pokemon_Name_Keyword != "":
             self.Pokemon_data = self.Pokemon_data[
-                self.Pokemon_data["Name"].str.contains(Pokemon_Name_Keyword, regex=False)]
-        elif Pokemon_Type == "All Types" and Pokemon_Name_Keyword == "":
+                self.Pokemon_data["ID_Name"].str.contains(Pokemon_Name_Keyword, regex=False)]
+        elif Pokemon_Name_Keyword == "":
             pass
-        elif Pokemon_Type != "All Types" and Pokemon_Name_Keyword != "":
-            self.Pokemon_data = self.Pokemon_data[self.Pokemon_data["Type"].str.contains(Pokemon_Type, regex=False)]
-            self.Pokemon_data = self.Pokemon_data[
-                self.Pokemon_data["Name"].str.contains(Pokemon_Name_Keyword, regex=False)]
-        elif Pokemon_Type != "All Types" and Pokemon_Name_Keyword == "":
-            self.Pokemon_data = self.Pokemon_data[self.Pokemon_data["Type"].str.contains(Pokemon_Type, regex=False)]
         else:
             return None
+
+        # if Pokemon_Type == "All Types" and Pokemon_Type2 == "All Types" and Pokemon_Name_Keyword != "":
+        #     self.Pokemon_data = self.Pokemon_data[
+        #         self.Pokemon_data["ID_Name"].str.contains(Pokemon_Name_Keyword, regex=False)]
+        # elif Pokemon_Type == "All Types" and Pokemon_Type2 == "All Types" and Pokemon_Name_Keyword == "":
+        #     pass
+        # elif Pokemon_Type != "All Types" and Pokemon_Name_Keyword != "":
+        #     self.Pokemon_data = self.Pokemon_data[self.Pokemon_data["Type"].str.contains(Pokemon_Type, regex=False)]
+        #     self.Pokemon_data = self.Pokemon_data[
+        #         self.Pokemon_data["ID_Name"].str.contains(Pokemon_Name_Keyword, regex=False)]
+        # elif Pokemon_Type != "All Types" and Pokemon_Name_Keyword == "":
+        #     self.Pokemon_data = self.Pokemon_data[self.Pokemon_data["Type"].str.contains(Pokemon_Type, regex=False)]
+        # else:
+        #     return None
 
         self.ui.Pokemon_ComboBox.clear()
         self.ui.Pokemon_ComboBox.addItem("Choose Pokémon")
@@ -150,6 +174,13 @@ class AppWindow(QWidget):  # Reusable
         self.ui.Type1_Text.setText(selected_Pokemon_data["Type1"].values[0])
         self.ui.Type2_Text.setText(selected_Pokemon_data["Type2"].values[0])
         self.ui.Desc_TextEdit.setText(selected_Pokemon_data["Desc"].values[0])
+        self.ui.SS_Text.setText(str(selected_Pokemon_data["Species Strength"].values[0]))
+        self.ui.HP_Text.setText(str(selected_Pokemon_data["HP"].values[0]))
+        self.ui.Speed_Text.setText(str(selected_Pokemon_data["Speed"].values[0]))
+        self.ui.Atk_Text.setText(str(selected_Pokemon_data["Atk"].values[0]))
+        self.ui.Def_Text.setText(str(selected_Pokemon_data["Def"].values[0]))
+        self.ui.SpAtk_Text.setText(str(selected_Pokemon_data["Sp. Atk"].values[0]))
+        self.ui.SpDef_Text.setText(str(selected_Pokemon_data["Sp. Def"].values[0]))
         # self.ui.Desc_TextEdit.setAlignment(Qt.AlignLeft)
         url = "https://raw.githubusercontent.com/LeBronWilly/Pokemon_Info/main/data/images/official-artwork/" + \
               Pokemon_ID_Name.split(".")[0] + ".png"
@@ -176,14 +207,24 @@ class AppWindow(QWidget):  # Reusable
 
         self.ui.Type_ComboBox.clear()
         self.ui.Type_ComboBox.addItem("All Types")
+        self.ui.Type2_ComboBox.clear()
+        self.ui.Type2_ComboBox.addItem("All Types")
         self.ui.Pokemon_Type = sorted(set(self.Pokemon_data["Type1"]))
         for PType in self.ui.Pokemon_Type:
             self.ui.Type_ComboBox.addItem(PType)
+            self.ui.Type2_ComboBox.addItem(PType)
 
         self.ui.Genus_Text.clear()
         self.ui.Type1_Text.clear()
         self.ui.Type2_Text.clear()
         self.ui.Desc_TextEdit.clear()
+        self.ui.SS_Text.clear()
+        self.ui.HP_Text.clear()
+        self.ui.Speed_Text.clear()
+        self.ui.Atk_Text.clear()
+        self.ui.Def_Text.clear()
+        self.ui.SpAtk_Text.clear()
+        self.ui.SpDef_Text.clear()
         self.ui.Pokemon_Image.setScene(QtWidgets.QGraphicsScene())
 
 

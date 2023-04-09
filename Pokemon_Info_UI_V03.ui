@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>960</width>
+    <width>1260</width>
     <height>725</height>
    </rect>
   </property>
@@ -159,7 +159,7 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>620</x>
+     <x>430</x>
      <y>140</y>
      <width>341</width>
      <height>31</height>
@@ -208,9 +208,9 @@
   <widget class="QLabel" name="label_5">
    <property name="geometry">
     <rect>
-     <x>430</x>
+     <x>510</x>
      <y>190</y>
-     <width>191</width>
+     <width>111</width>
      <height>41</height>
     </rect>
    </property>
@@ -223,7 +223,7 @@
     </font>
    </property>
    <property name="text">
-    <string>Pokémon Genus:</string>
+    <string>Genus:</string>
    </property>
    <property name="textFormat">
     <enum>Qt::PlainText</enum>
@@ -260,9 +260,9 @@
   <widget class="QLabel" name="label_7">
    <property name="geometry">
     <rect>
-     <x>430</x>
+     <x>510</x>
      <y>250</y>
-     <width>191</width>
+     <width>111</width>
      <height>41</height>
     </rect>
    </property>
@@ -275,7 +275,7 @@
     </font>
    </property>
    <property name="text">
-    <string>Pokémon Type:</string>
+    <string>Type:</string>
    </property>
    <property name="textFormat">
     <enum>Qt::PlainText</enum>
@@ -287,9 +287,9 @@
   <widget class="QLabel" name="label_8">
    <property name="geometry">
     <rect>
-     <x>430</x>
+     <x>510</x>
      <y>310</y>
-     <width>191</width>
+     <width>111</width>
      <height>41</height>
     </rect>
    </property>
@@ -302,7 +302,7 @@
     </font>
    </property>
    <property name="text">
-    <string>Pokémon Desc:</string>
+    <string>Desc:</string>
    </property>
    <property name="textFormat">
     <enum>Qt::PlainText</enum>
@@ -387,7 +387,7 @@
     <rect>
      <x>560</x>
      <y>20</y>
-     <width>341</width>
+     <width>241</width>
      <height>31</height>
     </rect>
    </property>
@@ -400,7 +400,7 @@
     </font>
    </property>
    <property name="text">
-    <string>Type: </string>
+    <string>Type1: </string>
    </property>
    <property name="alignment">
     <set>Qt::AlignJustify|Qt::AlignVCenter</set>
@@ -409,9 +409,9 @@
   <widget class="QLineEdit" name="KeyWord_Text">
    <property name="geometry">
     <rect>
-     <x>230</x>
+     <x>220</x>
      <y>60</y>
-     <width>251</width>
+     <width>261</width>
      <height>41</height>
     </rect>
    </property>
@@ -434,7 +434,7 @@
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>230</x>
+     <x>220</x>
      <y>20</y>
      <width>341</width>
      <height>31</height>
@@ -449,7 +449,7 @@
     </font>
    </property>
    <property name="text">
-    <string>Name Keyword: </string>
+    <string>ID_Name Keyword: </string>
    </property>
    <property name="alignment">
     <set>Qt::AlignJustify|Qt::AlignVCenter</set>
@@ -460,7 +460,7 @@
     <rect>
      <x>10</x>
      <y>110</y>
-     <width>941</width>
+     <width>1241</width>
      <height>31</height>
     </rect>
    </property>
@@ -530,7 +530,7 @@
   <widget class="QLabel" name="label_11">
    <property name="geometry">
     <rect>
-     <x>370</x>
+     <x>670</x>
      <y>690</y>
      <width>581</width>
      <height>31</height>
@@ -550,6 +550,439 @@
    </property>
    <property name="alignment">
     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="SS_Text">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>190</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Normal</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>970</x>
+     <y>190</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Species Strength:</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Atk_Text">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>350</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Normal</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Def_Text">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>350</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Normal</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="HP_Text">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>270</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Normal</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="SpDef_Text">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>430</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Normal</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="SpAtk_Text">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>430</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Normal</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>240</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>HP</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>320</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Atk</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>400</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Sp. Def</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_17">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>320</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Def</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_18">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>400</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Sp. Atk</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Speed_Text">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>270</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Normal</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>240</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Speed</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="Type2_ComboBox">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>60</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="currentText">
+    <string>All Types</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>All Types</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_19">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>20</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Type2: </string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignJustify|Qt::AlignVCenter</set>
    </property>
   </widget>
   <zorder>Keyword_Button</zorder>
@@ -574,6 +1007,22 @@
   <zorder>label_10</zorder>
   <zorder>KeyWord_Text</zorder>
   <zorder>label_11</zorder>
+  <zorder>SS_Text</zorder>
+  <zorder>label_12</zorder>
+  <zorder>Atk_Text</zorder>
+  <zorder>Def_Text</zorder>
+  <zorder>HP_Text</zorder>
+  <zorder>SpDef_Text</zorder>
+  <zorder>SpAtk_Text</zorder>
+  <zorder>label_13</zorder>
+  <zorder>label_14</zorder>
+  <zorder>label_15</zorder>
+  <zorder>label_17</zorder>
+  <zorder>label_18</zorder>
+  <zorder>Speed_Text</zorder>
+  <zorder>label_16</zorder>
+  <zorder>Type2_ComboBox</zorder>
+  <zorder>label_19</zorder>
  </widget>
  <resources/>
  <connections/>
