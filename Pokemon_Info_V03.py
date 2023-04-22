@@ -183,7 +183,7 @@ class AppWindow(QWidget):  # Reusable
         self.ui.SpDef_Text.setText(str(selected_Pokemon_data["Sp. Def"].values[0]))
         # self.ui.Desc_TextEdit.setAlignment(Qt.AlignLeft)
         url = "https://raw.githubusercontent.com/LeBronWilly/Pokemon_Info/main/data/images/official-artwork/" + \
-              Pokemon_ID_Name.split(".")[0] + ".png"
+              Pokemon_ID_Name.split(".")[0].zfill(3) + ".png"
         img_data = urllib.request.urlopen(url).read()
         self.Pokemon_img.loadFromData(img_data)
         self.Pokemon_img = self.Pokemon_img.scaled(350, 350)
