@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'Pokemon_Info_UI_V03chEmMK.ui'
+## Form generated from reading UI file 'Pokemon_Info_UI_V03Niujhx.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -37,6 +37,7 @@ class Ui_Pokemon_Info(object):
         font1.setFamily(u"Arial")
         font1.setPointSize(16)
         self.Pokemon_ComboBox.setFont(font1)
+        self.Pokemon_ComboBox.setMaxVisibleItems(14)
         self.Search_Button = QPushButton(Pokemon_Info)
         self.Search_Button.setObjectName(u"Search_Button")
         self.Search_Button.setEnabled(True)

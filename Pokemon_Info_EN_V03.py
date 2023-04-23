@@ -45,32 +45,45 @@ filterwarnings("ignore")
 # data_source = "https://raw.githubusercontent.com/rayc2045/pokedex/main/data/PokeApi.json"
 def Pokemon_data_refresh_ETL():
     species_strength = pd.read_csv(
-        "https://raw.githubusercontent.com/LeBronWilly/Pokemon_Info/main/data/info/Pokemon_Species_Strength.csv",
-        encoding='utf8')
-    # type_chart = pd.read_csv(
-    #     "https://raw.githubusercontent.com/LeBronWilly/Pokemon_Info/main/data/info/Type_Chart.csv",
-    #     encoding='utf8')
+        "https://raw.githubusercontent.com/LeBronWilly/Pokemon_Info/main/data/info/Pokemon_Species_Strength_Updated.csv",
+        encoding='utf8').drop(columns=["#"]).fillna("")
+    # species_strength.index += 1
     data_source = "https://raw.githubusercontent.com/LeBronWilly/Pokemon_Info/main/data/info/PokeApi.json"
     json_url = urllib.request.urlopen(data_source)
     data = json.loads(json_url.read())
     pokemon_data = pd.json_normalize(data)
     pokemon_data.columns = ['ID', 'Name_EN', 'Name', "Type_EN", "Type", "Genus_EN", "Genus", "Desc_EN", "Desc"]
+    # pokemon_data.drop(columns=["Type_EN","Type"],inplace=True)
     pokemon_data["Type_EN"] = [', '.join(map(str, lst)) for lst in pokemon_data["Type_EN"]]
     pokemon_data["Type"] = [', '.join(map(str, lst)) for lst in pokemon_data["Type"]]
     pokemon_data["Desc_EN"] = ['\n⭐️'.join(map(str, lst)) for lst in pokemon_data["Desc_EN"]]
     pokemon_data["Desc"] = ['\n⭐️'.join(map(str, lst)) for lst in pokemon_data["Desc"]]
     pokemon_data["Desc_EN"] = "⭐️" + pokemon_data["Desc_EN"]
     pokemon_data["Desc"] = "⭐️" + pokemon_data["Desc"]
-    pokemon_data["Type_EN"] = pokemon_data["Type_EN"].str.title()
-    pokemon_data[['Type1', 'Type2']] = pokemon_data["Type_EN"].str.split(",", expand=True)
+    pokemon_data[['Type1', 'Type2']] = pokemon_data["Type"].str.split(",", expand=True)
     pokemon_data['Type2'] = pokemon_data['Type2'].apply(lambda x: x.strip() if x != None else "")
-    pokemon_data["ID_Name"] = pokemon_data["ID"].astype(str) + ". " + pokemon_data["Name_EN"]
-    pokemon_data["Name_EN_lower"] = pokemon_data["Name_EN"].str.lower()
-    pokemon_data = pokemon_data[["ID_Name", 'ID', 'Name', 'Name_EN', "Type1", "Type2", "Type", "Type_EN",
-                                 "Genus", "Genus_EN", "Desc", "Desc_EN", "Name_EN_lower"]]
-    pokemon_data = pokemon_data.merge(species_strength.drop(columns=["#", "Name"]),
-                                      how="left", on="ID", validate="one_to_many")
-    pokemon_data.index += 1
+    pokemon_data["Type_EN"] = pokemon_data["Type_EN"].str.title()
+    pokemon_data[['Type1_EN', 'Type2_EN']] = pokemon_data["Type_EN"].str.split(",", expand=True)
+    pokemon_data['Type2_EN'] = pokemon_data['Type2_EN'].apply(lambda x: x.strip() if x != None else "")
+    pokemon_data["ID_Name"] = pokemon_data["ID"].astype(str) + ". " + pokemon_data["Name"]
+    pokemon_data["ID_Name_EN"] = pokemon_data["ID"].astype(str) + ". " + pokemon_data["Name_EN"]
+    pokemon_data = species_strength.merge(pokemon_data, how="left", on="ID", validate="many_to_one",
+                                          suffixes=("_D", None)).dropna(subset=['ID_Name'])
+    # pokemon_data = pokemon_data.merge(species_strength.drop(columns=["#","Name"]),
+    #                                   how="left", on="ID", validate="one_to_many")
+    pokemon_data = pokemon_data[['ID', "ID_Name", 'Name', "ID_Name_EN", 'Name_EN',
+                                 "Type", "Type1", "Type2", "Type_EN", "Type1_EN", "Type2_EN", "Genus", "Genus_EN",
+                                 "Name_Detail", "Name_D", "Type1_D", "Type2_D", "Type1_EN_D", "Type2_EN_D",
+                                 "Desc", "Desc_EN", "HP", "Atk", "Def", "Sp. Atk", "Sp. Def", "Speed",
+                                 "Species Strength"]]
+    # pokemon_data.index += 1
+    pokemon_data["Name_Detail"] = pokemon_data.apply(
+        lambda x: x['Name_Detail'].replace(x['Name_D'], "").replace("(", "").replace(")", "").replace("  ", " ").strip(
+            " ").strip("-"), axis=1)
+    pokemon_data["Name_Detail"] = pokemon_data["Name_Detail"].apply(lambda x: "Normal" if x == "" else x)
+    # pokemon_data["Name_Detail"].replace({'Normal Forme': 'Normal'}, inplace=True)
+    pokemon_data.rename(columns={"Name_Detail": "Forme"}, inplace=True)
+    pokemon_data.drop(columns=["Name_D"], inplace=True)
     return pokemon_data
 
 
@@ -99,7 +112,7 @@ class AppWindow(QWidget):  # Reusable
         self.ui.KeyWord_Text.clear()
         self.ui.Pokemon_ComboBox.clear()
         self.ui.Pokemon_ComboBox.addItem("Choose Pokémon")
-        self.ui.Pokemon_ID_Name = sorted(set(self.Pokemon_data["ID_Name"]), key=lambda x: int(x.split('.')[0]))
+        self.ui.Pokemon_ID_Name = sorted(set(self.Pokemon_data["ID_Name_EN"]), key=lambda x: int(x.split('.')[0]))
         for ID_Name in self.ui.Pokemon_ID_Name:
             self.ui.Pokemon_ComboBox.addItem(ID_Name)
         self.ui.Pokemon_ComboBox.setCurrentIndex(25)  # 初始預設皮卡丘
@@ -108,7 +121,7 @@ class AppWindow(QWidget):  # Reusable
         self.ui.Type_ComboBox.addItem("All Types")
         self.ui.Type2_ComboBox.clear()
         self.ui.Type2_ComboBox.addItem("All Types")
-        self.ui.Pokemon_Type = sorted(set(self.Pokemon_data["Type1"]))
+        self.ui.Pokemon_Type = sorted(set(self.Pokemon_data["Type1_EN"]))
         for PType in self.ui.Pokemon_Type:
             self.ui.Type_ComboBox.addItem(PType)
             self.ui.Type2_ComboBox.addItem(PType)
@@ -144,7 +157,7 @@ class AppWindow(QWidget):  # Reusable
         self.Pokemon_data = self.Pokemon_data[self.Pokemon_data["Type_EN"].str.contains(Pokemon_Type2, regex=False)]
         if Pokemon_Name_Keyword != "":
             self.Pokemon_data = self.Pokemon_data[
-                self.Pokemon_data["ID_Name"].str.contains(Pokemon_Name_Keyword, regex=False)]
+                self.Pokemon_data["ID_Name_EN"].str.contains(Pokemon_Name_Keyword, regex=False)]
         elif Pokemon_Name_Keyword == "":
             pass
         else:
@@ -174,19 +187,19 @@ class AppWindow(QWidget):  # Reusable
 
         self.ui.Pokemon_ComboBox.clear()
         self.ui.Pokemon_ComboBox.addItem("Choose Pokémon")
-        self.ui.Pokemon_ID_Name = sorted(set(self.Pokemon_data["ID_Name"]), key=lambda x: int(x.split('.')[0]))
+        self.ui.Pokemon_ID_Name = sorted(set(self.Pokemon_data["ID_Name_EN"]), key=lambda x: int(x.split('.')[0]))
         for ID_Name in self.ui.Pokemon_ID_Name:
             self.ui.Pokemon_ComboBox.addItem(ID_Name)
 
     def Search_Button_Clicked(self, Pokemon_ID_Name):
-        selected_Pokemon_data = self.Pokemon_data[self.Pokemon_data["ID_Name"] == Pokemon_ID_Name]
+        selected_Pokemon_data = self.Pokemon_data[self.Pokemon_data["ID_Name_EN"] == Pokemon_ID_Name]
         if len(selected_Pokemon_data) == 0:
             print("Please Choose Pokémon!")
             return None
         print(Pokemon_ID_Name)
         self.ui.Genus_Text.setText(selected_Pokemon_data["Genus_EN"].values[0])
-        self.ui.Type1_Text.setText(selected_Pokemon_data["Type1"].values[0])
-        self.ui.Type2_Text.setText(selected_Pokemon_data["Type2"].values[0])
+        self.ui.Type1_Text.setText(selected_Pokemon_data["Type1_EN"].values[0])
+        self.ui.Type2_Text.setText(selected_Pokemon_data["Type2_EN"].values[0])
         self.ui.Desc_TextEdit.setText(selected_Pokemon_data["Desc_EN"].values[0])
         self.ui.SS_Text.setText(str(selected_Pokemon_data["Species Strength"].values[0]))
         self.ui.HP_Text.setText(str(selected_Pokemon_data["HP"].values[0]))
@@ -214,7 +227,7 @@ class AppWindow(QWidget):  # Reusable
         self.ui.KeyWord_Text.clear()
         self.ui.Pokemon_ComboBox.clear()
         self.ui.Pokemon_ComboBox.addItem("Choose Pokémon")
-        self.ui.Pokemon_ID_Name = sorted(set(self.Pokemon_data["ID_Name"]), key=lambda x: int(x.split('.')[0]))
+        self.ui.Pokemon_ID_Name = sorted(set(self.Pokemon_data["ID_Name_EN"]), key=lambda x: int(x.split('.')[0]))
         for ID_Name in self.ui.Pokemon_ID_Name:
             self.ui.Pokemon_ComboBox.addItem(ID_Name)
         # self.ui.Pokemon_ComboBox.setCurrentIndex(25)  # 初始預設皮卡丘
@@ -223,7 +236,7 @@ class AppWindow(QWidget):  # Reusable
         self.ui.Type_ComboBox.addItem("All Types")
         self.ui.Type2_ComboBox.clear()
         self.ui.Type2_ComboBox.addItem("All Types")
-        self.ui.Pokemon_Type = sorted(set(self.Pokemon_data["Type1"]))
+        self.ui.Pokemon_Type = sorted(set(self.Pokemon_data["Type1_EN"]))
         for PType in self.ui.Pokemon_Type:
             self.ui.Type_ComboBox.addItem(PType)
             self.ui.Type2_ComboBox.addItem(PType)
