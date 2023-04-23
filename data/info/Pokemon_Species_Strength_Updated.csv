@@ -1,0 +1,1195 @@
+﻿ID,#,Name_Detail,Name,Type,Type1,Type2,Type_EN,Type1_EN,Type2_EN,HP,Atk,Def,Sp. Atk,Sp. Def,Speed,Species Strength
+1,1,Bulbasaur,Bulbasaur,"草, 毒",草,毒,"Grass, Poison",Grass,Poison,45,49,49,65,65,45,318
+2,2,Ivysaur,Ivysaur,"草, 毒",草,毒,"Grass, Poison",Grass,Poison,60,62,63,80,80,60,405
+3,3,Venusaur,Venusaur,"草, 毒",草,毒,"Grass, Poison",Grass,Poison,80,82,83,100,100,80,525
+3,3,Mega Venusaur,Venusaur,"草, 毒",草,毒,"Grass, Poison",Grass,Poison,80,100,123,122,120,80,625
+4,4,Charmander,Charmander,火,火,,Fire,Fire,,39,52,43,60,50,65,309
+5,5,Charmeleon,Charmeleon,火,火,,Fire,Fire,,58,64,58,80,65,80,405
+6,6,Charizard,Charizard,"火, 飛行",火,飛行,"Fire, Flying",Fire,Flying,78,84,78,109,85,100,534
+6,6,Mega Charizard X,Charizard,"火, 龍",火,龍,"Fire, Dragon",Fire,Dragon,78,130,111,130,85,100,634
+6,6,Mega Charizard Y,Charizard,"火, 飛行",火,飛行,"Fire, Flying",Fire,Flying,78,104,78,159,115,100,634
+7,7,Squirtle,Squirtle,水,水,,Water,Water,,44,48,65,50,64,43,314
+8,8,Wartortle,Wartortle,水,水,,Water,Water,,59,63,80,65,80,58,405
+9,9,Blastoise,Blastoise,水,水,,Water,Water,,79,83,100,85,105,78,530
+9,9,Mega Blastoise,Blastoise,水,水,,Water,Water,,79,103,120,135,115,78,630
+10,10,Caterpie,Caterpie,蟲,蟲,,Bug,Bug,,45,30,35,20,20,45,195
+11,11,Metapod,Metapod,蟲,蟲,,Bug,Bug,,50,20,55,25,25,30,205
+12,12,Butterfree,Butterfree,"蟲, 飛行",蟲,飛行,"Bug, Flying",Bug,Flying,60,45,50,90,80,70,395
+13,13,Weedle,Weedle,"蟲, 毒",蟲,毒,"Bug, Poison",Bug,Poison,40,35,30,20,20,50,195
+14,14,Kakuna,Kakuna,"蟲, 毒",蟲,毒,"Bug, Poison",Bug,Poison,45,25,50,25,25,35,205
+15,15,Beedrill,Beedrill,"蟲, 毒",蟲,毒,"Bug, Poison",Bug,Poison,65,90,40,45,80,75,395
+15,15,Mega Beedrill,Beedrill,"蟲, 毒",蟲,毒,"Bug, Poison",Bug,Poison,65,150,40,15,80,145,495
+16,16,Pidgey,Pidgey,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,40,45,40,35,35,56,251
+17,17,Pidgeotto,Pidgeotto,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,63,60,55,50,50,71,349
+18,18,Pidgeot,Pidgeot,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,83,80,75,70,70,101,479
+18,18,Mega Pidgeot,Pidgeot,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,83,80,80,135,80,121,579
+19,19,Rattata,Rattata,一般,一般,,Normal,Normal,,30,56,35,25,35,72,253
+19,19,Alolan Rattata,Rattata,"惡, 一般",惡,一般,"Dark, Normal",Dark,Normal,30,56,35,25,35,72,253
+20,20,Raticate,Raticate,一般,一般,,Normal,Normal,,55,81,60,50,70,97,413
+20,20,Alolan Raticate,Raticate,"惡, 一般",惡,一般,"Dark, Normal",Dark,Normal,75,71,70,40,80,77,413
+21,21,Spearow,Spearow,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,40,60,30,31,31,70,262
+22,22,Fearow,Fearow,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,65,90,65,61,61,100,442
+23,23,Ekans,Ekans,毒,毒,,Poison,Poison,,35,60,44,40,54,55,288
+24,24,Arbok,Arbok,毒,毒,,Poison,Poison,,60,95,69,65,79,80,448
+25,25,Pikachu,Pikachu,電,電,,Electric,Electric,,35,55,40,50,50,90,320
+25,25,Pikachu (Partner Pikachu),Pikachu,電,電,,Electric,Electric,,45,80,50,75,60,120,430
+26,26,Raichu,Raichu,電,電,,Electric,Electric,,60,90,55,90,80,110,485
+26,26,Alolan Raichu,Raichu,"電, 超能力",電,超能力,"Electric, Psychic",Electric,Psychic,60,85,50,95,85,110,485
+27,27,Sandshrew,Sandshrew,地面,地面,,Ground,Ground,,50,75,85,20,30,40,300
+27,27,Alolan Sandshrew,Sandshrew,"冰, 鋼",冰,鋼,"Ice, Steel",Ice,Steel,50,75,90,10,35,40,300
+28,28,Sandslash,Sandslash,地面,地面,,Ground,Ground,,75,100,110,45,55,65,450
+28,28,Alolan Sandslash,Sandslash,"冰, 鋼",冰,鋼,"Ice, Steel",Ice,Steel,75,100,120,25,65,65,450
+29,29,Nidoran♀,Nidoran♀,毒,毒,,Poison,Poison,,55,47,52,40,40,41,275
+30,30,Nidorina,Nidorina,毒,毒,,Poison,Poison,,70,62,67,55,55,56,365
+31,31,Nidoqueen,Nidoqueen,"毒, 地面",毒,地面,"Poison, Ground",Poison,Ground,90,92,87,75,85,76,505
+32,32,Nidoran♂,Nidoran♂,毒,毒,,Poison,Poison,,46,57,40,40,40,50,273
+33,33,Nidorino,Nidorino,毒,毒,,Poison,Poison,,61,72,57,55,55,65,365
+34,34,Nidoking,Nidoking,"毒, 地面",毒,地面,"Poison, Ground",Poison,Ground,81,102,77,85,75,85,505
+35,35,Clefairy,Clefairy,妖精,妖精,,Fairy,Fairy,,70,45,48,60,65,35,323
+36,36,Clefable,Clefable,妖精,妖精,,Fairy,Fairy,,95,70,73,95,90,60,483
+37,37,Vulpix,Vulpix,火,火,,Fire,Fire,,38,41,40,50,65,65,299
+37,37,Alolan Vulpix,Vulpix,冰,冰,,Ice,Ice,,38,41,40,50,65,65,299
+38,38,Ninetales,Ninetales,火,火,,Fire,Fire,,73,76,75,81,100,100,505
+38,38,Alolan Ninetales,Ninetales,"冰, 妖精",冰,妖精,"Ice, Fairy",Ice,Fairy,73,67,75,81,100,109,505
+39,39,Jigglypuff,Jigglypuff,"一般, 妖精",一般,妖精,"Normal, Fairy",Normal,Fairy,115,45,20,45,25,20,270
+40,40,Wigglytuff,Wigglytuff,"一般, 妖精",一般,妖精,"Normal, Fairy",Normal,Fairy,140,70,45,85,50,45,435
+41,41,Zubat,Zubat,"毒, 飛行",毒,飛行,"Poison, Flying",Poison,Flying,40,45,35,30,40,55,245
+42,42,Golbat,Golbat,"毒, 飛行",毒,飛行,"Poison, Flying",Poison,Flying,75,80,70,65,75,90,455
+43,43,Oddish,Oddish,"草, 毒",草,毒,"Grass, Poison",Grass,Poison,45,50,55,75,65,30,320
+44,44,Gloom,Gloom,"草, 毒",草,毒,"Grass, Poison",Grass,Poison,60,65,70,85,75,40,395
+45,45,Vileplume,Vileplume,"草, 毒",草,毒,"Grass, Poison",Grass,Poison,75,80,85,110,90,50,490
+46,46,Paras,Paras,"蟲, 草",蟲,草,"Bug, Grass",Bug,Grass,35,70,55,45,55,25,285
+47,47,Parasect,Parasect,"蟲, 草",蟲,草,"Bug, Grass",Bug,Grass,60,95,80,60,80,30,405
+48,48,Venonat,Venonat,"蟲, 毒",蟲,毒,"Bug, Poison",Bug,Poison,60,55,50,40,55,45,305
+49,49,Venomoth,Venomoth,"蟲, 毒",蟲,毒,"Bug, Poison",Bug,Poison,70,65,60,90,75,90,450
+50,50,Diglett,Diglett,地面,地面,,Ground,Ground,,10,55,25,35,45,95,265
+50,50,Alolan Diglett,Diglett,"地面, 鋼",地面,鋼,"Ground, Steel",Ground,Steel,10,55,30,35,45,90,265
+51,51,Dugtrio,Dugtrio,地面,地面,,Ground,Ground,,35,100,50,50,70,120,425
+51,51,Alolan Dugtrio,Dugtrio,"地面, 鋼",地面,鋼,"Ground, Steel",Ground,Steel,35,100,60,50,70,110,425
+52,52,Meowth,Meowth,一般,一般,,Normal,Normal,,40,45,35,40,40,90,290
+52,52,Alolan Meowth,Meowth,惡,惡,,Dark,Dark,,40,35,35,50,40,90,290
+52,52,Galarian Meowth,Meowth,鋼,鋼,,Steel,Steel,,50,65,55,40,40,40,290
+53,53,Persian,Persian,一般,一般,,Normal,Normal,,65,70,60,65,65,115,440
+53,53,Alolan Persian,Persian,惡,惡,,Dark,Dark,,65,60,60,75,65,115,440
+54,54,Psyduck,Psyduck,水,水,,Water,Water,,50,52,48,65,50,55,320
+55,55,Golduck,Golduck,水,水,,Water,Water,,80,82,78,95,80,85,500
+56,56,Mankey,Mankey,格鬥,格鬥,,Fighting,Fighting,,40,80,35,35,45,70,305
+57,57,Primeape,Primeape,格鬥,格鬥,,Fighting,Fighting,,65,105,60,60,70,95,455
+58,58,Growlithe,Growlithe,火,火,,Fire,Fire,,55,70,45,70,50,60,350
+58,58,Growlithe (Hisuian Growlithe),Growlithe,"火, 岩石",火,岩石,"Fire, Rock",Fire,Rock,60,75,45,65,50,55,350
+59,59,Arcanine,Arcanine,火,火,,Fire,Fire,,90,110,80,100,80,95,555
+59,59,Arcanine (Hisuian Arcanine),Arcanine,"火, 岩石",火,岩石,"Fire, Rock",Fire,Rock,95,115,80,95,80,90,555
+60,60,Poliwag,Poliwag,水,水,,Water,Water,,40,50,40,40,40,90,300
+61,61,Poliwhirl,Poliwhirl,水,水,,Water,Water,,65,65,65,50,50,90,385
+62,62,Poliwrath,Poliwrath,"水, 格鬥",水,格鬥,"Water, Fighting",Water,Fighting,90,95,95,70,90,70,510
+63,63,Abra,Abra,超能力,超能力,,Psychic,Psychic,,25,20,15,105,55,90,310
+64,64,Kadabra,Kadabra,超能力,超能力,,Psychic,Psychic,,40,35,30,120,70,105,400
+65,65,Alakazam,Alakazam,超能力,超能力,,Psychic,Psychic,,55,50,45,135,95,120,500
+65,65,Mega Alakazam,Alakazam,超能力,超能力,,Psychic,Psychic,,55,50,65,175,105,150,600
+66,66,Machop,Machop,格鬥,格鬥,,Fighting,Fighting,,70,80,50,35,35,35,305
+67,67,Machoke,Machoke,格鬥,格鬥,,Fighting,Fighting,,80,100,70,50,60,45,405
+68,68,Machamp,Machamp,格鬥,格鬥,,Fighting,Fighting,,90,130,80,65,85,55,505
+69,69,Bellsprout,Bellsprout,"草, 毒",草,毒,"Grass, Poison",Grass,Poison,50,75,35,70,30,40,300
+70,70,Weepinbell,Weepinbell,"草, 毒",草,毒,"Grass, Poison",Grass,Poison,65,90,50,85,45,55,390
+71,71,Victreebel,Victreebel,"草, 毒",草,毒,"Grass, Poison",Grass,Poison,80,105,65,100,70,70,490
+72,72,Tentacool,Tentacool,"水, 毒",水,毒,"Water, Poison",Water,Poison,40,40,35,50,100,70,335
+73,73,Tentacruel,Tentacruel,"水, 毒",水,毒,"Water, Poison",Water,Poison,80,70,65,80,120,100,515
+74,74,Geodude,Geodude,"岩石, 地面",岩石,地面,"Rock, Ground",Rock,Ground,40,80,100,30,30,20,300
+74,74,Alolan Geodude,Geodude,"岩石, 電",岩石,電,"Rock, Electric",Rock,Electric,40,80,100,30,30,20,300
+75,75,Graveler,Graveler,"岩石, 地面",岩石,地面,"Rock, Ground",Rock,Ground,55,95,115,45,45,35,390
+75,75,Alolan Graveler,Graveler,"岩石, 電",岩石,電,"Rock, Electric",Rock,Electric,55,95,115,45,45,35,390
+76,76,Golem,Golem,"岩石, 地面",岩石,地面,"Rock, Ground",Rock,Ground,80,120,130,55,65,45,495
+76,76,Alolan Golem,Golem,"岩石, 電",岩石,電,"Rock, Electric",Rock,Electric,80,120,130,55,65,45,495
+77,77,Ponyta,Ponyta,火,火,,Fire,Fire,,50,85,55,65,65,90,410
+77,77,Galarian Ponyta,Ponyta,超能力,超能力,,Psychic,Psychic,,50,85,55,65,65,90,410
+78,78,Rapidash,Rapidash,火,火,,Fire,Fire,,65,100,70,80,80,105,500
+78,78,Galarian Rapidash,Rapidash,"超能力, 妖精",超能力,妖精,"Psychic, Fairy",Psychic,Fairy,65,100,70,80,80,105,500
+79,79,Slowpoke,Slowpoke,"水, 超能力",水,超能力,"Water, Psychic",Water,Psychic,90,65,65,40,40,15,315
+79,79,Galarian Slowpoke,Slowpoke,超能力,超能力,,Psychic,Psychic,,90,65,65,40,40,15,315
+80,80,Slowbro,Slowbro,"水, 超能力",水,超能力,"Water, Psychic",Water,Psychic,95,75,110,100,80,30,490
+80,80,Mega Slowbro,Slowbro,"水, 超能力",水,超能力,"Water, Psychic",Water,Psychic,95,75,180,130,80,30,590
+80,80,Galarian Slowbro,Slowbro,"毒, 超能力",毒,超能力,"Poison, Psychic",Poison,Psychic,95,100,95,100,70,30,490
+81,81,Magnemite,Magnemite,"電, 鋼",電,鋼,"Electric, Steel",Electric,Steel,25,35,70,95,55,45,325
+82,82,Magneton,Magneton,"電, 鋼",電,鋼,"Electric, Steel",Electric,Steel,50,60,95,120,70,70,465
+83,83,Farfetch'd,Farfetch'd,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,52,90,55,58,62,60,377
+83,83,Galarian Farfetch'd,Farfetch'd,格鬥,格鬥,,Fighting,Fighting,,52,95,55,58,62,55,377
+84,84,Doduo,Doduo,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,35,85,45,35,35,75,310
+85,85,Dodrio,Dodrio,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,60,110,70,60,60,110,470
+86,86,Seel,Seel,水,水,,Water,Water,,65,45,55,45,70,45,325
+87,87,Dewgong,Dewgong,"水, 冰",水,冰,"Water, Ice",Water,Ice,90,70,80,70,95,70,475
+88,88,Grimer,Grimer,毒,毒,,Poison,Poison,,80,80,50,40,50,25,325
+88,88,Alolan Grimer,Grimer,"毒, 惡",毒,惡,"Poison, Dark",Poison,Dark,80,80,50,40,50,25,325
+89,89,Muk,Muk,毒,毒,,Poison,Poison,,105,105,75,65,100,50,500
+89,89,Alolan Muk,Muk,"毒, 惡",毒,惡,"Poison, Dark",Poison,Dark,105,105,75,65,100,50,500
+90,90,Shellder,Shellder,水,水,,Water,Water,,30,65,100,45,25,40,305
+91,91,Cloyster,Cloyster,"水, 冰",水,冰,"Water, Ice",Water,Ice,50,95,180,85,45,70,525
+92,92,Gastly,Gastly,"幽靈, 毒",幽靈,毒,"Ghost, Poison",Ghost,Poison,30,35,30,100,35,80,310
+93,93,Haunter,Haunter,"幽靈, 毒",幽靈,毒,"Ghost, Poison",Ghost,Poison,45,50,45,115,55,95,405
+94,94,Gengar,Gengar,"幽靈, 毒",幽靈,毒,"Ghost, Poison",Ghost,Poison,60,65,60,130,75,110,500
+94,94,Mega Gengar,Gengar,"幽靈, 毒",幽靈,毒,"Ghost, Poison",Ghost,Poison,60,65,80,170,95,130,600
+95,95,Onix,Onix,"岩石, 地面",岩石,地面,"Rock, Ground",Rock,Ground,35,45,160,30,45,70,385
+96,96,Drowzee,Drowzee,超能力,超能力,,Psychic,Psychic,,60,48,45,43,90,42,328
+97,97,Hypno,Hypno,超能力,超能力,,Psychic,Psychic,,85,73,70,73,115,67,483
+98,98,Krabby,Krabby,水,水,,Water,Water,,30,105,90,25,25,50,325
+99,99,Kingler,Kingler,水,水,,Water,Water,,55,130,115,50,50,75,475
+100,100,Voltorb,Voltorb,電,電,,Electric,Electric,,40,30,50,55,55,100,330
+100,100,Voltorb (Hisuian Voltorb),Voltorb,"電, 草",電,草,"Electric, Grass",Electric,Grass,40,30,50,55,55,100,330
+101,101,Electrode,Electrode,電,電,,Electric,Electric,,60,50,70,80,80,150,490
+101,101,Electrode (Hisuian Electrode),Electrode,"電, 草",電,草,"Electric, Grass",Electric,Grass,60,50,70,80,80,150,490
+102,102,Exeggcute,Exeggcute,"草, 超能力",草,超能力,"Grass, Psychic",Grass,Psychic,60,40,80,60,45,40,325
+103,103,Exeggutor,Exeggutor,"草, 超能力",草,超能力,"Grass, Psychic",Grass,Psychic,95,95,85,125,75,55,530
+103,103,Alolan Exeggutor,Exeggutor,"草, 龍",草,龍,"Grass, Dragon",Grass,Dragon,95,105,85,125,75,45,530
+104,104,Cubone,Cubone,地面,地面,,Ground,Ground,,50,50,95,40,50,35,320
+105,105,Marowak,Marowak,地面,地面,,Ground,Ground,,60,80,110,50,80,45,425
+105,105,Alolan Marowak,Marowak,"火, 幽靈",火,幽靈,"Fire, Ghost",Fire,Ghost,60,80,110,50,80,45,425
+106,106,Hitmonlee,Hitmonlee,格鬥,格鬥,,Fighting,Fighting,,50,120,53,35,110,87,455
+107,107,Hitmonchan,Hitmonchan,格鬥,格鬥,,Fighting,Fighting,,50,105,79,35,110,76,455
+108,108,Lickitung,Lickitung,一般,一般,,Normal,Normal,,90,55,75,60,75,30,385
+109,109,Koffing,Koffing,毒,毒,,Poison,Poison,,40,65,95,60,45,35,340
+110,110,Weezing,Weezing,毒,毒,,Poison,Poison,,65,90,120,85,70,60,490
+110,110,Galarian Weezing,Weezing,"毒, 妖精",毒,妖精,"Poison, Fairy",Poison,Fairy,65,90,120,85,70,60,490
+111,111,Rhyhorn,Rhyhorn,"地面, 岩石",地面,岩石,"Ground, Rock",Ground,Rock,80,85,95,30,30,25,345
+112,112,Rhydon,Rhydon,"地面, 岩石",地面,岩石,"Ground, Rock",Ground,Rock,105,130,120,45,45,40,485
+113,113,Chansey,Chansey,一般,一般,,Normal,Normal,,250,5,5,35,105,50,450
+114,114,Tangela,Tangela,草,草,,Grass,Grass,,65,55,115,100,40,60,435
+115,115,Kangaskhan,Kangaskhan,一般,一般,,Normal,Normal,,105,95,80,40,80,90,490
+115,115,Mega Kangaskhan,Kangaskhan,一般,一般,,Normal,Normal,,105,125,100,60,100,100,590
+116,116,Horsea,Horsea,水,水,,Water,Water,,30,40,70,70,25,60,295
+117,117,Seadra,Seadra,水,水,,Water,Water,,55,65,95,95,45,85,440
+118,118,Goldeen,Goldeen,水,水,,Water,Water,,45,67,60,35,50,63,320
+119,119,Seaking,Seaking,水,水,,Water,Water,,80,92,65,65,80,68,450
+120,120,Staryu,Staryu,水,水,,Water,Water,,30,45,55,70,55,85,340
+121,121,Starmie,Starmie,"水, 超能力",水,超能力,"Water, Psychic",Water,Psychic,60,75,85,100,85,115,520
+122,122,Mr. Mime,Mr. Mime,"超能力, 妖精",超能力,妖精,"Psychic, Fairy",Psychic,Fairy,40,45,65,100,120,90,460
+122,122,Galarian Mr. Mime,Mr. Mime,"冰, 超能力",冰,超能力,"Ice, Psychic",Ice,Psychic,50,65,65,90,90,100,460
+123,123,Scyther,Scyther,"蟲, 飛行",蟲,飛行,"Bug, Flying",Bug,Flying,70,110,80,55,80,105,500
+124,124,Jynx,Jynx,"冰, 超能力",冰,超能力,"Ice, Psychic",Ice,Psychic,65,50,35,115,95,95,455
+125,125,Electabuzz,Electabuzz,電,電,,Electric,Electric,,65,83,57,95,85,105,490
+126,126,Magmar,Magmar,火,火,,Fire,Fire,,65,95,57,100,85,93,495
+127,127,Pinsir,Pinsir,蟲,蟲,,Bug,Bug,,65,125,100,55,70,85,500
+127,127,Mega Pinsir,Pinsir,"蟲, 飛行",蟲,飛行,"Bug, Flying",Bug,Flying,65,155,120,65,90,105,600
+128,128,Tauros,Tauros,一般,一般,,Normal,Normal,,75,100,95,40,70,110,490
+128,128,Tauros (Combat Breed),Tauros,格鬥,格鬥,,Fighting,Fighting,,75,110,105,30,70,100,490
+128,128,Tauros (Blaze Breed),Tauros,"格鬥, 火",格鬥,火,"Fighting, Fire",Fighting,Fire,75,110,105,30,70,100,490
+128,128,Tauros (Aqua Breed),Tauros,"格鬥, 水",格鬥,水,"Fighting, Water",Fighting,Water,75,110,105,30,70,100,490
+129,129,Magikarp,Magikarp,水,水,,Water,Water,,20,10,55,15,20,80,200
+130,130,Gyarados,Gyarados,"水, 飛行",水,飛行,"Water, Flying",Water,Flying,95,125,79,60,100,81,540
+130,130,Mega Gyarados,Gyarados,"水, 惡",水,惡,"Water, Dark",Water,Dark,95,155,109,70,130,81,640
+131,131,Lapras,Lapras,"水, 冰",水,冰,"Water, Ice",Water,Ice,130,85,80,85,95,60,535
+132,132,Ditto,Ditto,一般,一般,,Normal,Normal,,48,48,48,48,48,48,288
+133,133,Eevee,Eevee,一般,一般,,Normal,Normal,,55,55,50,45,65,55,325
+133,133,Eevee (Partner Eevee),Eevee,一般,一般,,Normal,Normal,,65,75,70,65,85,75,435
+134,134,Vaporeon,Vaporeon,水,水,,Water,Water,,130,65,60,110,95,65,525
+135,135,Jolteon,Jolteon,電,電,,Electric,Electric,,65,65,60,110,95,130,525
+136,136,Flareon,Flareon,火,火,,Fire,Fire,,65,130,60,95,110,65,525
+137,137,Porygon,Porygon,一般,一般,,Normal,Normal,,65,60,70,85,75,40,395
+138,138,Omanyte,Omanyte,"岩石, 水",岩石,水,"Rock, Water",Rock,Water,35,40,100,90,55,35,355
+139,139,Omastar,Omastar,"岩石, 水",岩石,水,"Rock, Water",Rock,Water,70,60,125,115,70,55,495
+140,140,Kabuto,Kabuto,"岩石, 水",岩石,水,"Rock, Water",Rock,Water,30,80,90,55,45,55,355
+141,141,Kabutops,Kabutops,"岩石, 水",岩石,水,"Rock, Water",Rock,Water,60,115,105,65,70,80,495
+142,142,Aerodactyl,Aerodactyl,"岩石, 飛行",岩石,飛行,"Rock, Flying",Rock,Flying,80,105,65,60,75,130,515
+142,142,Mega Aerodactyl,Aerodactyl,"岩石, 飛行",岩石,飛行,"Rock, Flying",Rock,Flying,80,135,85,70,95,150,615
+143,143,Snorlax,Snorlax,一般,一般,,Normal,Normal,,160,110,65,65,110,30,540
+144,144,Articuno,Articuno,"冰, 飛行",冰,飛行,"Ice, Flying",Ice,Flying,90,85,100,95,125,85,580
+144,144,Galarian Articuno,Articuno,"超能力, 飛行",超能力,飛行,"Psychic, Flying",Psychic,Flying,90,85,85,125,100,95,580
+145,145,Zapdos,Zapdos,"電, 飛行",電,飛行,"Electric, Flying",Electric,Flying,90,90,85,125,90,100,580
+145,145,Galarian Zapdos,Zapdos,"格鬥, 飛行",格鬥,飛行,"Fighting, Flying",Fighting,Flying,90,125,90,85,90,100,580
+146,146,Moltres,Moltres,"火, 飛行",火,飛行,"Fire, Flying",Fire,Flying,90,100,90,125,85,90,580
+146,146,Galarian Moltres,Moltres,"惡, 飛行",惡,飛行,"Dark, Flying",Dark,Flying,90,85,90,100,125,90,580
+147,147,Dratini,Dratini,龍,龍,,Dragon,Dragon,,41,64,45,50,50,50,300
+148,148,Dragonair,Dragonair,龍,龍,,Dragon,Dragon,,61,84,65,70,70,70,420
+149,149,Dragonite,Dragonite,"龍, 飛行",龍,飛行,"Dragon, Flying",Dragon,Flying,91,134,95,100,100,80,600
+150,150,Mewtwo,Mewtwo,超能力,超能力,,Psychic,Psychic,,106,110,90,154,90,130,680
+150,150,Mega Mewtwo X,Mewtwo,"超能力, 格鬥",超能力,格鬥,"Psychic, Fighting",Psychic,Fighting,106,190,100,154,100,130,780
+150,150,Mega Mewtwo Y,Mewtwo,超能力,超能力,,Psychic,Psychic,,106,150,70,194,120,140,780
+151,151,Mew,Mew,超能力,超能力,,Psychic,Psychic,,100,100,100,100,100,100,600
+152,152,Chikorita,Chikorita,草,草,,Grass,Grass,,45,49,65,49,65,45,318
+153,153,Bayleef,Bayleef,草,草,,Grass,Grass,,60,62,80,63,80,60,405
+154,154,Meganium,Meganium,草,草,,Grass,Grass,,80,82,100,83,100,80,525
+155,155,Cyndaquil,Cyndaquil,火,火,,Fire,Fire,,39,52,43,60,50,65,309
+156,156,Quilava,Quilava,火,火,,Fire,Fire,,58,64,58,80,65,80,405
+157,157,Typhlosion,Typhlosion,火,火,,Fire,Fire,,78,84,78,109,85,100,534
+157,157,Typhlosion (Hisuian Typhlosion),Typhlosion,"火, 幽靈",火,幽靈,"Fire, Ghost",Fire,Ghost,73,84,78,119,85,95,534
+158,158,Totodile,Totodile,水,水,,Water,Water,,50,65,64,44,48,43,314
+159,159,Croconaw,Croconaw,水,水,,Water,Water,,65,80,80,59,63,58,405
+160,160,Feraligatr,Feraligatr,水,水,,Water,Water,,85,105,100,79,83,78,530
+161,161,Sentret,Sentret,一般,一般,,Normal,Normal,,35,46,34,35,45,20,215
+162,162,Furret,Furret,一般,一般,,Normal,Normal,,85,76,64,45,55,90,415
+163,163,Hoothoot,Hoothoot,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,60,30,30,36,56,50,262
+164,164,Noctowl,Noctowl,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,100,50,50,86,96,70,452
+165,165,Ledyba,Ledyba,"蟲, 飛行",蟲,飛行,"Bug, Flying",Bug,Flying,40,20,30,40,80,55,265
+166,166,Ledian,Ledian,"蟲, 飛行",蟲,飛行,"Bug, Flying",Bug,Flying,55,35,50,55,110,85,390
+167,167,Spinarak,Spinarak,"蟲, 毒",蟲,毒,"Bug, Poison",Bug,Poison,40,60,40,40,40,30,250
+168,168,Ariados,Ariados,"蟲, 毒",蟲,毒,"Bug, Poison",Bug,Poison,70,90,70,60,70,40,400
+169,169,Crobat,Crobat,"毒, 飛行",毒,飛行,"Poison, Flying",Poison,Flying,85,90,80,70,80,130,535
+170,170,Chinchou,Chinchou,"水, 電",水,電,"Water, Electric",Water,Electric,75,38,38,56,56,67,330
+171,171,Lanturn,Lanturn,"水, 電",水,電,"Water, Electric",Water,Electric,125,58,58,76,76,67,460
+172,172,Pichu,Pichu,電,電,,Electric,Electric,,20,40,15,35,35,60,205
+173,173,Cleffa,Cleffa,妖精,妖精,,Fairy,Fairy,,50,25,28,45,55,15,218
+174,174,Igglybuff,Igglybuff,"一般, 妖精",一般,妖精,"Normal, Fairy",Normal,Fairy,90,30,15,40,20,15,210
+175,175,Togepi,Togepi,妖精,妖精,,Fairy,Fairy,,35,20,65,40,65,20,245
+176,176,Togetic,Togetic,"妖精, 飛行",妖精,飛行,"Fairy, Flying",Fairy,Flying,55,40,85,80,105,40,405
+177,177,Natu,Natu,"超能力, 飛行",超能力,飛行,"Psychic, Flying",Psychic,Flying,40,50,45,70,45,70,320
+178,178,Xatu,Xatu,"超能力, 飛行",超能力,飛行,"Psychic, Flying",Psychic,Flying,65,75,70,95,70,95,470
+179,179,Mareep,Mareep,電,電,,Electric,Electric,,55,40,40,65,45,35,280
+180,180,Flaaffy,Flaaffy,電,電,,Electric,Electric,,70,55,55,80,60,45,365
+181,181,Ampharos,Ampharos,電,電,,Electric,Electric,,90,75,85,115,90,55,510
+181,181,Mega Ampharos,Ampharos,"電, 龍",電,龍,"Electric, Dragon",Electric,Dragon,90,95,105,165,110,45,610
+182,182,Bellossom,Bellossom,草,草,,Grass,Grass,,75,80,95,90,100,50,490
+183,183,Marill,Marill,"水, 妖精",水,妖精,"Water, Fairy",Water,Fairy,70,20,50,20,50,40,250
+184,184,Azumarill,Azumarill,"水, 妖精",水,妖精,"Water, Fairy",Water,Fairy,100,50,80,60,80,50,420
+185,185,Sudowoodo,Sudowoodo,岩石,岩石,,Rock,Rock,,70,100,115,30,65,30,410
+186,186,Politoed,Politoed,水,水,,Water,Water,,90,75,75,90,100,70,500
+187,187,Hoppip,Hoppip,"草, 飛行",草,飛行,"Grass, Flying",Grass,Flying,35,35,40,35,55,50,250
+188,188,Skiploom,Skiploom,"草, 飛行",草,飛行,"Grass, Flying",Grass,Flying,55,45,50,45,65,80,340
+189,189,Jumpluff,Jumpluff,"草, 飛行",草,飛行,"Grass, Flying",Grass,Flying,75,55,70,55,95,110,460
+190,190,Aipom,Aipom,一般,一般,,Normal,Normal,,55,70,55,40,55,85,360
+191,191,Sunkern,Sunkern,草,草,,Grass,Grass,,30,30,30,30,30,30,180
+192,192,Sunflora,Sunflora,草,草,,Grass,Grass,,75,75,55,105,85,30,425
+193,193,Yanma,Yanma,"蟲, 飛行",蟲,飛行,"Bug, Flying",Bug,Flying,65,65,45,75,45,95,390
+194,194,Wooper,Wooper,"水, 地面",水,地面,"Water, Ground",Water,Ground,55,45,45,25,25,15,210
+194,194,Wooper (Paldean Wooper),Wooper,"毒, 地面",毒,地面,"Poison, Ground",Poison,Ground,55,45,45,25,25,15,210
+195,195,Quagsire,Quagsire,"水, 地面",水,地面,"Water, Ground",Water,Ground,95,85,85,65,65,35,430
+196,196,Espeon,Espeon,超能力,超能力,,Psychic,Psychic,,65,65,60,130,95,110,525
+197,197,Umbreon,Umbreon,惡,惡,,Dark,Dark,,95,65,110,60,130,65,525
+198,198,Murkrow,Murkrow,"惡, 飛行",惡,飛行,"Dark, Flying",Dark,Flying,60,85,42,85,42,91,405
+199,199,Slowking,Slowking,"水, 超能力",水,超能力,"Water, Psychic",Water,Psychic,95,75,80,100,110,30,490
+199,199,Galarian Slowking,Slowking,"毒, 超能力",毒,超能力,"Poison, Psychic",Poison,Psychic,95,65,80,110,110,30,490
+200,200,Misdreavus,Misdreavus,幽靈,幽靈,,Ghost,Ghost,,60,60,60,85,85,85,435
+201,201,Unown,Unown,超能力,超能力,,Psychic,Psychic,,48,72,48,72,48,48,336
+202,202,Wobbuffet,Wobbuffet,超能力,超能力,,Psychic,Psychic,,190,33,58,33,58,33,405
+203,203,Girafarig,Girafarig,"一般, 超能力",一般,超能力,"Normal, Psychic",Normal,Psychic,70,80,65,90,65,85,455
+204,204,Pineco,Pineco,蟲,蟲,,Bug,Bug,,50,65,90,35,35,15,290
+205,205,Forretress,Forretress,"蟲, 鋼",蟲,鋼,"Bug, Steel",Bug,Steel,75,90,140,60,60,40,465
+206,206,Dunsparce,Dunsparce,一般,一般,,Normal,Normal,,100,70,70,65,65,45,415
+207,207,Gligar,Gligar,"地面, 飛行",地面,飛行,"Ground, Flying",Ground,Flying,65,75,105,35,65,85,430
+208,208,Steelix,Steelix,"鋼, 地面",鋼,地面,"Steel, Ground",Steel,Ground,75,85,200,55,65,30,510
+208,208,Mega Steelix,Steelix,"鋼, 地面",鋼,地面,"Steel, Ground",Steel,Ground,75,125,230,55,95,30,610
+209,209,Snubbull,Snubbull,妖精,妖精,,Fairy,Fairy,,60,80,50,40,40,30,300
+210,210,Granbull,Granbull,妖精,妖精,,Fairy,Fairy,,90,120,75,60,60,45,450
+211,211,Qwilfish,Qwilfish,"水, 毒",水,毒,"Water, Poison",Water,Poison,65,95,85,55,55,85,440
+211,211,Qwilfish (Hisuian Qwilfish),Qwilfish,"惡, 毒",惡,毒,"Dark, Poison",Dark,Poison,65,95,85,55,55,85,440
+212,212,Scizor,Scizor,"蟲, 鋼",蟲,鋼,"Bug, Steel",Bug,Steel,70,130,100,55,80,65,500
+212,212,Mega Scizor,Scizor,"蟲, 鋼",蟲,鋼,"Bug, Steel",Bug,Steel,70,150,140,65,100,75,600
+213,213,Shuckle,Shuckle,"蟲, 岩石",蟲,岩石,"Bug, Rock",Bug,Rock,20,10,230,10,230,5,505
+214,214,Heracross,Heracross,"蟲, 格鬥",蟲,格鬥,"Bug, Fighting",Bug,Fighting,80,125,75,40,95,85,500
+214,214,Mega Heracross,Heracross,"蟲, 格鬥",蟲,格鬥,"Bug, Fighting",Bug,Fighting,80,185,115,40,105,75,600
+215,215,Sneasel,Sneasel,"惡, 冰",惡,冰,"Dark, Ice",Dark,Ice,55,95,55,35,75,115,430
+215,215,Sneasel (Hisuian Sneasel),Sneasel,"格鬥, 毒",格鬥,毒,"Fighting, Poison",Fighting,Poison,55,95,55,35,75,115,430
+216,216,Teddiursa,Teddiursa,一般,一般,,Normal,Normal,,60,80,50,50,50,40,330
+217,217,Ursaring,Ursaring,一般,一般,,Normal,Normal,,90,130,75,75,75,55,500
+218,218,Slugma,Slugma,火,火,,Fire,Fire,,40,40,40,70,40,20,250
+219,219,Magcargo,Magcargo,"火, 岩石",火,岩石,"Fire, Rock",Fire,Rock,60,50,120,90,80,30,430
+220,220,Swinub,Swinub,"冰, 地面",冰,地面,"Ice, Ground",Ice,Ground,50,50,40,30,30,50,250
+221,221,Piloswine,Piloswine,"冰, 地面",冰,地面,"Ice, Ground",Ice,Ground,100,100,80,60,60,50,450
+222,222,Corsola,Corsola,"水, 岩石",水,岩石,"Water, Rock",Water,Rock,65,55,95,65,95,35,410
+222,222,Galarian Corsola,Corsola,幽靈,幽靈,,Ghost,Ghost,,60,55,100,65,100,30,410
+223,223,Remoraid,Remoraid,水,水,,Water,Water,,35,65,35,65,35,65,300
+224,224,Octillery,Octillery,水,水,,Water,Water,,75,105,75,105,75,45,480
+225,225,Delibird,Delibird,"冰, 飛行",冰,飛行,"Ice, Flying",Ice,Flying,45,55,45,65,45,75,330
+226,226,Mantine,Mantine,"水, 飛行",水,飛行,"Water, Flying",Water,Flying,85,40,70,80,140,70,485
+227,227,Skarmory,Skarmory,"鋼, 飛行",鋼,飛行,"Steel, Flying",Steel,Flying,65,80,140,40,70,70,465
+228,228,Houndour,Houndour,"惡, 火",惡,火,"Dark, Fire",Dark,Fire,45,60,30,80,50,65,330
+229,229,Houndoom,Houndoom,"惡, 火",惡,火,"Dark, Fire",Dark,Fire,75,90,50,110,80,95,500
+229,229,Mega Houndoom,Houndoom,"惡, 火",惡,火,"Dark, Fire",Dark,Fire,75,90,90,140,90,115,600
+230,230,Kingdra,Kingdra,"水, 龍",水,龍,"Water, Dragon",Water,Dragon,75,95,95,95,95,85,540
+231,231,Phanpy,Phanpy,地面,地面,,Ground,Ground,,90,60,60,40,40,40,330
+232,232,Donphan,Donphan,地面,地面,,Ground,Ground,,90,120,120,60,60,50,500
+233,233,Porygon2,Porygon2,一般,一般,,Normal,Normal,,85,80,90,105,95,60,515
+234,234,Stantler,Stantler,一般,一般,,Normal,Normal,,73,95,62,85,65,85,465
+235,235,Smeargle,Smeargle,一般,一般,,Normal,Normal,,55,20,35,20,45,75,250
+236,236,Tyrogue,Tyrogue,格鬥,格鬥,,Fighting,Fighting,,35,35,35,35,35,35,210
+237,237,Hitmontop,Hitmontop,格鬥,格鬥,,Fighting,Fighting,,50,95,95,35,110,70,455
+238,238,Smoochum,Smoochum,"冰, 超能力",冰,超能力,"Ice, Psychic",Ice,Psychic,45,30,15,85,65,65,305
+239,239,Elekid,Elekid,電,電,,Electric,Electric,,45,63,37,65,55,95,360
+240,240,Magby,Magby,火,火,,Fire,Fire,,45,75,37,70,55,83,365
+241,241,Miltank,Miltank,一般,一般,,Normal,Normal,,95,80,105,40,70,100,490
+242,242,Blissey,Blissey,一般,一般,,Normal,Normal,,255,10,10,75,135,55,540
+243,243,Raikou,Raikou,電,電,,Electric,Electric,,90,85,75,115,100,115,580
+244,244,Entei,Entei,火,火,,Fire,Fire,,115,115,85,90,75,100,580
+245,245,Suicune,Suicune,水,水,,Water,Water,,100,75,115,90,115,85,580
+246,246,Larvitar,Larvitar,"岩石, 地面",岩石,地面,"Rock, Ground",Rock,Ground,50,64,50,45,50,41,300
+247,247,Pupitar,Pupitar,"岩石, 地面",岩石,地面,"Rock, Ground",Rock,Ground,70,84,70,65,70,51,410
+248,248,Tyranitar,Tyranitar,"岩石, 惡",岩石,惡,"Rock, Dark",Rock,Dark,100,134,110,95,100,61,600
+248,248,Mega Tyranitar,Tyranitar,"岩石, 惡",岩石,惡,"Rock, Dark",Rock,Dark,100,164,150,95,120,71,700
+249,249,Lugia,Lugia,"超能力, 飛行",超能力,飛行,"Psychic, Flying",Psychic,Flying,106,90,130,90,154,110,680
+250,250,Ho-oh,Ho-oh,"火, 飛行",火,飛行,"Fire, Flying",Fire,Flying,106,130,90,110,154,90,680
+251,251,Celebi,Celebi,"超能力, 草",超能力,草,"Psychic, Grass",Psychic,Grass,100,100,100,100,100,100,600
+252,252,Treecko,Treecko,草,草,,Grass,Grass,,40,45,35,65,55,70,310
+253,253,Grovyle,Grovyle,草,草,,Grass,Grass,,50,65,45,85,65,95,405
+254,254,Sceptile,Sceptile,草,草,,Grass,Grass,,70,85,65,105,85,120,530
+254,254,Mega Sceptile,Sceptile,"草, 龍",草,龍,"Grass, Dragon",Grass,Dragon,70,110,75,145,85,145,630
+255,255,Torchic,Torchic,火,火,,Fire,Fire,,45,60,40,70,50,45,310
+256,256,Combusken,Combusken,"火, 格鬥",火,格鬥,"Fire, Fighting",Fire,Fighting,60,85,60,85,60,55,405
+257,257,Blaziken,Blaziken,"火, 格鬥",火,格鬥,"Fire, Fighting",Fire,Fighting,80,120,70,110,70,80,530
+257,257,Mega Blaziken,Blaziken,"火, 格鬥",火,格鬥,"Fire, Fighting",Fire,Fighting,80,160,80,130,80,100,630
+258,258,Mudkip,Mudkip,水,水,,Water,Water,,50,70,50,50,50,40,310
+259,259,Marshtomp,Marshtomp,"水, 地面",水,地面,"Water, Ground",Water,Ground,70,85,70,60,70,50,405
+260,260,Swampert,Swampert,"水, 地面",水,地面,"Water, Ground",Water,Ground,100,110,90,85,90,60,535
+260,260,Mega Swampert,Swampert,"水, 地面",水,地面,"Water, Ground",Water,Ground,100,150,110,95,110,70,635
+261,261,Poochyena,Poochyena,惡,惡,,Dark,Dark,,35,55,35,30,30,35,220
+262,262,Mightyena,Mightyena,惡,惡,,Dark,Dark,,70,90,70,60,60,70,420
+263,263,Zigzagoon,Zigzagoon,一般,一般,,Normal,Normal,,38,30,41,30,41,60,240
+263,263,Galarian Zigzagoon,Zigzagoon,"惡, 一般",惡,一般,"Dark, Normal",Dark,Normal,38,30,41,30,41,60,240
+264,264,Linoone,Linoone,一般,一般,,Normal,Normal,,78,70,61,50,61,100,420
+264,264,Galarian Linoone,Linoone,"惡, 一般",惡,一般,"Dark, Normal",Dark,Normal,78,70,61,50,61,100,420
+265,265,Wurmple,Wurmple,蟲,蟲,,Bug,Bug,,45,45,35,20,30,20,195
+266,266,Silcoon,Silcoon,蟲,蟲,,Bug,Bug,,50,35,55,25,25,15,205
+267,267,Beautifly,Beautifly,"蟲, 飛行",蟲,飛行,"Bug, Flying",Bug,Flying,60,70,50,100,50,65,395
+268,268,Cascoon,Cascoon,蟲,蟲,,Bug,Bug,,50,35,55,25,25,15,205
+269,269,Dustox,Dustox,"蟲, 毒",蟲,毒,"Bug, Poison",Bug,Poison,60,50,70,50,90,65,385
+270,270,Lotad,Lotad,"水, 草",水,草,"Water, Grass",Water,Grass,40,30,30,40,50,30,220
+271,271,Lombre,Lombre,"水, 草",水,草,"Water, Grass",Water,Grass,60,50,50,60,70,50,340
+272,272,Ludicolo,Ludicolo,"水, 草",水,草,"Water, Grass",Water,Grass,80,70,70,90,100,70,480
+273,273,Seedot,Seedot,草,草,,Grass,Grass,,40,40,50,30,30,30,220
+274,274,Nuzleaf,Nuzleaf,"草, 惡",草,惡,"Grass, Dark",Grass,Dark,70,70,40,60,40,60,340
+275,275,Shiftry,Shiftry,"草, 惡",草,惡,"Grass, Dark",Grass,Dark,90,100,60,90,60,80,480
+276,276,Taillow,Taillow,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,40,55,30,30,30,85,270
+277,277,Swellow,Swellow,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,60,85,60,75,50,125,455
+278,278,Wingull,Wingull,"水, 飛行",水,飛行,"Water, Flying",Water,Flying,40,30,30,55,30,85,270
+279,279,Pelipper,Pelipper,"水, 飛行",水,飛行,"Water, Flying",Water,Flying,60,50,100,95,70,65,440
+280,280,Ralts,Ralts,"超能力, 妖精",超能力,妖精,"Psychic, Fairy",Psychic,Fairy,28,25,25,45,35,40,198
+281,281,Kirlia,Kirlia,"超能力, 妖精",超能力,妖精,"Psychic, Fairy",Psychic,Fairy,38,35,35,65,55,50,278
+282,282,Gardevoir,Gardevoir,"超能力, 妖精",超能力,妖精,"Psychic, Fairy",Psychic,Fairy,68,65,65,125,115,80,518
+282,282,Mega Gardevoir,Gardevoir,"超能力, 妖精",超能力,妖精,"Psychic, Fairy",Psychic,Fairy,68,85,65,165,135,100,618
+283,283,Surskit,Surskit,"蟲, 水",蟲,水,"Bug, Water",Bug,Water,40,30,32,50,52,65,269
+284,284,Masquerain,Masquerain,"蟲, 飛行",蟲,飛行,"Bug, Flying",Bug,Flying,70,60,62,100,82,80,454
+285,285,Shroomish,Shroomish,草,草,,Grass,Grass,,60,40,60,40,60,35,295
+286,286,Breloom,Breloom,"草, 格鬥",草,格鬥,"Grass, Fighting",Grass,Fighting,60,130,80,60,60,70,460
+287,287,Slakoth,Slakoth,一般,一般,,Normal,Normal,,60,60,60,35,35,30,280
+288,288,Vigoroth,Vigoroth,一般,一般,,Normal,Normal,,80,80,80,55,55,90,440
+289,289,Slaking,Slaking,一般,一般,,Normal,Normal,,150,160,100,95,65,100,670
+290,290,Nincada,Nincada,"蟲, 地面",蟲,地面,"Bug, Ground",Bug,Ground,31,45,90,30,30,40,266
+291,291,Ninjask,Ninjask,"蟲, 飛行",蟲,飛行,"Bug, Flying",Bug,Flying,61,90,45,50,50,160,456
+292,292,Shedinja,Shedinja,"蟲, 幽靈",蟲,幽靈,"Bug, Ghost",Bug,Ghost,1,90,45,30,30,40,236
+293,293,Whismur,Whismur,一般,一般,,Normal,Normal,,64,51,23,51,23,28,240
+294,294,Loudred,Loudred,一般,一般,,Normal,Normal,,84,71,43,71,43,48,360
+295,295,Exploud,Exploud,一般,一般,,Normal,Normal,,104,91,63,91,73,68,490
+296,296,Makuhita,Makuhita,格鬥,格鬥,,Fighting,Fighting,,72,60,30,20,30,25,237
+297,297,Hariyama,Hariyama,格鬥,格鬥,,Fighting,Fighting,,144,120,60,40,60,50,474
+298,298,Azurill,Azurill,"一般, 妖精",一般,妖精,"Normal, Fairy",Normal,Fairy,50,20,40,20,40,20,190
+299,299,Nosepass,Nosepass,岩石,岩石,,Rock,Rock,,30,45,135,45,90,30,375
+300,300,Skitty,Skitty,一般,一般,,Normal,Normal,,50,45,45,35,35,50,260
+301,301,Delcatty,Delcatty,一般,一般,,Normal,Normal,,70,65,65,55,55,90,400
+302,302,Sableye,Sableye,"惡, 幽靈",惡,幽靈,"Dark, Ghost",Dark,Ghost,50,75,75,65,65,50,380
+302,302,Mega Sableye,Sableye,"惡, 幽靈",惡,幽靈,"Dark, Ghost",Dark,Ghost,50,85,125,85,115,20,480
+303,303,Mawile,Mawile,"鋼, 妖精",鋼,妖精,"Steel, Fairy",Steel,Fairy,50,85,85,55,55,50,380
+303,303,Mega Mawile,Mawile,"鋼, 妖精",鋼,妖精,"Steel, Fairy",Steel,Fairy,50,105,125,55,95,50,480
+304,304,Aron,Aron,"鋼, 岩石",鋼,岩石,"Steel, Rock",Steel,Rock,50,70,100,40,40,30,330
+305,305,Lairon,Lairon,"鋼, 岩石",鋼,岩石,"Steel, Rock",Steel,Rock,60,90,140,50,50,40,430
+306,306,Aggron,Aggron,"鋼, 岩石",鋼,岩石,"Steel, Rock",Steel,Rock,70,110,180,60,60,50,530
+306,306,Mega Aggron,Aggron,鋼,鋼,,Steel,Steel,,70,140,230,60,80,50,630
+307,307,Meditite,Meditite,"格鬥, 超能力",格鬥,超能力,"Fighting, Psychic",Fighting,Psychic,30,40,55,40,55,60,280
+308,308,Medicham,Medicham,"格鬥, 超能力",格鬥,超能力,"Fighting, Psychic",Fighting,Psychic,60,60,75,60,75,80,410
+308,308,Mega Medicham,Medicham,"格鬥, 超能力",格鬥,超能力,"Fighting, Psychic",Fighting,Psychic,60,100,85,80,85,100,510
+309,309,Electrike,Electrike,電,電,,Electric,Electric,,40,45,40,65,40,65,295
+310,310,Manectric,Manectric,電,電,,Electric,Electric,,70,75,60,105,60,105,475
+310,310,Mega Manectric,Manectric,電,電,,Electric,Electric,,70,75,80,135,80,135,575
+311,311,Plusle,Plusle,電,電,,Electric,Electric,,60,50,40,85,75,95,405
+312,312,Minun,Minun,電,電,,Electric,Electric,,60,40,50,75,85,95,405
+313,313,Volbeat,Volbeat,蟲,蟲,,Bug,Bug,,65,73,75,47,85,85,430
+314,314,Illumise,Illumise,蟲,蟲,,Bug,Bug,,65,47,75,73,85,85,430
+315,315,Roselia,Roselia,"草, 毒",草,毒,"Grass, Poison",Grass,Poison,50,60,45,100,80,65,400
+316,316,Gulpin,Gulpin,毒,毒,,Poison,Poison,,70,43,53,43,53,40,302
+317,317,Swalot,Swalot,毒,毒,,Poison,Poison,,100,73,83,73,83,55,467
+318,318,Carvanha,Carvanha,"水, 惡",水,惡,"Water, Dark",Water,Dark,45,90,20,65,20,65,305
+319,319,Sharpedo,Sharpedo,"水, 惡",水,惡,"Water, Dark",Water,Dark,70,120,40,95,40,95,460
+319,319,Mega Sharpedo,Sharpedo,"水, 惡",水,惡,"Water, Dark",Water,Dark,70,140,70,110,65,105,560
+320,320,Wailmer,Wailmer,水,水,,Water,Water,,130,70,35,70,35,60,400
+321,321,Wailord,Wailord,水,水,,Water,Water,,170,90,45,90,45,60,500
+322,322,Numel,Numel,"火, 地面",火,地面,"Fire, Ground",Fire,Ground,60,60,40,65,45,35,305
+323,323,Camerupt,Camerupt,"火, 地面",火,地面,"Fire, Ground",Fire,Ground,70,100,70,105,75,40,460
+323,323,Mega Camerupt,Camerupt,"火, 地面",火,地面,"Fire, Ground",Fire,Ground,70,120,100,145,105,20,560
+324,324,Torkoal,Torkoal,火,火,,Fire,Fire,,70,85,140,85,70,20,470
+325,325,Spoink,Spoink,超能力,超能力,,Psychic,Psychic,,60,25,35,70,80,60,330
+326,326,Grumpig,Grumpig,超能力,超能力,,Psychic,Psychic,,80,45,65,90,110,80,470
+327,327,Spinda,Spinda,一般,一般,,Normal,Normal,,60,60,60,60,60,60,360
+328,328,Trapinch,Trapinch,地面,地面,,Ground,Ground,,45,100,45,45,45,10,290
+329,329,Vibrava,Vibrava,"地面, 龍",地面,龍,"Ground, Dragon",Ground,Dragon,50,70,50,50,50,70,340
+330,330,Flygon,Flygon,"地面, 龍",地面,龍,"Ground, Dragon",Ground,Dragon,80,100,80,80,80,100,520
+331,331,Cacnea,Cacnea,草,草,,Grass,Grass,,50,85,40,85,40,35,335
+332,332,Cacturne,Cacturne,"草, 惡",草,惡,"Grass, Dark",Grass,Dark,70,115,60,115,60,55,475
+333,333,Swablu,Swablu,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,45,40,60,40,75,50,310
+334,334,Altaria,Altaria,"龍, 飛行",龍,飛行,"Dragon, Flying",Dragon,Flying,75,70,90,70,105,80,490
+334,334,Mega Altaria,Altaria,"龍, 妖精",龍,妖精,"Dragon, Fairy",Dragon,Fairy,75,110,110,110,105,80,590
+335,335,Zangoose,Zangoose,一般,一般,,Normal,Normal,,73,115,60,60,60,90,458
+336,336,Seviper,Seviper,毒,毒,,Poison,Poison,,73,100,60,100,60,65,458
+337,337,Lunatone,Lunatone,"岩石, 超能力",岩石,超能力,"Rock, Psychic",Rock,Psychic,90,55,65,95,85,70,460
+338,338,Solrock,Solrock,"岩石, 超能力",岩石,超能力,"Rock, Psychic",Rock,Psychic,90,95,85,55,65,70,460
+339,339,Barboach,Barboach,"水, 地面",水,地面,"Water, Ground",Water,Ground,50,48,43,46,41,60,288
+340,340,Whiscash,Whiscash,"水, 地面",水,地面,"Water, Ground",Water,Ground,110,78,73,76,71,60,468
+341,341,Corphish,Corphish,水,水,,Water,Water,,43,80,65,50,35,35,308
+342,342,Crawdaunt,Crawdaunt,"水, 惡",水,惡,"Water, Dark",Water,Dark,63,120,85,90,55,55,468
+343,343,Baltoy,Baltoy,"地面, 超能力",地面,超能力,"Ground, Psychic",Ground,Psychic,40,40,55,40,70,55,300
+344,344,Claydol,Claydol,"地面, 超能力",地面,超能力,"Ground, Psychic",Ground,Psychic,60,70,105,70,120,75,500
+345,345,Lileep,Lileep,"岩石, 草",岩石,草,"Rock, Grass",Rock,Grass,66,41,77,61,87,23,355
+346,346,Cradily,Cradily,"岩石, 草",岩石,草,"Rock, Grass",Rock,Grass,86,81,97,81,107,43,495
+347,347,Anorith,Anorith,"岩石, 蟲",岩石,蟲,"Rock, Bug",Rock,Bug,45,95,50,40,50,75,355
+348,348,Armaldo,Armaldo,"岩石, 蟲",岩石,蟲,"Rock, Bug",Rock,Bug,75,125,100,70,80,45,495
+349,349,Feebas,Feebas,水,水,,Water,Water,,20,15,20,10,55,80,200
+350,350,Milotic,Milotic,水,水,,Water,Water,,95,60,79,100,125,81,540
+351,351,Castform,Castform,一般,一般,,Normal,Normal,,70,70,70,70,70,70,420
+351,351,Castform (Sunny Form),Castform,火,火,,Fire,Fire,,70,70,70,70,70,70,420
+351,351,Castform (Rainy Form),Castform,水,水,,Water,Water,,70,70,70,70,70,70,420
+351,351,Castform (Snowy Form),Castform,冰,冰,,Ice,Ice,,70,70,70,70,70,70,420
+352,352,Kecleon,Kecleon,一般,一般,,Normal,Normal,,60,90,70,60,120,40,440
+353,353,Shuppet,Shuppet,幽靈,幽靈,,Ghost,Ghost,,44,75,35,63,33,45,295
+354,354,Banette,Banette,幽靈,幽靈,,Ghost,Ghost,,64,115,65,83,63,65,455
+354,354,Mega Banette,Banette,幽靈,幽靈,,Ghost,Ghost,,64,165,75,93,83,75,555
+355,355,Duskull,Duskull,幽靈,幽靈,,Ghost,Ghost,,20,40,90,30,90,25,295
+356,356,Dusclops,Dusclops,幽靈,幽靈,,Ghost,Ghost,,40,70,130,60,130,25,455
+357,357,Tropius,Tropius,"草, 飛行",草,飛行,"Grass, Flying",Grass,Flying,99,68,83,72,87,51,460
+358,358,Chimecho,Chimecho,超能力,超能力,,Psychic,Psychic,,75,50,80,95,90,65,455
+359,359,Absol,Absol,惡,惡,,Dark,Dark,,65,130,60,75,60,75,465
+359,359,Mega Absol,Absol,惡,惡,,Dark,Dark,,65,150,60,115,60,115,565
+360,360,Wynaut,Wynaut,超能力,超能力,,Psychic,Psychic,,95,23,48,23,48,23,260
+361,361,Snorunt,Snorunt,冰,冰,,Ice,Ice,,50,50,50,50,50,50,300
+362,362,Glalie,Glalie,冰,冰,,Ice,Ice,,80,80,80,80,80,80,480
+362,362,Mega Glalie,Glalie,冰,冰,,Ice,Ice,,80,120,80,120,80,100,580
+363,363,Spheal,Spheal,"冰, 水",冰,水,"Ice, Water",Ice,Water,70,40,50,55,50,25,290
+364,364,Sealeo,Sealeo,"冰, 水",冰,水,"Ice, Water",Ice,Water,90,60,70,75,70,45,410
+365,365,Walrein,Walrein,"冰, 水",冰,水,"Ice, Water",Ice,Water,110,80,90,95,90,65,530
+366,366,Clamperl,Clamperl,水,水,,Water,Water,,35,64,85,74,55,32,345
+367,367,Huntail,Huntail,水,水,,Water,Water,,55,104,105,94,75,52,485
+368,368,Gorebyss,Gorebyss,水,水,,Water,Water,,55,84,105,114,75,52,485
+369,369,Relicanth,Relicanth,"水, 岩石",水,岩石,"Water, Rock",Water,Rock,100,90,130,45,65,55,485
+370,370,Luvdisc,Luvdisc,水,水,,Water,Water,,43,30,55,40,65,97,330
+371,371,Bagon,Bagon,龍,龍,,Dragon,Dragon,,45,75,60,40,30,50,300
+372,372,Shelgon,Shelgon,龍,龍,,Dragon,Dragon,,65,95,100,60,50,50,420
+373,373,Salamence,Salamence,"龍, 飛行",龍,飛行,"Dragon, Flying",Dragon,Flying,95,135,80,110,80,100,600
+373,373,Mega Salamence,Salamence,"龍, 飛行",龍,飛行,"Dragon, Flying",Dragon,Flying,95,145,130,120,90,120,700
+374,374,Beldum,Beldum,"鋼, 超能力",鋼,超能力,"Steel, Psychic",Steel,Psychic,40,55,80,35,60,30,300
+375,375,Metang,Metang,"鋼, 超能力",鋼,超能力,"Steel, Psychic",Steel,Psychic,60,75,100,55,80,50,420
+376,376,Metagross,Metagross,"鋼, 超能力",鋼,超能力,"Steel, Psychic",Steel,Psychic,80,135,130,95,90,70,600
+376,376,Mega Metagross,Metagross,"鋼, 超能力",鋼,超能力,"Steel, Psychic",Steel,Psychic,80,145,150,105,110,110,700
+377,377,Regirock,Regirock,岩石,岩石,,Rock,Rock,,80,100,200,50,100,50,580
+378,378,Regice,Regice,冰,冰,,Ice,Ice,,80,50,100,100,200,50,580
+379,379,Registeel,Registeel,鋼,鋼,,Steel,Steel,,80,75,150,75,150,50,580
+380,380,Latias,Latias,"龍, 超能力",龍,超能力,"Dragon, Psychic",Dragon,Psychic,80,80,90,110,130,110,600
+380,380,Mega Latias,Latias,"龍, 超能力",龍,超能力,"Dragon, Psychic",Dragon,Psychic,80,100,120,140,150,110,700
+381,381,Latios,Latios,"龍, 超能力",龍,超能力,"Dragon, Psychic",Dragon,Psychic,80,90,80,130,110,110,600
+381,381,Mega Latios,Latios,"龍, 超能力",龍,超能力,"Dragon, Psychic",Dragon,Psychic,80,130,100,160,120,110,700
+382,382,Kyogre,Kyogre,水,水,,Water,Water,,100,100,90,150,140,90,670
+382,382,Primal Kyogre,Kyogre,水,水,,Water,Water,,100,150,90,180,160,90,770
+383,383,Groudon,Groudon,地面,地面,,Ground,Ground,,100,150,140,100,90,90,670
+383,383,Primal Groudon,Groudon,"地面, 火",地面,火,"Ground, Fire",Ground,Fire,100,180,160,150,90,90,770
+384,384,Rayquaza,Rayquaza,"龍, 飛行",龍,飛行,"Dragon, Flying",Dragon,Flying,105,150,90,150,90,95,680
+384,384,Mega Rayquaza,Rayquaza,"龍, 飛行",龍,飛行,"Dragon, Flying",Dragon,Flying,105,180,100,180,100,115,780
+385,385,Jirachi,Jirachi,"鋼, 超能力",鋼,超能力,"Steel, Psychic",Steel,Psychic,100,100,100,100,100,100,600
+386,386,Deoxys (Normal Forme),Deoxys,超能力,超能力,,Psychic,Psychic,,50,150,50,150,50,150,600
+386,386,Deoxys (Attack Forme),Deoxys,超能力,超能力,,Psychic,Psychic,,50,180,20,180,20,150,600
+386,386,Deoxys (Defense Forme),Deoxys,超能力,超能力,,Psychic,Psychic,,50,70,160,70,160,90,600
+386,386,Deoxys (Speed Forme),Deoxys,超能力,超能力,,Psychic,Psychic,,50,95,90,95,90,180,600
+387,387,Turtwig,Turtwig,草,草,,Grass,Grass,,55,68,64,45,55,31,318
+388,388,Grotle,Grotle,草,草,,Grass,Grass,,75,89,85,55,65,36,405
+389,389,Torterra,Torterra,"草, 地面",草,地面,"Grass, Ground",Grass,Ground,95,109,105,75,85,56,525
+390,390,Chimchar,Chimchar,火,火,,Fire,Fire,,44,58,44,58,44,61,309
+391,391,Monferno,Monferno,"火, 格鬥",火,格鬥,"Fire, Fighting",Fire,Fighting,64,78,52,78,52,81,405
+392,392,Infernape,Infernape,"火, 格鬥",火,格鬥,"Fire, Fighting",Fire,Fighting,76,104,71,104,71,108,534
+393,393,Piplup,Piplup,水,水,,Water,Water,,53,51,53,61,56,40,314
+394,394,Prinplup,Prinplup,水,水,,Water,Water,,64,66,68,81,76,50,405
+395,395,Empoleon,Empoleon,"水, 鋼",水,鋼,"Water, Steel",Water,Steel,84,86,88,111,101,60,530
+396,396,Starly,Starly,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,40,55,30,30,30,60,245
+397,397,Staravia,Staravia,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,55,75,50,40,40,80,340
+398,398,Staraptor,Staraptor,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,85,120,70,50,60,100,485
+399,399,Bidoof,Bidoof,一般,一般,,Normal,Normal,,59,45,40,35,40,31,250
+400,400,Bibarel,Bibarel,"一般, 水",一般,水,"Normal, Water",Normal,Water,79,85,60,55,60,71,410
+401,401,Kricketot,Kricketot,蟲,蟲,,Bug,Bug,,37,25,41,25,41,25,194
+402,402,Kricketune,Kricketune,蟲,蟲,,Bug,Bug,,77,85,51,55,51,65,384
+403,403,Shinx,Shinx,電,電,,Electric,Electric,,45,65,34,40,34,45,263
+404,404,Luxio,Luxio,電,電,,Electric,Electric,,60,85,49,60,49,60,363
+405,405,Luxray,Luxray,電,電,,Electric,Electric,,80,120,79,95,79,70,523
+406,406,Budew,Budew,"草, 毒",草,毒,"Grass, Poison",Grass,Poison,40,30,35,50,70,55,280
+407,407,Roserade,Roserade,"草, 毒",草,毒,"Grass, Poison",Grass,Poison,60,70,65,125,105,90,515
+408,408,Cranidos,Cranidos,岩石,岩石,,Rock,Rock,,67,125,40,30,30,58,350
+409,409,Rampardos,Rampardos,岩石,岩石,,Rock,Rock,,97,165,60,65,50,58,495
+410,410,Shieldon,Shieldon,"岩石, 鋼",岩石,鋼,"Rock, Steel",Rock,Steel,30,42,118,42,88,30,350
+411,411,Bastiodon,Bastiodon,"岩石, 鋼",岩石,鋼,"Rock, Steel",Rock,Steel,60,52,168,47,138,30,495
+412,412,Burmy (Plant Cloak),Burmy,蟲,蟲,,Bug,Bug,,40,29,45,29,45,36,224
+412,412,Burmy (Sandy Cloak),Burmy,蟲,蟲,,Bug,Bug,,40,29,45,29,45,36,224
+412,412,Burmy (Trash Cloak),Burmy,蟲,蟲,,Bug,Bug,,40,29,45,29,45,36,224
+413,413,Wormadam (Plant Cloak),Wormadam,"蟲, 草",蟲,草,"Bug, Grass",Bug,Grass,60,59,85,79,105,36,424
+413,413,Wormadam (Sandy Cloak),Wormadam,"蟲, 地面",蟲,地面,"Bug, Ground",Bug,Ground,60,79,105,59,85,36,424
+413,413,Wormadam (Trash Cloak),Wormadam,"蟲, 鋼",蟲,鋼,"Bug, Steel",Bug,Steel,60,69,95,69,95,36,424
+414,414,Mothim,Mothim,"蟲, 飛行",蟲,飛行,"Bug, Flying",Bug,Flying,70,94,50,94,50,66,424
+415,415,Combee,Combee,"蟲, 飛行",蟲,飛行,"Bug, Flying",Bug,Flying,30,30,42,30,42,70,244
+416,416,Vespiquen,Vespiquen,"蟲, 飛行",蟲,飛行,"Bug, Flying",Bug,Flying,70,80,102,80,102,40,474
+417,417,Pachirisu,Pachirisu,電,電,,Electric,Electric,,60,45,70,45,90,95,405
+418,418,Buizel,Buizel,水,水,,Water,Water,,55,65,35,60,30,85,330
+419,419,Floatzel,Floatzel,水,水,,Water,Water,,85,105,55,85,50,115,495
+420,420,Cherubi,Cherubi,草,草,,Grass,Grass,,45,35,45,62,53,35,275
+421,421,Cherrim,Cherrim,草,草,,Grass,Grass,,70,60,70,87,78,85,450
+422,422,Shellos,Shellos,水,水,,Water,Water,,76,48,48,57,62,34,325
+423,423,Gastrodon,Gastrodon,"水, 地面",水,地面,"Water, Ground",Water,Ground,111,83,68,92,82,39,475
+424,424,Ambipom,Ambipom,一般,一般,,Normal,Normal,,75,100,66,60,66,115,482
+425,425,Drifloon,Drifloon,"幽靈, 飛行",幽靈,飛行,"Ghost, Flying",Ghost,Flying,90,50,34,60,44,70,348
+426,426,Drifblim,Drifblim,"幽靈, 飛行",幽靈,飛行,"Ghost, Flying",Ghost,Flying,150,80,44,90,54,80,498
+427,427,Buneary,Buneary,一般,一般,,Normal,Normal,,55,66,44,44,56,85,350
+428,428,Lopunny,Lopunny,一般,一般,,Normal,Normal,,65,76,84,54,96,105,480
+428,428,Mega Lopunny,Lopunny,"一般, 格鬥",一般,格鬥,"Normal, Fighting",Normal,Fighting,65,136,94,54,96,135,580
+429,429,Mismagius,Mismagius,幽靈,幽靈,,Ghost,Ghost,,60,60,60,105,105,105,495
+430,430,Honchkrow,Honchkrow,"惡, 飛行",惡,飛行,"Dark, Flying",Dark,Flying,100,125,52,105,52,71,505
+431,431,Glameow,Glameow,一般,一般,,Normal,Normal,,49,55,42,42,37,85,310
+432,432,Purugly,Purugly,一般,一般,,Normal,Normal,,71,82,64,64,59,112,452
+433,433,Chingling,Chingling,超能力,超能力,,Psychic,Psychic,,45,30,50,65,50,45,285
+434,434,Stunky,Stunky,"毒, 惡",毒,惡,"Poison, Dark",Poison,Dark,63,63,47,41,41,74,329
+435,435,Skuntank,Skuntank,"毒, 惡",毒,惡,"Poison, Dark",Poison,Dark,103,93,67,71,61,84,479
+436,436,Bronzor,Bronzor,"鋼, 超能力",鋼,超能力,"Steel, Psychic",Steel,Psychic,57,24,86,24,86,23,300
+437,437,Bronzong,Bronzong,"鋼, 超能力",鋼,超能力,"Steel, Psychic",Steel,Psychic,67,89,116,79,116,33,500
+438,438,Bonsly,Bonsly,岩石,岩石,,Rock,Rock,,50,80,95,10,45,10,290
+439,439,Mime Jr.,Mime Jr.,"超能力, 妖精",超能力,妖精,"Psychic, Fairy",Psychic,Fairy,20,25,45,70,90,60,310
+440,440,Happiny,Happiny,一般,一般,,Normal,Normal,,100,5,5,15,65,30,220
+441,441,Chatot,Chatot,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,76,65,45,92,42,91,411
+442,442,Spiritomb,Spiritomb,"幽靈, 惡",幽靈,惡,"Ghost, Dark",Ghost,Dark,50,92,108,92,108,35,485
+443,443,Gible,Gible,"龍, 地面",龍,地面,"Dragon, Ground",Dragon,Ground,58,70,45,40,45,42,300
+444,444,Gabite,Gabite,"龍, 地面",龍,地面,"Dragon, Ground",Dragon,Ground,68,90,65,50,55,82,410
+445,445,Garchomp,Garchomp,"龍, 地面",龍,地面,"Dragon, Ground",Dragon,Ground,108,130,95,80,85,102,600
+445,445,Mega Garchomp,Garchomp,"龍, 地面",龍,地面,"Dragon, Ground",Dragon,Ground,108,170,115,120,95,92,700
+446,446,Munchlax,Munchlax,一般,一般,,Normal,Normal,,135,85,40,40,85,5,390
+447,447,Riolu,Riolu,格鬥,格鬥,,Fighting,Fighting,,40,70,40,35,40,60,285
+448,448,Lucario,Lucario,"格鬥, 鋼",格鬥,鋼,"Fighting, Steel",Fighting,Steel,70,110,70,115,70,90,525
+448,448,Mega Lucario,Lucario,"格鬥, 鋼",格鬥,鋼,"Fighting, Steel",Fighting,Steel,70,145,88,140,70,112,625
+449,449,Hippopotas,Hippopotas,地面,地面,,Ground,Ground,,68,72,78,38,42,32,330
+450,450,Hippowdon,Hippowdon,地面,地面,,Ground,Ground,,108,112,118,68,72,47,525
+451,451,Skorupi,Skorupi,"毒, 蟲",毒,蟲,"Poison, Bug",Poison,Bug,40,50,90,30,55,65,330
+452,452,Drapion,Drapion,"毒, 惡",毒,惡,"Poison, Dark",Poison,Dark,70,90,110,60,75,95,500
+453,453,Croagunk,Croagunk,"毒, 格鬥",毒,格鬥,"Poison, Fighting",Poison,Fighting,48,61,40,61,40,50,300
+454,454,Toxicroak,Toxicroak,"毒, 格鬥",毒,格鬥,"Poison, Fighting",Poison,Fighting,83,106,65,86,65,85,490
+455,455,Carnivine,Carnivine,草,草,,Grass,Grass,,74,100,72,90,72,46,454
+456,456,Finneon,Finneon,水,水,,Water,Water,,49,49,56,49,61,66,330
+457,457,Lumineon,Lumineon,水,水,,Water,Water,,69,69,76,69,86,91,460
+458,458,Mantyke,Mantyke,"水, 飛行",水,飛行,"Water, Flying",Water,Flying,45,20,50,60,120,50,345
+459,459,Snover,Snover,"草, 冰",草,冰,"Grass, Ice",Grass,Ice,60,62,50,62,60,40,334
+460,460,Abomasnow,Abomasnow,"草, 冰",草,冰,"Grass, Ice",Grass,Ice,90,92,75,92,85,60,494
+460,460,Mega Abomasnow,Abomasnow,"草, 冰",草,冰,"Grass, Ice",Grass,Ice,90,132,105,132,105,30,594
+461,461,Weavile,Weavile,"惡, 冰",惡,冰,"Dark, Ice",Dark,Ice,70,120,65,45,85,125,510
+462,462,Magnezone,Magnezone,"電, 鋼",電,鋼,"Electric, Steel",Electric,Steel,70,70,115,130,90,60,535
+463,463,Lickilicky,Lickilicky,一般,一般,,Normal,Normal,,110,85,95,80,95,50,515
+464,464,Rhyperior,Rhyperior,"地面, 岩石",地面,岩石,"Ground, Rock",Ground,Rock,115,140,130,55,55,40,535
+465,465,Tangrowth,Tangrowth,草,草,,Grass,Grass,,100,100,125,110,50,50,535
+466,466,Electivire,Electivire,電,電,,Electric,Electric,,75,123,67,95,85,95,540
+467,467,Magmortar,Magmortar,火,火,,Fire,Fire,,75,95,67,125,95,83,540
+468,468,Togekiss,Togekiss,"妖精, 飛行",妖精,飛行,"Fairy, Flying",Fairy,Flying,85,50,95,120,115,80,545
+469,469,Yanmega,Yanmega,"蟲, 飛行",蟲,飛行,"Bug, Flying",Bug,Flying,86,76,86,116,56,95,515
+470,470,Leafeon,Leafeon,草,草,,Grass,Grass,,65,110,130,60,65,95,525
+471,471,Glaceon,Glaceon,冰,冰,,Ice,Ice,,65,60,110,130,95,65,525
+472,472,Gliscor,Gliscor,"地面, 飛行",地面,飛行,"Ground, Flying",Ground,Flying,75,95,125,45,75,95,510
+473,473,Mamoswine,Mamoswine,"冰, 地面",冰,地面,"Ice, Ground",Ice,Ground,110,130,80,70,60,80,530
+474,474,Porygon-Z,Porygon-Z,一般,一般,,Normal,Normal,,85,80,70,135,75,90,535
+475,475,Gallade,Gallade,"超能力, 格鬥",超能力,格鬥,"Psychic, Fighting",Psychic,Fighting,68,125,65,65,115,80,518
+475,475,Mega Gallade,Gallade,"超能力, 格鬥",超能力,格鬥,"Psychic, Fighting",Psychic,Fighting,68,165,95,65,115,110,618
+476,476,Probopass,Probopass,"岩石, 鋼",岩石,鋼,"Rock, Steel",Rock,Steel,60,55,145,75,150,40,525
+477,477,Dusknoir,Dusknoir,幽靈,幽靈,,Ghost,Ghost,,45,100,135,65,135,45,525
+478,478,Froslass,Froslass,"冰, 幽靈",冰,幽靈,"Ice, Ghost",Ice,Ghost,70,80,70,80,70,110,480
+479,479,Rotom,Rotom,"電, 幽靈",電,幽靈,"Electric, Ghost",Electric,Ghost,50,50,77,95,77,91,440
+479,479,Rotom (Heat Rotom),Rotom,"電, 火",電,火,"Electric, Fire",Electric,Fire,50,65,107,105,107,86,520
+479,479,Rotom (Wash Rotom),Rotom,"電, 水",電,水,"Electric, Water",Electric,Water,50,65,107,105,107,86,520
+479,479,Rotom (Frost Rotom),Rotom,"電, 冰",電,冰,"Electric, Ice",Electric,Ice,50,65,107,105,107,86,520
+479,479,Rotom (Fan Rotom),Rotom,"電, 飛行",電,飛行,"Electric, Flying",Electric,Flying,50,65,107,105,107,86,520
+479,479,Rotom (Mow Rotom),Rotom,"電, 草",電,草,"Electric, Grass",Electric,Grass,50,65,107,105,107,86,520
+480,480,Uxie,Uxie,超能力,超能力,,Psychic,Psychic,,75,75,130,75,130,95,580
+481,481,Mesprit,Mesprit,超能力,超能力,,Psychic,Psychic,,80,105,105,105,105,80,580
+482,482,Azelf,Azelf,超能力,超能力,,Psychic,Psychic,,75,125,70,125,70,115,580
+483,483,Dialga,Dialga,"鋼, 龍",鋼,龍,"Steel, Dragon",Steel,Dragon,100,120,120,150,100,90,680
+483,483,Dialga (Origin Forme),Dialga,"鋼, 龍",鋼,龍,"Steel, Dragon",Steel,Dragon,100,100,120,150,120,90,680
+484,484,Palkia,Palkia,"水, 龍",水,龍,"Water, Dragon",Water,Dragon,90,120,100,150,120,100,680
+484,484,Palkia (Origin Forme),Palkia,"水, 龍",水,龍,"Water, Dragon",Water,Dragon,90,100,100,150,120,120,680
+485,485,Heatran,Heatran,"火, 鋼",火,鋼,"Fire, Steel",Fire,Steel,91,90,106,130,106,77,600
+486,486,Regigigas,Regigigas,一般,一般,,Normal,Normal,,110,160,110,80,110,100,670
+487,487,Giratina (Altered Forme),Giratina,"幽靈, 龍",幽靈,龍,"Ghost, Dragon",Ghost,Dragon,150,100,120,100,120,90,680
+487,487,Giratina (Origin Forme),Giratina,"幽靈, 龍",幽靈,龍,"Ghost, Dragon",Ghost,Dragon,150,120,100,120,100,90,680
+488,488,Cresselia,Cresselia,超能力,超能力,,Psychic,Psychic,,120,70,110,75,120,85,580
+489,489,Phione,Phione,水,水,,Water,Water,,80,80,80,80,80,80,480
+490,490,Manaphy,Manaphy,水,水,,Water,Water,,100,100,100,100,100,100,600
+491,491,Darkrai,Darkrai,惡,惡,,Dark,Dark,,70,90,90,135,90,125,600
+492,492,Shaymin (Land Forme),Shaymin,草,草,,Grass,Grass,,100,100,100,100,100,100,600
+492,492,Shaymin (Sky Forme),Shaymin,"草, 飛行",草,飛行,"Grass, Flying",Grass,Flying,100,103,75,120,75,127,600
+493,493,Arceus,Arceus,一般,一般,,Normal,Normal,,120,120,120,120,120,120,720
+494,494,Victini,Victini,"超能力, 火",超能力,火,"Psychic, Fire",Psychic,Fire,100,100,100,100,100,100,600
+495,495,Snivy,Snivy,草,草,,Grass,Grass,,45,45,55,45,55,63,308
+496,496,Servine,Servine,草,草,,Grass,Grass,,60,60,75,60,75,83,413
+497,497,Serperior,Serperior,草,草,,Grass,Grass,,75,75,95,75,95,113,528
+498,498,Tepig,Tepig,火,火,,Fire,Fire,,65,63,45,45,45,45,308
+499,499,Pignite,Pignite,"火, 格鬥",火,格鬥,"Fire, Fighting",Fire,Fighting,90,93,55,70,55,55,418
+500,500,Emboar,Emboar,"火, 格鬥",火,格鬥,"Fire, Fighting",Fire,Fighting,110,123,65,100,65,65,528
+501,501,Oshawott,Oshawott,水,水,,Water,Water,,55,55,45,63,45,45,308
+502,502,Dewott,Dewott,水,水,,Water,Water,,75,75,60,83,60,60,413
+503,503,Samurott,Samurott,水,水,,Water,Water,,95,100,85,108,70,70,528
+503,503,Samurott (Hisuian Samurott),Samurott,"水, 惡",水,惡,"Water, Dark",Water,Dark,90,108,80,100,65,85,528
+504,504,Patrat,Patrat,一般,一般,,Normal,Normal,,45,55,39,35,39,42,255
+505,505,Watchog,Watchog,一般,一般,,Normal,Normal,,60,85,69,60,69,77,420
+506,506,Lillipup,Lillipup,一般,一般,,Normal,Normal,,45,60,45,25,45,55,275
+507,507,Herdier,Herdier,一般,一般,,Normal,Normal,,65,80,65,35,65,60,370
+508,508,Stoutland,Stoutland,一般,一般,,Normal,Normal,,85,110,90,45,90,80,500
+509,509,Purrloin,Purrloin,惡,惡,,Dark,Dark,,41,50,37,50,37,66,281
+510,510,Liepard,Liepard,惡,惡,,Dark,Dark,,64,88,50,88,50,106,446
+511,511,Pansage,Pansage,草,草,,Grass,Grass,,50,53,48,53,48,64,316
+512,512,Simisage,Simisage,草,草,,Grass,Grass,,75,98,63,98,63,101,498
+513,513,Pansear,Pansear,火,火,,Fire,Fire,,50,53,48,53,48,64,316
+514,514,Simisear,Simisear,火,火,,Fire,Fire,,75,98,63,98,63,101,498
+515,515,Panpour,Panpour,水,水,,Water,Water,,50,53,48,53,48,64,316
+516,516,Simipour,Simipour,水,水,,Water,Water,,75,98,63,98,63,101,498
+517,517,Munna,Munna,超能力,超能力,,Psychic,Psychic,,76,25,45,67,55,24,292
+518,518,Musharna,Musharna,超能力,超能力,,Psychic,Psychic,,116,55,85,107,95,29,487
+519,519,Pidove,Pidove,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,50,55,50,36,30,43,264
+520,520,Tranquill,Tranquill,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,62,77,62,50,42,65,358
+521,521,Unfezant,Unfezant,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,80,115,80,65,55,93,488
+522,522,Blitzle,Blitzle,電,電,,Electric,Electric,,45,60,32,50,32,76,295
+523,523,Zebstrika,Zebstrika,電,電,,Electric,Electric,,75,100,63,80,63,116,497
+524,524,Roggenrola,Roggenrola,岩石,岩石,,Rock,Rock,,55,75,85,25,25,15,280
+525,525,Boldore,Boldore,岩石,岩石,,Rock,Rock,,70,105,105,50,40,20,390
+526,526,Gigalith,Gigalith,岩石,岩石,,Rock,Rock,,85,135,130,60,80,25,515
+527,527,Woobat,Woobat,"超能力, 飛行",超能力,飛行,"Psychic, Flying",Psychic,Flying,65,45,43,55,43,72,323
+528,528,Swoobat,Swoobat,"超能力, 飛行",超能力,飛行,"Psychic, Flying",Psychic,Flying,67,57,55,77,55,114,425
+529,529,Drilbur,Drilbur,地面,地面,,Ground,Ground,,60,85,40,30,45,68,328
+530,530,Excadrill,Excadrill,"地面, 鋼",地面,鋼,"Ground, Steel",Ground,Steel,110,135,60,50,65,88,508
+531,531,Audino,Audino,一般,一般,,Normal,Normal,,103,60,86,60,86,50,445
+531,531,Mega Audino,Audino,"一般, 妖精",一般,妖精,"Normal, Fairy",Normal,Fairy,103,60,126,80,126,50,545
+532,532,Timburr,Timburr,格鬥,格鬥,,Fighting,Fighting,,75,80,55,25,35,35,305
+533,533,Gurdurr,Gurdurr,格鬥,格鬥,,Fighting,Fighting,,85,105,85,40,50,40,405
+534,534,Conkeldurr,Conkeldurr,格鬥,格鬥,,Fighting,Fighting,,105,140,95,55,65,45,505
+535,535,Tympole,Tympole,水,水,,Water,Water,,50,50,40,50,40,64,294
+536,536,Palpitoad,Palpitoad,"水, 地面",水,地面,"Water, Ground",Water,Ground,75,65,55,65,55,69,384
+537,537,Seismitoad,Seismitoad,"水, 地面",水,地面,"Water, Ground",Water,Ground,105,95,75,85,75,74,509
+538,538,Throh,Throh,格鬥,格鬥,,Fighting,Fighting,,120,100,85,30,85,45,465
+539,539,Sawk,Sawk,格鬥,格鬥,,Fighting,Fighting,,75,125,75,30,75,85,465
+540,540,Sewaddle,Sewaddle,"蟲, 草",蟲,草,"Bug, Grass",Bug,Grass,45,53,70,40,60,42,310
+541,541,Swadloon,Swadloon,"蟲, 草",蟲,草,"Bug, Grass",Bug,Grass,55,63,90,50,80,42,380
+542,542,Leavanny,Leavanny,"蟲, 草",蟲,草,"Bug, Grass",Bug,Grass,75,103,80,70,80,92,500
+543,543,Venipede,Venipede,"蟲, 毒",蟲,毒,"Bug, Poison",Bug,Poison,30,45,59,30,39,57,260
+544,544,Whirlipede,Whirlipede,"蟲, 毒",蟲,毒,"Bug, Poison",Bug,Poison,40,55,99,40,79,47,360
+545,545,Scolipede,Scolipede,"蟲, 毒",蟲,毒,"Bug, Poison",Bug,Poison,60,100,89,55,69,112,485
+546,546,Cottonee,Cottonee,"草, 妖精",草,妖精,"Grass, Fairy",Grass,Fairy,40,27,60,37,50,66,280
+547,547,Whimsicott,Whimsicott,"草, 妖精",草,妖精,"Grass, Fairy",Grass,Fairy,60,67,85,77,75,116,480
+548,548,Petilil,Petilil,草,草,,Grass,Grass,,45,35,50,70,50,30,280
+549,549,Lilligant,Lilligant,草,草,,Grass,Grass,,70,60,75,110,75,90,480
+549,549,Lilligant (Hisuian Lilligant),Lilligant,"草, 格鬥",草,格鬥,"Grass, Fighting",Grass,Fighting,70,105,75,50,75,105,480
+550,550,Basculin (Red-Striped Form),Basculin,水,水,,Water,Water,,70,92,65,80,55,98,460
+550,550,Basculin (Blue-Striped Form),Basculin,水,水,,Water,Water,,70,92,65,80,55,98,460
+550,550,Basculin (White-Striped Form),Basculin,水,水,,Water,Water,,70,92,65,80,55,98,460
+551,551,Sandile,Sandile,"地面, 惡",地面,惡,"Ground, Dark",Ground,Dark,50,72,35,35,35,65,292
+552,552,Krokorok,Krokorok,"地面, 惡",地面,惡,"Ground, Dark",Ground,Dark,60,82,45,45,45,74,351
+553,553,Krookodile,Krookodile,"地面, 惡",地面,惡,"Ground, Dark",Ground,Dark,95,117,80,65,70,92,519
+554,554,Darumaka,Darumaka,火,火,,Fire,Fire,,70,90,45,15,45,50,315
+554,554,Galarian Darumaka,Darumaka,冰,冰,,Ice,Ice,,70,90,45,15,45,50,315
+555,555,Darmanitan (Standard Mode),Darmanitan,火,火,,Fire,Fire,,105,140,55,30,55,95,480
+555,555,Darmanitan (Zen Mode),Darmanitan,"火, 超能力",火,超能力,"Fire, Psychic",Fire,Psychic,105,30,105,140,105,55,540
+555,555,Darmanitan (Galarian Standard Mode),Darmanitan,冰,冰,,Ice,Ice,,105,140,55,30,55,95,480
+555,555,Darmanitan (Galarian Zen Mode),Darmanitan,"冰, 火",冰,火,"Ice, Fire",Ice,Fire,105,160,55,30,55,135,540
+556,556,Maractus,Maractus,草,草,,Grass,Grass,,75,86,67,106,67,60,461
+557,557,Dwebble,Dwebble,"蟲, 岩石",蟲,岩石,"Bug, Rock",Bug,Rock,50,65,85,35,35,55,325
+558,558,Crustle,Crustle,"蟲, 岩石",蟲,岩石,"Bug, Rock",Bug,Rock,70,105,125,65,75,45,485
+559,559,Scraggy,Scraggy,"惡, 格鬥",惡,格鬥,"Dark, Fighting",Dark,Fighting,50,75,70,35,70,48,348
+560,560,Scrafty,Scrafty,"惡, 格鬥",惡,格鬥,"Dark, Fighting",Dark,Fighting,65,90,115,45,115,58,488
+561,561,Sigilyph,Sigilyph,"超能力, 飛行",超能力,飛行,"Psychic, Flying",Psychic,Flying,72,58,80,103,80,97,490
+562,562,Yamask,Yamask,幽靈,幽靈,,Ghost,Ghost,,38,30,85,55,65,30,303
+562,562,Galarian Yamask,Yamask,"地面, 幽靈",地面,幽靈,"Ground, Ghost",Ground,Ghost,38,55,85,30,65,30,303
+563,563,Cofagrigus,Cofagrigus,幽靈,幽靈,,Ghost,Ghost,,58,50,145,95,105,30,483
+564,564,Tirtouga,Tirtouga,"水, 岩石",水,岩石,"Water, Rock",Water,Rock,54,78,103,53,45,22,355
+565,565,Carracosta,Carracosta,"水, 岩石",水,岩石,"Water, Rock",Water,Rock,74,108,133,83,65,32,495
+566,566,Archen,Archen,"岩石, 飛行",岩石,飛行,"Rock, Flying",Rock,Flying,55,112,45,74,45,70,401
+567,567,Archeops,Archeops,"岩石, 飛行",岩石,飛行,"Rock, Flying",Rock,Flying,75,140,65,112,65,110,567
+568,568,Trubbish,Trubbish,毒,毒,,Poison,Poison,,50,50,62,40,62,65,329
+569,569,Garbodor,Garbodor,毒,毒,,Poison,Poison,,80,95,82,60,82,75,474
+570,570,Zorua,Zorua,惡,惡,,Dark,Dark,,40,65,40,80,40,65,330
+570,570,Zorua (Hisuian Zorua),Zorua,"一般, 幽靈",一般,幽靈,"Normal, Ghost",Normal,Ghost,35,60,40,85,40,70,330
+571,571,Zoroark,Zoroark,惡,惡,,Dark,Dark,,60,105,60,120,60,105,510
+571,571,Zoroark (Hisuian Zoroark),Zoroark,"一般, 幽靈",一般,幽靈,"Normal, Ghost",Normal,Ghost,60,105,60,120,60,105,510
+572,572,Minccino,Minccino,一般,一般,,Normal,Normal,,55,50,40,40,40,75,300
+573,573,Cinccino,Cinccino,一般,一般,,Normal,Normal,,75,95,60,65,60,115,470
+574,574,Gothita,Gothita,超能力,超能力,,Psychic,Psychic,,45,30,50,55,65,45,290
+575,575,Gothorita,Gothorita,超能力,超能力,,Psychic,Psychic,,60,45,70,75,85,55,390
+576,576,Gothitelle,Gothitelle,超能力,超能力,,Psychic,Psychic,,70,55,95,95,110,65,490
+577,577,Solosis,Solosis,超能力,超能力,,Psychic,Psychic,,45,30,40,105,50,20,290
+578,578,Duosion,Duosion,超能力,超能力,,Psychic,Psychic,,65,40,50,125,60,30,370
+579,579,Reuniclus,Reuniclus,超能力,超能力,,Psychic,Psychic,,110,65,75,125,85,30,490
+580,580,Ducklett,Ducklett,"水, 飛行",水,飛行,"Water, Flying",Water,Flying,62,44,50,44,50,55,305
+581,581,Swanna,Swanna,"水, 飛行",水,飛行,"Water, Flying",Water,Flying,75,87,63,87,63,98,473
+582,582,Vanillite,Vanillite,冰,冰,,Ice,Ice,,36,50,50,65,60,44,305
+583,583,Vanillish,Vanillish,冰,冰,,Ice,Ice,,51,65,65,80,75,59,395
+584,584,Vanilluxe,Vanilluxe,冰,冰,,Ice,Ice,,71,95,85,110,95,79,535
+585,585,Deerling,Deerling,"一般, 草",一般,草,"Normal, Grass",Normal,Grass,60,60,50,40,50,75,335
+586,586,Sawsbuck,Sawsbuck,"一般, 草",一般,草,"Normal, Grass",Normal,Grass,80,100,70,60,70,95,475
+587,587,Emolga,Emolga,"電, 飛行",電,飛行,"Electric, Flying",Electric,Flying,55,75,60,75,60,103,428
+588,588,Karrablast,Karrablast,蟲,蟲,,Bug,Bug,,50,75,45,40,45,60,315
+589,589,Escavalier,Escavalier,"蟲, 鋼",蟲,鋼,"Bug, Steel",Bug,Steel,70,135,105,60,105,20,495
+590,590,Foongus,Foongus,"草, 毒",草,毒,"Grass, Poison",Grass,Poison,69,55,45,55,55,15,294
+591,591,Amoonguss,Amoonguss,"草, 毒",草,毒,"Grass, Poison",Grass,Poison,114,85,70,85,80,30,464
+592,592,Frillish,Frillish,"水, 幽靈",水,幽靈,"Water, Ghost",Water,Ghost,55,40,50,65,85,40,335
+593,593,Jellicent,Jellicent,"水, 幽靈",水,幽靈,"Water, Ghost",Water,Ghost,100,60,70,85,105,60,480
+594,594,Alomomola,Alomomola,水,水,,Water,Water,,165,75,80,40,45,65,470
+595,595,Joltik,Joltik,"蟲, 電",蟲,電,"Bug, Electric",Bug,Electric,50,47,50,57,50,65,319
+596,596,Galvantula,Galvantula,"蟲, 電",蟲,電,"Bug, Electric",Bug,Electric,70,77,60,97,60,108,472
+597,597,Ferroseed,Ferroseed,"草, 鋼",草,鋼,"Grass, Steel",Grass,Steel,44,50,91,24,86,10,305
+598,598,Ferrothorn,Ferrothorn,"草, 鋼",草,鋼,"Grass, Steel",Grass,Steel,74,94,131,54,116,20,489
+599,599,Klink,Klink,鋼,鋼,,Steel,Steel,,40,55,70,45,60,30,300
+600,600,Klang,Klang,鋼,鋼,,Steel,Steel,,60,80,95,70,85,50,440
+601,601,Klinklang,Klinklang,鋼,鋼,,Steel,Steel,,60,100,115,70,85,90,520
+602,602,Tynamo,Tynamo,電,電,,Electric,Electric,,35,55,40,45,40,60,275
+603,603,Eelektrik,Eelektrik,電,電,,Electric,Electric,,65,85,70,75,70,40,405
+604,604,Eelektross,Eelektross,電,電,,Electric,Electric,,85,115,80,105,80,50,515
+605,605,Elgyem,Elgyem,超能力,超能力,,Psychic,Psychic,,55,55,55,85,55,30,335
+606,606,Beheeyem,Beheeyem,超能力,超能力,,Psychic,Psychic,,75,75,75,125,95,40,485
+607,607,Litwick,Litwick,"幽靈, 火",幽靈,火,"Ghost, Fire",Ghost,Fire,50,30,55,65,55,20,275
+608,608,Lampent,Lampent,"幽靈, 火",幽靈,火,"Ghost, Fire",Ghost,Fire,60,40,60,95,60,55,370
+609,609,Chandelure,Chandelure,"幽靈, 火",幽靈,火,"Ghost, Fire",Ghost,Fire,60,55,90,145,90,80,520
+610,610,Axew,Axew,龍,龍,,Dragon,Dragon,,46,87,60,30,40,57,320
+611,611,Fraxure,Fraxure,龍,龍,,Dragon,Dragon,,66,117,70,40,50,67,410
+612,612,Haxorus,Haxorus,龍,龍,,Dragon,Dragon,,76,147,90,60,70,97,540
+613,613,Cubchoo,Cubchoo,冰,冰,,Ice,Ice,,55,70,40,60,40,40,305
+614,614,Beartic,Beartic,冰,冰,,Ice,Ice,,95,130,80,70,80,50,505
+615,615,Cryogonal,Cryogonal,冰,冰,,Ice,Ice,,80,50,50,95,135,105,515
+616,616,Shelmet,Shelmet,蟲,蟲,,Bug,Bug,,50,40,85,40,65,25,305
+617,617,Accelgor,Accelgor,蟲,蟲,,Bug,Bug,,80,70,40,100,60,145,495
+618,618,Stunfisk,Stunfisk,"地面, 電",地面,電,"Ground, Electric",Ground,Electric,109,66,84,81,99,32,471
+618,618,Galarian Stunfisk,Stunfisk,"地面, 鋼",地面,鋼,"Ground, Steel",Ground,Steel,109,81,99,66,84,32,471
+619,619,Mienfoo,Mienfoo,格鬥,格鬥,,Fighting,Fighting,,45,85,50,55,50,65,350
+620,620,Mienshao,Mienshao,格鬥,格鬥,,Fighting,Fighting,,65,125,60,95,60,105,510
+621,621,Druddigon,Druddigon,龍,龍,,Dragon,Dragon,,77,120,90,60,90,48,485
+622,622,Golett,Golett,"地面, 幽靈",地面,幽靈,"Ground, Ghost",Ground,Ghost,59,74,50,35,50,35,303
+623,623,Golurk,Golurk,"地面, 幽靈",地面,幽靈,"Ground, Ghost",Ground,Ghost,89,124,80,55,80,55,483
+624,624,Pawniard,Pawniard,"惡, 鋼",惡,鋼,"Dark, Steel",Dark,Steel,45,85,70,40,40,60,340
+625,625,Bisharp,Bisharp,"惡, 鋼",惡,鋼,"Dark, Steel",Dark,Steel,65,125,100,60,70,70,490
+626,626,Bouffalant,Bouffalant,一般,一般,,Normal,Normal,,95,110,95,40,95,55,490
+627,627,Rufflet,Rufflet,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,70,83,50,37,50,60,350
+628,628,Braviary,Braviary,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,100,123,75,57,75,80,510
+628,628,Braviary (Hisuian Braviary),Braviary,"超能力, 飛行",超能力,飛行,"Psychic, Flying",Psychic,Flying,110,83,70,112,70,65,510
+629,629,Vullaby,Vullaby,"惡, 飛行",惡,飛行,"Dark, Flying",Dark,Flying,70,55,75,45,65,60,370
+630,630,Mandibuzz,Mandibuzz,"惡, 飛行",惡,飛行,"Dark, Flying",Dark,Flying,110,65,105,55,95,80,510
+631,631,Heatmor,Heatmor,火,火,,Fire,Fire,,85,97,66,105,66,65,484
+632,632,Durant,Durant,"蟲, 鋼",蟲,鋼,"Bug, Steel",Bug,Steel,58,109,112,48,48,109,484
+633,633,Deino,Deino,"惡, 龍",惡,龍,"Dark, Dragon",Dark,Dragon,52,65,50,45,50,38,300
+634,634,Zweilous,Zweilous,"惡, 龍",惡,龍,"Dark, Dragon",Dark,Dragon,72,85,70,65,70,58,420
+635,635,Hydreigon,Hydreigon,"惡, 龍",惡,龍,"Dark, Dragon",Dark,Dragon,92,105,90,125,90,98,600
+636,636,Larvesta,Larvesta,"蟲, 火",蟲,火,"Bug, Fire",Bug,Fire,55,85,55,50,55,60,360
+637,637,Volcarona,Volcarona,"蟲, 火",蟲,火,"Bug, Fire",Bug,Fire,85,60,65,135,105,100,550
+638,638,Cobalion,Cobalion,"鋼, 格鬥",鋼,格鬥,"Steel, Fighting",Steel,Fighting,91,90,129,90,72,108,580
+639,639,Terrakion,Terrakion,"岩石, 格鬥",岩石,格鬥,"Rock, Fighting",Rock,Fighting,91,129,90,72,90,108,580
+640,640,Virizion,Virizion,"草, 格鬥",草,格鬥,"Grass, Fighting",Grass,Fighting,91,90,72,90,129,108,580
+641,641,Tornadus (Incarnate Forme),Tornadus,飛行,飛行,,Flying,Flying,,79,115,70,125,80,111,580
+641,641,Tornadus (Therian Forme),Tornadus,飛行,飛行,,Flying,Flying,,79,100,80,110,90,121,580
+642,642,Thundurus (Incarnate Forme),Thundurus,"電, 飛行",電,飛行,"Electric, Flying",Electric,Flying,79,115,70,125,80,111,580
+642,642,Thundurus (Therian Forme),Thundurus,"電, 飛行",電,飛行,"Electric, Flying",Electric,Flying,79,105,70,145,80,101,580
+643,643,Reshiram,Reshiram,"龍, 火",龍,火,"Dragon, Fire",Dragon,Fire,100,120,100,150,120,90,680
+644,644,Zekrom,Zekrom,"龍, 電",龍,電,"Dragon, Electric",Dragon,Electric,100,150,120,120,100,90,680
+645,645,Landorus (Incarnate Forme),Landorus,"地面, 飛行",地面,飛行,"Ground, Flying",Ground,Flying,89,125,90,115,80,101,600
+645,645,Landorus (Therian Forme),Landorus,"地面, 飛行",地面,飛行,"Ground, Flying",Ground,Flying,89,145,90,105,80,91,600
+646,646,Kyurem,Kyurem,"龍, 冰",龍,冰,"Dragon, Ice",Dragon,Ice,125,130,90,130,90,95,660
+646,646,Kyurem (White Kyurem),Kyurem,"龍, 冰",龍,冰,"Dragon, Ice",Dragon,Ice,125,120,90,170,100,95,700
+646,646,Kyurem (Black Kyurem),Kyurem,"龍, 冰",龍,冰,"Dragon, Ice",Dragon,Ice,125,170,100,120,90,95,700
+647,647,Keldeo (Ordinary Form),Keldeo,"水, 格鬥",水,格鬥,"Water, Fighting",Water,Fighting,91,72,90,129,90,108,580
+647,647,Keldeo (Resolute Form),Keldeo,"水, 格鬥",水,格鬥,"Water, Fighting",Water,Fighting,91,72,90,129,90,108,580
+648,648,Meloetta (Aria Forme),Meloetta,"一般, 超能力",一般,超能力,"Normal, Psychic",Normal,Psychic,100,77,77,128,128,90,600
+648,648,Meloetta (Pirouette Forme),Meloetta,"一般, 格鬥",一般,格鬥,"Normal, Fighting",Normal,Fighting,100,128,90,77,77,128,600
+649,649,Genesect,Genesect,"蟲, 鋼",蟲,鋼,"Bug, Steel",Bug,Steel,71,120,95,120,95,99,600
+650,650,Chespin,Chespin,草,草,,Grass,Grass,,56,61,65,48,45,38,313
+651,651,Quilladin,Quilladin,草,草,,Grass,Grass,,61,78,95,56,58,57,405
+652,652,Chesnaught,Chesnaught,"草, 格鬥",草,格鬥,"Grass, Fighting",Grass,Fighting,88,107,122,74,75,64,530
+653,653,Fennekin,Fennekin,火,火,,Fire,Fire,,40,45,40,62,60,60,307
+654,654,Braixen,Braixen,火,火,,Fire,Fire,,59,59,58,90,70,73,409
+655,655,Delphox,Delphox,"火, 超能力",火,超能力,"Fire, Psychic",Fire,Psychic,75,69,72,114,100,104,534
+656,656,Froakie,Froakie,水,水,,Water,Water,,41,56,40,62,44,71,314
+657,657,Frogadier,Frogadier,水,水,,Water,Water,,54,63,52,83,56,97,405
+658,658,Greninja,Greninja,"水, 惡",水,惡,"Water, Dark",Water,Dark,72,95,67,103,71,122,530
+658,658,Greninja (Ash-Greninja),Greninja,"水, 惡",水,惡,"Water, Dark",Water,Dark,72,145,67,153,71,132,640
+659,659,Bunnelby,Bunnelby,一般,一般,,Normal,Normal,,38,36,38,32,36,57,237
+660,660,Diggersby,Diggersby,"一般, 地面",一般,地面,"Normal, Ground",Normal,Ground,85,56,77,50,77,78,423
+661,661,Fletchling,Fletchling,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,45,50,43,40,38,62,278
+662,662,Fletchinder,Fletchinder,"火, 飛行",火,飛行,"Fire, Flying",Fire,Flying,62,73,55,56,52,84,382
+663,663,Talonflame,Talonflame,"火, 飛行",火,飛行,"Fire, Flying",Fire,Flying,78,81,71,74,69,126,499
+664,664,Scatterbug,Scatterbug,蟲,蟲,,Bug,Bug,,38,35,40,27,25,35,200
+665,665,Spewpa,Spewpa,蟲,蟲,,Bug,Bug,,45,22,60,27,30,29,213
+666,666,Vivillon,Vivillon,"蟲, 飛行",蟲,飛行,"Bug, Flying",Bug,Flying,80,52,50,90,50,89,411
+667,667,Litleo,Litleo,"火, 一般",火,一般,"Fire, Normal",Fire,Normal,62,50,58,73,54,72,369
+668,668,Pyroar,Pyroar,"火, 一般",火,一般,"Fire, Normal",Fire,Normal,86,68,72,109,66,106,507
+669,669,Flabébé,Flabébé,妖精,妖精,,Fairy,Fairy,,44,38,39,61,79,42,303
+670,670,Floette,Floette,妖精,妖精,,Fairy,Fairy,,54,45,47,75,98,52,371
+671,671,Florges,Florges,妖精,妖精,,Fairy,Fairy,,78,65,68,112,154,75,552
+672,672,Skiddo,Skiddo,草,草,,Grass,Grass,,66,65,48,62,57,52,350
+673,673,Gogoat,Gogoat,草,草,,Grass,Grass,,123,100,62,97,81,68,531
+674,674,Pancham,Pancham,格鬥,格鬥,,Fighting,Fighting,,67,82,62,46,48,43,348
+675,675,Pangoro,Pangoro,"格鬥, 惡",格鬥,惡,"Fighting, Dark",Fighting,Dark,95,124,78,69,71,58,495
+676,676,Furfrou,Furfrou,一般,一般,,Normal,Normal,,75,80,60,65,90,102,472
+677,677,Espurr,Espurr,超能力,超能力,,Psychic,Psychic,,62,48,54,63,60,68,355
+678,678,Meowstic (Male),Meowstic,超能力,超能力,,Psychic,Psychic,,74,48,76,83,81,104,466
+678,678,Meowstic (Female),Meowstic,超能力,超能力,,Psychic,Psychic,,74,48,76,83,81,104,466
+679,679,Honedge,Honedge,"鋼, 幽靈",鋼,幽靈,"Steel, Ghost",Steel,Ghost,45,80,100,35,37,28,325
+680,680,Doublade,Doublade,"鋼, 幽靈",鋼,幽靈,"Steel, Ghost",Steel,Ghost,59,110,150,45,49,35,448
+681,681,Aegislash (Shield Forme),Aegislash,"鋼, 幽靈",鋼,幽靈,"Steel, Ghost",Steel,Ghost,60,50,140,50,140,60,500
+681,681,Aegislash (Blade Forme),Aegislash,"鋼, 幽靈",鋼,幽靈,"Steel, Ghost",Steel,Ghost,60,140,50,140,50,60,500
+682,682,Spritzee,Spritzee,妖精,妖精,,Fairy,Fairy,,78,52,60,63,65,23,341
+683,683,Aromatisse,Aromatisse,妖精,妖精,,Fairy,Fairy,,101,72,72,99,89,29,462
+684,684,Swirlix,Swirlix,妖精,妖精,,Fairy,Fairy,,62,48,66,59,57,49,341
+685,685,Slurpuff,Slurpuff,妖精,妖精,,Fairy,Fairy,,82,80,86,85,75,72,480
+686,686,Inkay,Inkay,"惡, 超能力",惡,超能力,"Dark, Psychic",Dark,Psychic,53,54,53,37,46,45,288
+687,687,Malamar,Malamar,"惡, 超能力",惡,超能力,"Dark, Psychic",Dark,Psychic,86,92,88,68,75,73,482
+688,688,Binacle,Binacle,"岩石, 水",岩石,水,"Rock, Water",Rock,Water,42,52,67,39,56,50,306
+689,689,Barbaracle,Barbaracle,"岩石, 水",岩石,水,"Rock, Water",Rock,Water,72,105,115,54,86,68,500
+690,690,Skrelp,Skrelp,"毒, 水",毒,水,"Poison, Water",Poison,Water,50,60,60,60,60,30,320
+691,691,Dragalge,Dragalge,"毒, 龍",毒,龍,"Poison, Dragon",Poison,Dragon,65,75,90,97,123,44,494
+692,692,Clauncher,Clauncher,水,水,,Water,Water,,50,53,62,58,63,44,330
+693,693,Clawitzer,Clawitzer,水,水,,Water,Water,,71,73,88,120,89,59,500
+694,694,Helioptile,Helioptile,"電, 一般",電,一般,"Electric, Normal",Electric,Normal,44,38,33,61,43,70,289
+695,695,Heliolisk,Heliolisk,"電, 一般",電,一般,"Electric, Normal",Electric,Normal,62,55,52,109,94,109,481
+696,696,Tyrunt,Tyrunt,"岩石, 龍",岩石,龍,"Rock, Dragon",Rock,Dragon,58,89,77,45,45,48,362
+697,697,Tyrantrum,Tyrantrum,"岩石, 龍",岩石,龍,"Rock, Dragon",Rock,Dragon,82,121,119,69,59,71,521
+698,698,Amaura,Amaura,"岩石, 冰",岩石,冰,"Rock, Ice",Rock,Ice,77,59,50,67,63,46,362
+699,699,Aurorus,Aurorus,"岩石, 冰",岩石,冰,"Rock, Ice",Rock,Ice,123,77,72,99,92,58,521
+700,700,Sylveon,Sylveon,妖精,妖精,,Fairy,Fairy,,95,65,65,110,130,60,525
+701,701,Hawlucha,Hawlucha,"格鬥, 飛行",格鬥,飛行,"Fighting, Flying",Fighting,Flying,78,92,75,74,63,118,500
+702,702,Dedenne,Dedenne,"電, 妖精",電,妖精,"Electric, Fairy",Electric,Fairy,67,58,57,81,67,101,431
+703,703,Carbink,Carbink,"岩石, 妖精",岩石,妖精,"Rock, Fairy",Rock,Fairy,50,50,150,50,150,50,500
+704,704,Goomy,Goomy,龍,龍,,Dragon,Dragon,,45,50,35,55,75,40,300
+705,705,Sliggoo,Sliggoo,龍,龍,,Dragon,Dragon,,68,75,53,83,113,60,452
+705,705,Sliggoo (Hisuian Sliggoo),Sliggoo,"鋼, 龍",鋼,龍,"Steel, Dragon",Steel,Dragon,58,75,83,83,113,40,452
+706,706,Goodra,Goodra,龍,龍,,Dragon,Dragon,,90,100,70,110,150,80,600
+706,706,Goodra (Hisuian Goodra),Goodra,"鋼, 龍",鋼,龍,"Steel, Dragon",Steel,Dragon,80,100,100,110,150,60,600
+707,707,Klefki,Klefki,"鋼, 妖精",鋼,妖精,"Steel, Fairy",Steel,Fairy,57,80,91,80,87,75,470
+708,708,Phantump,Phantump,"幽靈, 草",幽靈,草,"Ghost, Grass",Ghost,Grass,43,70,48,50,60,38,309
+709,709,Trevenant,Trevenant,"幽靈, 草",幽靈,草,"Ghost, Grass",Ghost,Grass,85,110,76,65,82,56,474
+710,710,Pumpkaboo (Average Size),Pumpkaboo,"幽靈, 草",幽靈,草,"Ghost, Grass",Ghost,Grass,49,66,70,44,55,51,335
+710,710,Pumpkaboo (Small Size),Pumpkaboo,"幽靈, 草",幽靈,草,"Ghost, Grass",Ghost,Grass,44,66,70,44,55,56,335
+710,710,Pumpkaboo (Large Size),Pumpkaboo,"幽靈, 草",幽靈,草,"Ghost, Grass",Ghost,Grass,54,66,70,44,55,46,335
+710,710,Pumpkaboo (Super Size),Pumpkaboo,"幽靈, 草",幽靈,草,"Ghost, Grass",Ghost,Grass,59,66,70,44,55,41,335
+711,711,Gourgeist (Average Size),Gourgeist,"幽靈, 草",幽靈,草,"Ghost, Grass",Ghost,Grass,65,90,122,58,75,84,494
+711,711,Gourgeist (Small Size),Gourgeist,"幽靈, 草",幽靈,草,"Ghost, Grass",Ghost,Grass,55,85,122,58,75,99,494
+711,711,Gourgeist (Large Size),Gourgeist,"幽靈, 草",幽靈,草,"Ghost, Grass",Ghost,Grass,75,95,122,58,75,69,494
+711,711,Gourgeist (Super Size),Gourgeist,"幽靈, 草",幽靈,草,"Ghost, Grass",Ghost,Grass,85,100,122,58,75,54,494
+712,712,Bergmite,Bergmite,冰,冰,,Ice,Ice,,55,69,85,32,35,28,304
+713,713,Avalugg,Avalugg,冰,冰,,Ice,Ice,,95,117,184,44,46,28,514
+713,713,Avalugg (Hisuian Avalugg),Avalugg,"冰, 岩石",冰,岩石,"Ice, Rock",Ice,Rock,95,127,184,34,36,38,514
+714,714,Noibat,Noibat,"飛行, 龍",飛行,龍,"Flying, Dragon",Flying,Dragon,40,30,35,45,40,55,245
+715,715,Noivern,Noivern,"飛行, 龍",飛行,龍,"Flying, Dragon",Flying,Dragon,85,70,80,97,80,123,535
+716,716,Xerneas,Xerneas,妖精,妖精,,Fairy,Fairy,,126,131,95,131,98,99,680
+717,717,Yveltal,Yveltal,"惡, 飛行",惡,飛行,"Dark, Flying",Dark,Flying,126,131,95,131,98,99,680
+718,718,Zygarde (50% Forme),Zygarde,"龍, 地面",龍,地面,"Dragon, Ground",Dragon,Ground,108,100,121,81,95,95,600
+718,718,Zygarde (10% Forme),Zygarde,"龍, 地面",龍,地面,"Dragon, Ground",Dragon,Ground,54,100,71,61,85,115,486
+718,718,Zygarde (Complete Forme),Zygarde,"龍, 地面",龍,地面,"Dragon, Ground",Dragon,Ground,216,100,121,91,95,85,708
+719,719,Diancie,Diancie,"岩石, 妖精",岩石,妖精,"Rock, Fairy",Rock,Fairy,50,100,150,100,150,50,600
+719,719,Mega Diancie,Diancie,"岩石, 妖精",岩石,妖精,"Rock, Fairy",Rock,Fairy,50,160,110,160,110,110,700
+720,720,Hoopa (Hoopa Confined),Hoopa,"超能力, 幽靈",超能力,幽靈,"Psychic, Ghost",Psychic,Ghost,80,110,60,150,130,70,600
+720,720,Hoopa (Hoopa Unbound),Hoopa,"超能力, 惡",超能力,惡,"Psychic, Dark",Psychic,Dark,80,160,60,170,130,80,680
+721,721,Volcanion,Volcanion,"火, 水",火,水,"Fire, Water",Fire,Water,80,110,120,130,90,70,600
+722,722,Rowlet,Rowlet,"草, 飛行",草,飛行,"Grass, Flying",Grass,Flying,68,55,55,50,50,42,320
+723,723,Dartrix,Dartrix,"草, 飛行",草,飛行,"Grass, Flying",Grass,Flying,78,75,75,70,70,52,420
+724,724,Decidueye,Decidueye,"草, 幽靈",草,幽靈,"Grass, Ghost",Grass,Ghost,78,107,75,100,100,70,530
+724,724,Decidueye (Hisuian Decidueye),Decidueye,"草, 格鬥",草,格鬥,"Grass, Fighting",Grass,Fighting,88,112,80,95,95,60,530
+725,725,Litten,Litten,火,火,,Fire,Fire,,45,65,40,60,40,70,320
+726,726,Torracat,Torracat,火,火,,Fire,Fire,,65,85,50,80,50,90,420
+727,727,Incineroar,Incineroar,"火, 惡",火,惡,"Fire, Dark",Fire,Dark,95,115,90,80,90,60,530
+728,728,Popplio,Popplio,水,水,,Water,Water,,50,54,54,66,56,40,320
+729,729,Brionne,Brionne,水,水,,Water,Water,,60,69,69,91,81,50,420
+730,730,Primarina,Primarina,"水, 妖精",水,妖精,"Water, Fairy",Water,Fairy,80,74,74,126,116,60,530
+731,731,Pikipek,Pikipek,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,35,75,30,30,30,65,265
+732,732,Trumbeak,Trumbeak,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,55,85,50,40,50,75,355
+733,733,Toucannon,Toucannon,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,80,120,75,75,75,60,485
+734,734,Yungoos,Yungoos,一般,一般,,Normal,Normal,,48,70,30,30,30,45,253
+735,735,Gumshoos,Gumshoos,一般,一般,,Normal,Normal,,88,110,60,55,60,45,418
+736,736,Grubbin,Grubbin,蟲,蟲,,Bug,Bug,,47,62,45,55,45,46,300
+737,737,Charjabug,Charjabug,"蟲, 電",蟲,電,"Bug, Electric",Bug,Electric,57,82,95,55,75,36,400
+738,738,Vikavolt,Vikavolt,"蟲, 電",蟲,電,"Bug, Electric",Bug,Electric,77,70,90,145,75,43,500
+739,739,Crabrawler,Crabrawler,格鬥,格鬥,,Fighting,Fighting,,47,82,57,42,47,63,338
+740,740,Crabominable,Crabominable,"格鬥, 冰",格鬥,冰,"Fighting, Ice",Fighting,Ice,97,132,77,62,67,43,478
+741,741,Oricorio (Baile Style),Oricorio,"火, 飛行",火,飛行,"Fire, Flying",Fire,Flying,75,70,70,98,70,93,476
+741,741,Oricorio (Pom-Pom Style),Oricorio,"電, 飛行",電,飛行,"Electric, Flying",Electric,Flying,75,70,70,98,70,93,476
+741,741,Oricorio (Pa'u Style),Oricorio,"超能力, 飛行",超能力,飛行,"Psychic, Flying",Psychic,Flying,75,70,70,98,70,93,476
+741,741,Oricorio (Sensu Style),Oricorio,"幽靈, 飛行",幽靈,飛行,"Ghost, Flying",Ghost,Flying,75,70,70,98,70,93,476
+742,742,Cutiefly,Cutiefly,"蟲, 妖精",蟲,妖精,"Bug, Fairy",Bug,Fairy,40,45,40,55,40,84,304
+743,743,Ribombee,Ribombee,"蟲, 妖精",蟲,妖精,"Bug, Fairy",Bug,Fairy,60,55,60,95,70,124,464
+744,744,Rockruff,Rockruff,岩石,岩石,,Rock,Rock,,45,65,40,30,40,60,280
+744,744,Rockruff (Own Tempo Rockruff),Rockruff,岩石,岩石,,Rock,Rock,,45,65,40,30,40,60,280
+745,745,Lycanroc (Midday Form),Lycanroc,岩石,岩石,,Rock,Rock,,75,115,65,55,65,112,487
+745,745,Lycanroc (Midnight Form),Lycanroc,岩石,岩石,,Rock,Rock,,85,115,75,55,75,82,487
+745,745,Lycanroc (Dusk Form),Lycanroc,岩石,岩石,,Rock,Rock,,75,117,65,55,65,110,487
+746,746,Wishiwashi (Solo Form),Wishiwashi,水,水,,Water,Water,,45,20,20,25,25,40,175
+746,746,Wishiwashi (School Form),Wishiwashi,水,水,,Water,Water,,45,140,130,140,135,30,620
+747,747,Mareanie,Mareanie,"毒, 水",毒,水,"Poison, Water",Poison,Water,50,53,62,43,52,45,305
+748,748,Toxapex,Toxapex,"毒, 水",毒,水,"Poison, Water",Poison,Water,50,63,152,53,142,35,495
+749,749,Mudbray,Mudbray,地面,地面,,Ground,Ground,,70,100,70,45,55,45,385
+750,750,Mudsdale,Mudsdale,地面,地面,,Ground,Ground,,100,125,100,55,85,35,500
+751,751,Dewpider,Dewpider,"水, 蟲",水,蟲,"Water, Bug",Water,Bug,38,40,52,40,72,27,269
+752,752,Araquanid,Araquanid,"水, 蟲",水,蟲,"Water, Bug",Water,Bug,68,70,92,50,132,42,454
+753,753,Fomantis,Fomantis,草,草,,Grass,Grass,,40,55,35,50,35,35,250
+754,754,Lurantis,Lurantis,草,草,,Grass,Grass,,70,105,90,80,90,45,480
+755,755,Morelull,Morelull,"草, 妖精",草,妖精,"Grass, Fairy",Grass,Fairy,40,35,55,65,75,15,285
+756,756,Shiinotic,Shiinotic,"草, 妖精",草,妖精,"Grass, Fairy",Grass,Fairy,60,45,80,90,100,30,405
+757,757,Salandit,Salandit,"毒, 火",毒,火,"Poison, Fire",Poison,Fire,48,44,40,71,40,77,320
+758,758,Salazzle,Salazzle,"毒, 火",毒,火,"Poison, Fire",Poison,Fire,68,64,60,111,60,117,480
+759,759,Stufful,Stufful,"一般, 格鬥",一般,格鬥,"Normal, Fighting",Normal,Fighting,70,75,50,45,50,50,340
+760,760,Bewear,Bewear,"一般, 格鬥",一般,格鬥,"Normal, Fighting",Normal,Fighting,120,125,80,55,60,60,500
+761,761,Bounsweet,Bounsweet,草,草,,Grass,Grass,,42,30,38,30,38,32,210
+762,762,Steenee,Steenee,草,草,,Grass,Grass,,52,40,48,40,48,62,290
+763,763,Tsareena,Tsareena,草,草,,Grass,Grass,,72,120,98,50,98,72,510
+764,764,Comfey,Comfey,妖精,妖精,,Fairy,Fairy,,51,52,90,82,110,100,485
+765,765,Oranguru,Oranguru,"一般, 超能力",一般,超能力,"Normal, Psychic",Normal,Psychic,90,60,80,90,110,60,490
+766,766,Passimian,Passimian,格鬥,格鬥,,Fighting,Fighting,,100,120,90,40,60,80,490
+767,767,Wimpod,Wimpod,"蟲, 水",蟲,水,"Bug, Water",Bug,Water,25,35,40,20,30,80,230
+768,768,Golisopod,Golisopod,"蟲, 水",蟲,水,"Bug, Water",Bug,Water,75,125,140,60,90,40,530
+769,769,Sandygast,Sandygast,"幽靈, 地面",幽靈,地面,"Ghost, Ground",Ghost,Ground,55,55,80,70,45,15,320
+770,770,Palossand,Palossand,"幽靈, 地面",幽靈,地面,"Ghost, Ground",Ghost,Ground,85,75,110,100,75,35,480
+771,771,Pyukumuku,Pyukumuku,水,水,,Water,Water,,55,60,130,30,130,5,410
+772,772,Type: Null,Type: Null,一般,一般,,Normal,Normal,,95,95,95,95,95,59,534
+773,773,Silvally,Silvally,一般,一般,,Normal,Normal,,95,95,95,95,95,95,570
+774,774,Minior (Meteor Form),Minior,"岩石, 飛行",岩石,飛行,"Rock, Flying",Rock,Flying,60,60,100,60,100,60,440
+774,774,Minior (Core Form),Minior,"岩石, 飛行",岩石,飛行,"Rock, Flying",Rock,Flying,60,100,60,100,60,120,500
+775,775,Komala,Komala,一般,一般,,Normal,Normal,,65,115,65,75,95,65,480
+776,776,Turtonator,Turtonator,"火, 龍",火,龍,"Fire, Dragon",Fire,Dragon,60,78,135,91,85,36,485
+777,777,Togedemaru,Togedemaru,"電, 鋼",電,鋼,"Electric, Steel",Electric,Steel,65,98,63,40,73,96,435
+778,778,Mimikyu,Mimikyu,"幽靈, 妖精",幽靈,妖精,"Ghost, Fairy",Ghost,Fairy,55,90,80,50,105,96,476
+779,779,Bruxish,Bruxish,"水, 超能力",水,超能力,"Water, Psychic",Water,Psychic,68,105,70,70,70,92,475
+780,780,Drampa,Drampa,"一般, 龍",一般,龍,"Normal, Dragon",Normal,Dragon,78,60,85,135,91,36,485
+781,781,Dhelmise,Dhelmise,"幽靈, 草",幽靈,草,"Ghost, Grass",Ghost,Grass,70,131,100,86,90,40,517
+782,782,Jangmo-o,Jangmo-o,龍,龍,,Dragon,Dragon,,45,55,65,45,45,45,300
+783,783,Hakamo-o,Hakamo-o,"龍, 格鬥",龍,格鬥,"Dragon, Fighting",Dragon,Fighting,55,75,90,65,70,65,420
+784,784,Kommo-o,Kommo-o,"龍, 格鬥",龍,格鬥,"Dragon, Fighting",Dragon,Fighting,75,110,125,100,105,85,600
+785,785,Tapu Koko,Tapu Koko,"電, 妖精",電,妖精,"Electric, Fairy",Electric,Fairy,70,115,85,95,75,130,570
+786,786,Tapu Lele,Tapu Lele,"超能力, 妖精",超能力,妖精,"Psychic, Fairy",Psychic,Fairy,70,85,75,130,115,95,570
+787,787,Tapu Bulu,Tapu Bulu,"草, 妖精",草,妖精,"Grass, Fairy",Grass,Fairy,70,130,115,85,95,75,570
+788,788,Tapu Fini,Tapu Fini,"水, 妖精",水,妖精,"Water, Fairy",Water,Fairy,70,75,115,95,130,85,570
+789,789,Cosmog,Cosmog,超能力,超能力,,Psychic,Psychic,,43,29,31,29,31,37,200
+790,790,Cosmoem,Cosmoem,超能力,超能力,,Psychic,Psychic,,43,29,131,29,131,37,400
+791,791,Solgaleo,Solgaleo,"超能力, 鋼",超能力,鋼,"Psychic, Steel",Psychic,Steel,137,137,107,113,89,97,680
+792,792,Lunala,Lunala,"超能力, 幽靈",超能力,幽靈,"Psychic, Ghost",Psychic,Ghost,137,113,89,137,107,97,680
+793,793,Nihilego,Nihilego,"岩石, 毒",岩石,毒,"Rock, Poison",Rock,Poison,109,53,47,127,131,103,570
+794,794,Buzzwole,Buzzwole,"蟲, 格鬥",蟲,格鬥,"Bug, Fighting",Bug,Fighting,107,139,139,53,53,79,570
+795,795,Pheromosa,Pheromosa,"蟲, 格鬥",蟲,格鬥,"Bug, Fighting",Bug,Fighting,71,137,37,137,37,151,570
+796,796,Xurkitree,Xurkitree,電,電,,Electric,Electric,,83,89,71,173,71,83,570
+797,797,Celesteela,Celesteela,"鋼, 飛行",鋼,飛行,"Steel, Flying",Steel,Flying,97,101,103,107,101,61,570
+798,798,Kartana,Kartana,"草, 鋼",草,鋼,"Grass, Steel",Grass,Steel,59,181,131,59,31,109,570
+799,799,Guzzlord,Guzzlord,"惡, 龍",惡,龍,"Dark, Dragon",Dark,Dragon,223,101,53,97,53,43,570
+800,800,Necrozma,Necrozma,超能力,超能力,,Psychic,Psychic,,97,107,101,127,89,79,600
+800,800,Necrozma (Dusk Mane Necrozma),Necrozma,"超能力, 鋼",超能力,鋼,"Psychic, Steel",Psychic,Steel,97,157,127,113,109,77,680
+800,800,Necrozma (Dawn Wings Necrozma),Necrozma,"超能力, 幽靈",超能力,幽靈,"Psychic, Ghost",Psychic,Ghost,97,113,109,157,127,77,680
+800,800,Necrozma (Ultra Necrozma),Necrozma,"超能力, 龍",超能力,龍,"Psychic, Dragon",Psychic,Dragon,97,167,97,167,97,129,754
+801,801,Magearna,Magearna,"鋼, 妖精",鋼,妖精,"Steel, Fairy",Steel,Fairy,80,95,115,130,115,65,600
+802,802,Marshadow,Marshadow,"格鬥, 幽靈",格鬥,幽靈,"Fighting, Ghost",Fighting,Ghost,90,125,80,90,90,125,600
+803,803,Poipole,Poipole,毒,毒,,Poison,Poison,,67,73,67,73,67,73,420
+804,804,Naganadel,Naganadel,"毒, 龍",毒,龍,"Poison, Dragon",Poison,Dragon,73,73,73,127,73,121,540
+805,805,Stakataka,Stakataka,"岩石, 鋼",岩石,鋼,"Rock, Steel",Rock,Steel,61,131,211,53,101,13,570
+806,806,Blacephalon,Blacephalon,"火, 幽靈",火,幽靈,"Fire, Ghost",Fire,Ghost,53,127,53,151,79,107,570
+807,807,Zeraora,Zeraora,電,電,,Electric,Electric,,88,112,75,102,80,143,600
+808,808,Meltan,Meltan,鋼,鋼,,Steel,Steel,,46,65,65,55,35,34,300
+809,809,Melmetal,Melmetal,鋼,鋼,,Steel,Steel,,135,143,143,80,65,34,600
+810,810,Grookey,Grookey,草,草,,Grass,Grass,,50,65,50,40,40,65,310
+811,811,Thwackey,Thwackey,草,草,,Grass,Grass,,70,85,70,55,60,80,420
+812,812,Rillaboom,Rillaboom,草,草,,Grass,Grass,,100,125,90,60,70,85,530
+813,813,Scorbunny,Scorbunny,火,火,,Fire,Fire,,50,71,40,40,40,69,310
+814,814,Raboot,Raboot,火,火,,Fire,Fire,,65,86,60,55,60,94,420
+815,815,Cinderace,Cinderace,火,火,,Fire,Fire,,80,116,75,65,75,119,530
+816,816,Sobble,Sobble,水,水,,Water,Water,,50,40,40,70,40,70,310
+817,817,Drizzile,Drizzile,水,水,,Water,Water,,65,60,55,95,55,90,420
+818,818,Inteleon,Inteleon,水,水,,Water,Water,,70,85,65,125,65,120,530
+819,819,Skwovet,Skwovet,一般,一般,,Normal,Normal,,70,55,55,35,35,25,275
+820,820,Greedent,Greedent,一般,一般,,Normal,Normal,,120,95,95,55,75,20,460
+821,821,Rookidee,Rookidee,飛行,飛行,,Flying,Flying,,38,47,35,33,35,57,245
+822,822,Corvisquire,Corvisquire,飛行,飛行,,Flying,Flying,,68,67,55,43,55,77,365
+823,823,Corviknight,Corviknight,"飛行, 鋼",飛行,鋼,"Flying, Steel",Flying,Steel,98,87,105,53,85,67,495
+824,824,Blipbug,Blipbug,蟲,蟲,,Bug,Bug,,25,20,20,25,45,45,180
+825,825,Dottler,Dottler,"蟲, 超能力",蟲,超能力,"Bug, Psychic",Bug,Psychic,50,35,80,50,90,30,335
+826,826,Orbeetle,Orbeetle,"蟲, 超能力",蟲,超能力,"Bug, Psychic",Bug,Psychic,60,45,110,80,120,90,505
+827,827,Nickit,Nickit,惡,惡,,Dark,Dark,,40,28,28,47,52,50,245
+828,828,Thievul,Thievul,惡,惡,,Dark,Dark,,70,58,58,87,92,90,455
+829,829,Gossifleur,Gossifleur,草,草,,Grass,Grass,,40,40,60,40,60,10,250
+830,830,Eldegoss,Eldegoss,草,草,,Grass,Grass,,60,50,90,80,120,60,460
+831,831,Wooloo,Wooloo,一般,一般,,Normal,Normal,,42,40,55,40,45,48,270
+832,832,Dubwool,Dubwool,一般,一般,,Normal,Normal,,72,80,100,60,90,88,490
+833,833,Chewtle,Chewtle,水,水,,Water,Water,,50,64,50,38,38,44,284
+834,834,Drednaw,Drednaw,"水, 岩石",水,岩石,"Water, Rock",Water,Rock,90,115,90,48,68,74,485
+835,835,Yamper,Yamper,電,電,,Electric,Electric,,59,45,50,40,50,26,270
+836,836,Boltund,Boltund,電,電,,Electric,Electric,,69,90,60,90,60,121,490
+837,837,Rolycoly,Rolycoly,岩石,岩石,,Rock,Rock,,30,40,50,40,50,30,240
+838,838,Carkol,Carkol,"岩石, 火",岩石,火,"Rock, Fire",Rock,Fire,80,60,90,60,70,50,410
+839,839,Coalossal,Coalossal,"岩石, 火",岩石,火,"Rock, Fire",Rock,Fire,110,80,120,80,90,30,510
+840,840,Applin,Applin,"草, 龍",草,龍,"Grass, Dragon",Grass,Dragon,40,40,80,40,40,20,260
+841,841,Flapple,Flapple,"草, 龍",草,龍,"Grass, Dragon",Grass,Dragon,70,110,80,95,60,70,485
+842,842,Appletun,Appletun,"草, 龍",草,龍,"Grass, Dragon",Grass,Dragon,110,85,80,100,80,30,485
+843,843,Silicobra,Silicobra,地面,地面,,Ground,Ground,,52,57,75,35,50,46,315
+844,844,Sandaconda,Sandaconda,地面,地面,,Ground,Ground,,72,107,125,65,70,71,510
+845,845,Cramorant,Cramorant,"飛行, 水",飛行,水,"Flying, Water",Flying,Water,70,85,55,85,95,85,475
+846,846,Arrokuda,Arrokuda,水,水,,Water,Water,,41,63,40,40,30,66,280
+847,847,Barraskewda,Barraskewda,水,水,,Water,Water,,61,123,60,60,50,136,490
+848,848,Toxel,Toxel,"電, 毒",電,毒,"Electric, Poison",Electric,Poison,40,38,35,54,35,40,242
+849,849,Toxtricity (Amped Form),Toxtricity,"電, 毒",電,毒,"Electric, Poison",Electric,Poison,75,98,70,114,70,75,502
+849,849,Toxtricity (Low Key Form),Toxtricity,"電, 毒",電,毒,"Electric, Poison",Electric,Poison,75,98,70,114,70,75,502
+850,850,Sizzlipede,Sizzlipede,"火, 蟲",火,蟲,"Fire, Bug",Fire,Bug,50,65,45,50,50,45,305
+851,851,Centiskorch,Centiskorch,"火, 蟲",火,蟲,"Fire, Bug",Fire,Bug,100,115,65,90,90,65,525
+852,852,Clobbopus,Clobbopus,格鬥,格鬥,,Fighting,Fighting,,50,68,60,50,50,32,310
+853,853,Grapploct,Grapploct,格鬥,格鬥,,Fighting,Fighting,,80,118,90,70,80,42,480
+854,854,Sinistea,Sinistea,幽靈,幽靈,,Ghost,Ghost,,40,45,45,74,54,50,308
+855,855,Polteageist,Polteageist,幽靈,幽靈,,Ghost,Ghost,,60,65,65,134,114,70,508
+856,856,Hatenna,Hatenna,超能力,超能力,,Psychic,Psychic,,42,30,45,56,53,39,265
+857,857,Hattrem,Hattrem,超能力,超能力,,Psychic,Psychic,,57,40,65,86,73,49,370
+858,858,Hatterene,Hatterene,"超能力, 妖精",超能力,妖精,"Psychic, Fairy",Psychic,Fairy,57,90,95,136,103,29,510
+859,859,Impidimp,Impidimp,"惡, 妖精",惡,妖精,"Dark, Fairy",Dark,Fairy,45,45,30,55,40,50,265
+860,860,Morgrem,Morgrem,"惡, 妖精",惡,妖精,"Dark, Fairy",Dark,Fairy,65,60,45,75,55,70,370
+861,861,Grimmsnarl,Grimmsnarl,"惡, 妖精",惡,妖精,"Dark, Fairy",Dark,Fairy,95,120,65,95,75,60,510
+862,862,Obstagoon,Obstagoon,"惡, 一般",惡,一般,"Dark, Normal",Dark,Normal,93,90,101,60,81,95,520
+863,863,Perrserker,Perrserker,鋼,鋼,,Steel,Steel,,70,110,100,50,60,50,440
+864,864,Cursola,Cursola,幽靈,幽靈,,Ghost,Ghost,,60,95,50,145,130,30,510
+865,865,Sirfetch'd,Sirfetch'd,格鬥,格鬥,,Fighting,Fighting,,62,135,95,68,82,65,507
+866,866,Mr. Rime,Mr. Rime,"冰, 超能力",冰,超能力,"Ice, Psychic",Ice,Psychic,80,85,75,110,100,70,520
+867,867,Runerigus,Runerigus,"地面, 幽靈",地面,幽靈,"Ground, Ghost",Ground,Ghost,58,95,145,50,105,30,483
+868,868,Milcery,Milcery,妖精,妖精,,Fairy,Fairy,,45,40,40,50,61,34,270
+869,869,Alcremie,Alcremie,妖精,妖精,,Fairy,Fairy,,65,60,75,110,121,64,495
+870,870,Falinks,Falinks,格鬥,格鬥,,Fighting,Fighting,,65,100,100,70,60,75,470
+871,871,Pincurchin,Pincurchin,電,電,,Electric,Electric,,48,101,95,91,85,15,435
+872,872,Snom,Snom,"冰, 蟲",冰,蟲,"Ice, Bug",Ice,Bug,30,25,35,45,30,20,185
+873,873,Frosmoth,Frosmoth,"冰, 蟲",冰,蟲,"Ice, Bug",Ice,Bug,70,65,60,125,90,65,475
+874,874,Stonjourner,Stonjourner,岩石,岩石,,Rock,Rock,,100,125,135,20,20,70,470
+875,875,Eiscue (Ice Face),Eiscue,冰,冰,,Ice,Ice,,75,80,110,65,90,50,470
+875,875,Eiscue (Noice Face),Eiscue,冰,冰,,Ice,Ice,,75,80,70,65,50,130,470
+876,876,Indeedee (Male),Indeedee,"超能力, 一般",超能力,一般,"Psychic, Normal",Psychic,Normal,60,65,55,105,95,95,475
+876,876,Indeedee (Female),Indeedee,"超能力, 一般",超能力,一般,"Psychic, Normal",Psychic,Normal,70,55,65,95,105,85,475
+877,877,Morpeko (Full Belly Mode),Morpeko,"電, 惡",電,惡,"Electric, Dark",Electric,Dark,58,95,58,70,58,97,436
+877,877,Morpeko (Hangry Mode),Morpeko,"電, 惡",電,惡,"Electric, Dark",Electric,Dark,58,95,58,70,58,97,436
+878,878,Cufant,Cufant,鋼,鋼,,Steel,Steel,,72,80,49,40,49,40,330
+879,879,Copperajah,Copperajah,鋼,鋼,,Steel,Steel,,122,130,69,80,69,30,500
+880,880,Dracozolt,Dracozolt,"電, 龍",電,龍,"Electric, Dragon",Electric,Dragon,90,100,90,80,70,75,505
+881,881,Arctozolt,Arctozolt,"電, 冰",電,冰,"Electric, Ice",Electric,Ice,90,100,90,90,80,55,505
+882,882,Dracovish,Dracovish,"水, 龍",水,龍,"Water, Dragon",Water,Dragon,90,90,100,70,80,75,505
+883,883,Arctovish,Arctovish,"水, 冰",水,冰,"Water, Ice",Water,Ice,90,90,100,80,90,55,505
+884,884,Duraludon,Duraludon,"鋼, 龍",鋼,龍,"Steel, Dragon",Steel,Dragon,70,95,115,120,50,85,535
+885,885,Dreepy,Dreepy,"龍, 幽靈",龍,幽靈,"Dragon, Ghost",Dragon,Ghost,28,60,30,40,30,82,270
+886,886,Drakloak,Drakloak,"龍, 幽靈",龍,幽靈,"Dragon, Ghost",Dragon,Ghost,68,80,50,60,50,102,410
+887,887,Dragapult,Dragapult,"龍, 幽靈",龍,幽靈,"Dragon, Ghost",Dragon,Ghost,88,120,75,100,75,142,600
+888,888,Zacian (Hero of Many Battles),Zacian,妖精,妖精,,Fairy,Fairy,,92,120,115,80,115,138,660
+888,888,Zacian (Crowned Sword),Zacian,"妖精, 鋼",妖精,鋼,"Fairy, Steel",Fairy,Steel,92,150,115,80,115,148,700
+889,889,Zamazenta (Hero of Many Battles),Zamazenta,格鬥,格鬥,,Fighting,Fighting,,92,120,115,80,115,138,660
+889,889,Zamazenta (Crowned Shield),Zamazenta,"格鬥, 鋼",格鬥,鋼,"Fighting, Steel",Fighting,Steel,92,120,140,80,140,128,700
+890,890,Eternatus,Eternatus,"毒, 龍",毒,龍,"Poison, Dragon",Poison,Dragon,140,85,95,145,95,130,690
+890,890,Eternatus (Eternamax),Eternatus,"毒, 龍",毒,龍,"Poison, Dragon",Poison,Dragon,255,115,250,125,250,130,1125
+891,891,Kubfu,Kubfu,格鬥,格鬥,,Fighting,Fighting,,60,90,60,53,50,72,385
+892,892,Urshifu (Single Strike Style),Urshifu,"格鬥, 惡",格鬥,惡,"Fighting, Dark",Fighting,Dark,100,130,100,63,60,97,550
+892,892,Urshifu (Rapid Strike Style),Urshifu,"格鬥, 水",格鬥,水,"Fighting, Water",Fighting,Water,100,130,100,63,60,97,550
+893,893,Zarude,Zarude,"惡, 草",惡,草,"Dark, Grass",Dark,Grass,105,120,105,70,95,105,600
+894,894,Regieleki,Regieleki,電,電,,Electric,Electric,,80,100,50,100,50,200,580
+895,895,Regidrago,Regidrago,龍,龍,,Dragon,Dragon,,200,100,50,100,50,80,580
+896,896,Glastrier,Glastrier,冰,冰,,Ice,Ice,,100,145,130,65,110,30,580
+897,897,Spectrier,Spectrier,幽靈,幽靈,,Ghost,Ghost,,100,65,60,145,80,130,580
+898,898,Calyrex,Calyrex,"超能力, 草",超能力,草,"Psychic, Grass",Psychic,Grass,100,80,80,80,80,80,500
+898,898,Calyrex (Ice Rider),Calyrex,"超能力, 冰",超能力,冰,"Psychic, Ice",Psychic,Ice,100,165,150,85,130,50,680
+898,898,Calyrex (Shadow Rider),Calyrex,"超能力, 幽靈",超能力,幽靈,"Psychic, Ghost",Psychic,Ghost,100,85,80,165,100,150,680
+899,899,Wyrdeer,Wyrdeer,"一般, 超能力",一般,超能力,"Normal, Psychic",Normal,Psychic,103,105,72,105,75,65,525
+900,900,Kleavor,Kleavor,"蟲, 岩石",蟲,岩石,"Bug, Rock",Bug,Rock,70,130,95,45,75,85,500
+901,901,Ursaluna,Ursaluna,"地面, 一般",地面,一般,"Ground, Normal",Ground,Normal,130,140,105,45,80,50,550
+902,902,Basculegion (Male),Basculegion,"水, 幽靈",水,幽靈,"Water, Ghost",Water,Ghost,120,112,65,80,75,78,530
+902,902,Basculegion (Female),Basculegion,"水, 幽靈",水,幽靈,"Water, Ghost",Water,Ghost,120,92,65,100,75,78,530
+903,903,Sneasler,Sneasler,"格鬥, 毒",格鬥,毒,"Fighting, Poison",Fighting,Poison,80,130,60,40,80,120,510
+904,904,Overqwil,Overqwil,"惡, 毒",惡,毒,"Dark, Poison",Dark,Poison,85,115,95,65,65,85,510
+905,905,Enamorus (Incarnate Forme),Enamorus,"妖精, 飛行",妖精,飛行,"Fairy, Flying",Fairy,Flying,74,115,70,135,80,106,580
+905,905,Enamorus (Therian Forme),Enamorus,"妖精, 飛行",妖精,飛行,"Fairy, Flying",Fairy,Flying,74,115,110,135,100,46,580
+906,906,Sprigatito,Sprigatito,草,草,,Grass,Grass,,40,61,54,45,45,65,310
+907,907,Floragato,Floragato,草,草,,Grass,Grass,,61,80,63,60,63,83,410
+908,908,Meowscarada,Meowscarada,"草, 惡",草,惡,"Grass, Dark",Grass,Dark,76,110,70,81,70,123,530
+909,909,Fuecoco,Fuecoco,火,火,,Fire,Fire,,67,45,59,63,40,36,310
+910,910,Crocalor,Crocalor,火,火,,Fire,Fire,,81,55,78,90,58,49,411
+911,911,Skeledirge,Skeledirge,"火, 幽靈",火,幽靈,"Fire, Ghost",Fire,Ghost,104,75,100,110,75,66,530
+912,912,Quaxly,Quaxly,水,水,,Water,Water,,55,65,45,50,45,50,310
+913,913,Quaxwell,Quaxwell,水,水,,Water,Water,,70,85,65,65,60,65,410
+914,914,Quaquaval,Quaquaval,"水, 格鬥",水,格鬥,"Water, Fighting",Water,Fighting,85,120,80,85,75,85,530
+915,915,Lechonk,Lechonk,一般,一般,,Normal,Normal,,54,45,40,35,45,35,254
+916,916,Oinkologne (Male),Oinkologne,一般,一般,,Normal,Normal,,110,100,75,59,80,65,489
+916,916,Oinkologne (Female),Oinkologne,一般,一般,,Normal,Normal,,115,90,70,59,90,65,489
+917,917,Tarountula,Tarountula,蟲,蟲,,Bug,Bug,,35,41,45,29,40,20,210
+918,918,Spidops,Spidops,蟲,蟲,,Bug,Bug,,60,79,92,52,86,35,404
+919,919,Nymble,Nymble,蟲,蟲,,Bug,Bug,,33,46,40,21,25,45,210
+920,920,Lokix,Lokix,"蟲, 惡",蟲,惡,"Bug, Dark",Bug,Dark,71,102,78,52,55,92,450
+921,921,Pawmi,Pawmi,電,電,,Electric,Electric,,45,50,20,40,25,60,240
+922,922,Pawmo,Pawmo,"電, 格鬥",電,格鬥,"Electric, Fighting",Electric,Fighting,60,75,40,50,40,85,350
+923,923,Pawmot,Pawmot,"電, 格鬥",電,格鬥,"Electric, Fighting",Electric,Fighting,70,115,70,70,60,105,490
+924,924,Tandemaus,Tandemaus,一般,一般,,Normal,Normal,,50,50,45,40,45,75,305
+925,925,Maushold (Family of Four),Maushold,一般,一般,,Normal,Normal,,74,75,70,65,75,111,470
+925,925,Maushold (Family of Three),Maushold,一般,一般,,Normal,Normal,,74,75,70,65,75,111,470
+926,926,Fidough,Fidough,妖精,妖精,,Fairy,Fairy,,37,55,70,30,55,65,312
+927,927,Dachsbun,Dachsbun,妖精,妖精,,Fairy,Fairy,,57,80,115,50,80,95,477
+928,928,Smoliv,Smoliv,"草, 一般",草,一般,"Grass, Normal",Grass,Normal,41,35,45,58,51,30,260
+929,929,Dolliv,Dolliv,"草, 一般",草,一般,"Grass, Normal",Grass,Normal,52,53,60,78,78,33,354
+930,930,Arboliva,Arboliva,"草, 一般",草,一般,"Grass, Normal",Grass,Normal,78,69,90,125,109,39,510
+931,931,Squawkabilly (Green Plumage),Squawkabilly,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,82,96,51,45,51,92,417
+931,931,Squawkabilly (Blue Plumage),Squawkabilly,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,82,96,51,45,51,92,417
+931,931,Squawkabilly (Yellow Plumage),Squawkabilly,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,82,96,51,45,51,92,417
+931,931,Squawkabilly (White Plumage),Squawkabilly,"一般, 飛行",一般,飛行,"Normal, Flying",Normal,Flying,82,96,51,45,51,92,417
+932,932,Nacli,Nacli,岩石,岩石,,Rock,Rock,,55,55,75,35,35,25,280
+933,933,Naclstack,Naclstack,岩石,岩石,,Rock,Rock,,60,60,100,35,65,35,355
+934,934,Garganacl,Garganacl,岩石,岩石,,Rock,Rock,,100,100,130,45,90,35,500
+935,935,Charcadet,Charcadet,火,火,,Fire,Fire,,40,50,40,50,40,35,255
+936,936,Armarouge,Armarouge,"火, 超能力",火,超能力,"Fire, Psychic",Fire,Psychic,85,60,100,125,80,75,525
+937,937,Ceruledge,Ceruledge,"火, 幽靈",火,幽靈,"Fire, Ghost",Fire,Ghost,75,125,80,60,100,85,525
+938,938,Tadbulb,Tadbulb,電,電,,Electric,Electric,,61,31,41,59,35,45,272
+939,939,Bellibolt,Bellibolt,電,電,,Electric,Electric,,109,64,91,103,83,45,495
+940,940,Wattrel,Wattrel,"電, 飛行",電,飛行,"Electric, Flying",Electric,Flying,40,40,35,55,40,70,280
+941,941,Kilowattrel,Kilowattrel,"電, 飛行",電,飛行,"Electric, Flying",Electric,Flying,70,70,60,105,60,125,490
+942,942,Maschiff,Maschiff,惡,惡,,Dark,Dark,,60,78,60,40,51,51,340
+943,943,Mabosstiff,Mabosstiff,惡,惡,,Dark,Dark,,80,120,90,60,70,85,505
+944,944,Shroodle,Shroodle,"毒, 一般",毒,一般,"Poison, Normal",Poison,Normal,40,65,35,40,35,75,290
+945,945,Grafaiai,Grafaiai,"毒, 一般",毒,一般,"Poison, Normal",Poison,Normal,63,95,65,80,72,110,485
+946,946,Bramblin,Bramblin,"草, 幽靈",草,幽靈,"Grass, Ghost",Grass,Ghost,40,65,30,45,35,60,275
+947,947,Brambleghast,Brambleghast,"草, 幽靈",草,幽靈,"Grass, Ghost",Grass,Ghost,55,115,70,80,70,90,480
+948,948,Toedscool,Toedscool,"地面, 草",地面,草,"Ground, Grass",Ground,Grass,40,40,35,50,100,70,335
+949,949,Toedscruel,Toedscruel,"地面, 草",地面,草,"Ground, Grass",Ground,Grass,80,70,65,80,120,100,515
+950,950,Klawf,Klawf,岩石,岩石,,Rock,Rock,,70,100,115,35,55,75,450
+951,951,Capsakid,Capsakid,草,草,,Grass,Grass,,50,62,40,62,40,50,304
+952,952,Scovillain,Scovillain,"草, 火",草,火,"Grass, Fire",Grass,Fire,65,108,65,108,65,75,486
+953,953,Rellor,Rellor,蟲,蟲,,Bug,Bug,,41,50,60,31,58,30,270
+954,954,Rabsca,Rabsca,"蟲, 超能力",蟲,超能力,"Bug, Psychic",Bug,Psychic,75,50,85,115,100,45,470
+955,955,Flittle,Flittle,超能力,超能力,,Psychic,Psychic,,30,35,30,55,30,75,255
+956,956,Espathra,Espathra,超能力,超能力,,Psychic,Psychic,,95,60,60,101,60,105,481
+957,957,Tinkatink,Tinkatink,"妖精, 鋼",妖精,鋼,"Fairy, Steel",Fairy,Steel,50,45,45,35,64,58,297
+958,958,Tinkatuff,Tinkatuff,"妖精, 鋼",妖精,鋼,"Fairy, Steel",Fairy,Steel,65,55,55,45,82,78,380
+959,959,Tinkaton,Tinkaton,"妖精, 鋼",妖精,鋼,"Fairy, Steel",Fairy,Steel,85,75,77,70,105,94,506
+960,960,Wiglett,Wiglett,水,水,,Water,Water,,10,55,25,35,25,95,245
+961,961,Wugtrio,Wugtrio,水,水,,Water,Water,,35,100,50,50,70,120,425
+962,962,Bombirdier,Bombirdier,"飛行, 惡",飛行,惡,"Flying, Dark",Flying,Dark,70,103,85,60,85,82,485
+963,963,Finizen,Finizen,水,水,,Water,Water,,70,45,40,45,40,75,315
+964,964,Palafin (Zero Form),Palafin,水,水,,Water,Water,,100,70,72,53,62,100,457
+964,964,Palafin (Hero Form),Palafin,水,水,,Water,Water,,100,160,97,106,87,100,650
+965,965,Varoom,Varoom,"鋼, 毒",鋼,毒,"Steel, Poison",Steel,Poison,45,70,63,30,45,47,300
+966,966,Revavroom,Revavroom,"鋼, 毒",鋼,毒,"Steel, Poison",Steel,Poison,80,119,90,54,67,90,500
+967,967,Cyclizar,Cyclizar,"龍, 一般",龍,一般,"Dragon, Normal",Dragon,Normal,70,95,65,85,65,121,501
+968,968,Orthworm,Orthworm,鋼,鋼,,Steel,Steel,,70,85,145,60,55,65,480
+969,969,Glimmet,Glimmet,"岩石, 毒",岩石,毒,"Rock, Poison",Rock,Poison,48,35,42,105,60,60,350
+970,970,Glimmora,Glimmora,"岩石, 毒",岩石,毒,"Rock, Poison",Rock,Poison,83,55,90,130,81,86,525
+971,971,Greavard,Greavard,幽靈,幽靈,,Ghost,Ghost,,50,61,60,30,55,34,290
+972,972,Houndstone,Houndstone,幽靈,幽靈,,Ghost,Ghost,,72,101,100,50,97,68,488
+973,973,Flamigo,Flamigo,"飛行, 格鬥",飛行,格鬥,"Flying, Fighting",Flying,Fighting,82,115,74,75,64,90,500
+974,974,Cetoddle,Cetoddle,冰,冰,,Ice,Ice,,108,68,45,30,40,43,334
+975,975,Cetitan,Cetitan,冰,冰,,Ice,Ice,,170,113,65,45,55,73,521
+976,976,Veluza,Veluza,"水, 超能力",水,超能力,"Water, Psychic",Water,Psychic,90,102,73,78,65,70,478
+977,977,Dondozo,Dondozo,水,水,,Water,Water,,150,100,115,65,65,35,530
+978,978,Tatsugiri (Curly Form),Tatsugiri,"龍, 水",龍,水,"Dragon, Water",Dragon,Water,68,50,60,120,95,82,475
+978,978,Tatsugiri (Droopy Form),Tatsugiri,"龍, 水",龍,水,"Dragon, Water",Dragon,Water,68,50,60,120,95,82,475
+978,978,Tatsugiri (Stretchy Form),Tatsugiri,"龍, 水",龍,水,"Dragon, Water",Dragon,Water,68,50,60,120,95,82,475
+979,979,Annihilape,Annihilape,"格鬥, 幽靈",格鬥,幽靈,"Fighting, Ghost",Fighting,Ghost,110,115,80,50,90,90,535
+980,980,Clodsire,Clodsire,"毒, 地面",毒,地面,"Poison, Ground",Poison,Ground,130,75,60,45,100,20,430
+981,981,Farigiraf,Farigiraf,"一般, 超能力",一般,超能力,"Normal, Psychic",Normal,Psychic,120,90,70,110,70,60,520
+982,982,Dudunsparce (Two-Segment Form),Dudunsparce,一般,一般,,Normal,Normal,,125,100,80,85,75,55,520
+982,982,Dudunsparce (Three-Segment Form),Dudunsparce,一般,一般,,Normal,Normal,,125,100,80,85,75,55,520
+983,983,Kingambit,Kingambit,"惡, 鋼",惡,鋼,"Dark, Steel",Dark,Steel,100,135,120,60,85,50,550
+984,984,Great Tusk,Great Tusk,"地面, 格鬥",地面,格鬥,"Ground, Fighting",Ground,Fighting,115,131,131,53,53,87,570
+985,985,Scream Tail,Scream Tail,"妖精, 超能力",妖精,超能力,"Fairy, Psychic",Fairy,Psychic,115,65,99,65,115,111,570
+986,986,Brute Bonnet,Brute Bonnet,"草, 惡",草,惡,"Grass, Dark",Grass,Dark,111,127,99,79,99,55,570
+987,987,Flutter Mane,Flutter Mane,"幽靈, 妖精",幽靈,妖精,"Ghost, Fairy",Ghost,Fairy,55,55,55,135,135,135,570
+988,988,Slither Wing,Slither Wing,"蟲, 格鬥",蟲,格鬥,"Bug, Fighting",Bug,Fighting,85,135,79,85,105,81,570
+989,989,Sandy Shocks,Sandy Shocks,"電, 地面",電,地面,"Electric, Ground",Electric,Ground,85,81,97,121,85,101,570
+990,990,Iron Treads,Iron Treads,"地面, 鋼",地面,鋼,"Ground, Steel",Ground,Steel,90,112,120,72,70,106,570
+991,991,Iron Bundle,Iron Bundle,"冰, 水",冰,水,"Ice, Water",Ice,Water,56,80,114,124,60,136,570
+992,992,Iron Hands,Iron Hands,"格鬥, 電",格鬥,電,"Fighting, Electric",Fighting,Electric,154,140,108,50,68,50,570
+993,993,Iron Jugulis,Iron Jugulis,"惡, 飛行",惡,飛行,"Dark, Flying",Dark,Flying,94,80,86,122,80,108,570
+994,994,Iron Moth,Iron Moth,"火, 毒",火,毒,"Fire, Poison",Fire,Poison,80,70,60,140,110,110,570
+995,995,Iron Thorns,Iron Thorns,"岩石, 電",岩石,電,"Rock, Electric",Rock,Electric,100,134,110,70,84,72,570
+996,996,Frigibax,Frigibax,"龍, 冰",龍,冰,"Dragon, Ice",Dragon,Ice,65,75,45,35,45,55,320
+997,997,Arctibax,Arctibax,"龍, 冰",龍,冰,"Dragon, Ice",Dragon,Ice,90,95,66,45,65,62,423
+998,998,Baxcalibur,Baxcalibur,"龍, 冰",龍,冰,"Dragon, Ice",Dragon,Ice,115,145,92,75,86,87,600
+999,999,Gimmighoul (Chest Form),Gimmighoul,幽靈,幽靈,,Ghost,Ghost,,45,30,70,75,70,10,300
+999,999,Gimmighoul (Roaming Form),Gimmighoul,幽靈,幽靈,,Ghost,Ghost,,45,30,25,75,45,80,300
+1000,1000,Gholdengo,Gholdengo,"鋼, 幽靈",鋼,幽靈,"Steel, Ghost",Steel,Ghost,87,60,95,133,91,84,550
+1001,1001,Wo-Chien,Wo-Chien,"惡, 草",惡,草,"Dark, Grass",Dark,Grass,85,85,100,95,135,70,570
+1002,1002,Chien-Pao,Chien-Pao,"惡, 冰",惡,冰,"Dark, Ice",Dark,Ice,80,120,80,90,65,135,570
+1003,1003,Ting-Lu,Ting-Lu,"惡, 地面",惡,地面,"Dark, Ground",Dark,Ground,155,110,125,55,80,45,570
+1004,1004,Chi-Yu,Chi-Yu,"惡, 火",惡,火,"Dark, Fire",Dark,Fire,55,80,80,135,120,100,570
+1005,1005,Roaring Moon,Roaring Moon,"龍, 惡",龍,惡,"Dragon, Dark",Dragon,Dark,105,139,71,55,101,119,590
+1006,1006,Iron Valiant,Iron Valiant,"妖精, 格鬥",妖精,格鬥,"Fairy, Fighting",Fairy,Fighting,74,130,90,120,60,116,590
+1007,1007,Koraidon,Koraidon,"格鬥, 龍",格鬥,龍,"Fighting, Dragon",Fighting,Dragon,100,135,115,85,100,135,670
+1008,1008,Miraidon,Miraidon,"電, 龍",電,龍,"Electric, Dragon",Electric,Dragon,100,85,100,135,115,135,670
+1009,1009,Walking Wake,Walking Wake,"水, 龍",水,龍,"Water, Dragon",Water,Dragon,99,83,91,125,83,109,590
+1010,1010,Iron Leaves,Iron Leaves,"草, 超能力",草,超能力,"Grass, Psychic",Grass,Psychic,90,130,88,70,108,104,590
