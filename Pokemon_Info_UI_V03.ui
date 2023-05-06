@@ -364,7 +364,7 @@
   <widget class="QComboBox" name="Type_ComboBox">
    <property name="geometry">
     <rect>
-     <x>560</x>
+     <x>700</x>
      <y>60</y>
      <width>241</width>
      <height>41</height>
@@ -388,7 +388,7 @@
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>560</x>
+     <x>700</x>
      <y>20</y>
      <width>241</width>
      <height>31</height>
@@ -412,9 +412,9 @@
   <widget class="QLineEdit" name="KeyWord_Text">
    <property name="geometry">
     <rect>
-     <x>220</x>
+     <x>370</x>
      <y>60</y>
-     <width>261</width>
+     <width>251</width>
      <height>41</height>
     </rect>
    </property>
@@ -437,7 +437,7 @@
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>220</x>
+     <x>370</x>
      <y>20</y>
      <width>341</width>
      <height>31</height>
@@ -485,9 +485,9 @@
   <widget class="QLabel" name="label_10">
    <property name="geometry">
     <rect>
-     <x>20</x>
+     <x>220</x>
      <y>30</y>
-     <width>181</width>
+     <width>151</width>
      <height>71</height>
     </rect>
    </property>
@@ -512,7 +512,7 @@
    </property>
    <property name="geometry">
     <rect>
-     <x>440</x>
+     <x>580</x>
      <y>60</y>
      <width>41</width>
      <height>41</height>
@@ -943,7 +943,7 @@
   <widget class="QComboBox" name="Type2_ComboBox">
    <property name="geometry">
     <rect>
-     <x>840</x>
+     <x>980</x>
      <y>60</y>
      <width>241</width>
      <height>41</height>
@@ -967,7 +967,7 @@
   <widget class="QLabel" name="label_19">
    <property name="geometry">
     <rect>
-     <x>840</x>
+     <x>980</x>
      <y>20</y>
      <width>241</width>
      <height>31</height>
@@ -986,6 +986,33 @@
    </property>
    <property name="alignment">
     <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Pic_Label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>181</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
    </property>
   </widget>
   <zorder>Keyword_Button</zorder>
@@ -1026,6 +1053,7 @@
   <zorder>label_16</zorder>
   <zorder>Type2_ComboBox</zorder>
   <zorder>label_19</zorder>
+  <zorder>Pic_Label</zorder>
  </widget>
  <resources/>
  <connections/>

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'Pokemon_Info_UI_V03Niujhx.ui'
+## Form generated from reading UI file 'Pokemon_Info_UI_V03sreKlv.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -134,23 +134,23 @@ class Ui_Pokemon_Info(object):
         self.Type_ComboBox = QComboBox(Pokemon_Info)
         self.Type_ComboBox.addItem("")
         self.Type_ComboBox.setObjectName(u"Type_ComboBox")
-        self.Type_ComboBox.setGeometry(QRect(560, 60, 241, 41))
+        self.Type_ComboBox.setGeometry(QRect(700, 60, 241, 41))
         self.Type_ComboBox.setFont(font1)
         self.label_3 = QLabel(Pokemon_Info)
         self.label_3.setObjectName(u"label_3")
-        self.label_3.setGeometry(QRect(560, 20, 241, 31))
+        self.label_3.setGeometry(QRect(700, 20, 241, 31))
         self.label_3.setFont(font)
         self.label_3.setAlignment(Qt.AlignJustify|Qt.AlignVCenter)
         self.KeyWord_Text = QLineEdit(Pokemon_Info)
         self.KeyWord_Text.setObjectName(u"KeyWord_Text")
-        self.KeyWord_Text.setGeometry(QRect(220, 60, 261, 41))
+        self.KeyWord_Text.setGeometry(QRect(370, 60, 251, 41))
         self.KeyWord_Text.setFont(font1)
         self.KeyWord_Text.setEchoMode(QLineEdit.Normal)
         self.KeyWord_Text.setAlignment(Qt.AlignCenter)
         self.KeyWord_Text.setReadOnly(False)
         self.label_4 = QLabel(Pokemon_Info)
         self.label_4.setObjectName(u"label_4")
-        self.label_4.setGeometry(QRect(220, 20, 341, 31))
+        self.label_4.setGeometry(QRect(370, 20, 341, 31))
         self.label_4.setFont(font)
         self.label_4.setAlignment(Qt.AlignJustify|Qt.AlignVCenter)
         self.label_9 = QLabel(Pokemon_Info)
@@ -160,13 +160,13 @@ class Ui_Pokemon_Info(object):
         self.label_9.setAlignment(Qt.AlignJustify|Qt.AlignVCenter)
         self.label_10 = QLabel(Pokemon_Info)
         self.label_10.setObjectName(u"label_10")
-        self.label_10.setGeometry(QRect(20, 30, 181, 71))
+        self.label_10.setGeometry(QRect(220, 30, 151, 71))
         self.label_10.setFont(font)
         self.label_10.setAlignment(Qt.AlignJustify|Qt.AlignVCenter)
         self.Keyword_Button = QPushButton(Pokemon_Info)
         self.Keyword_Button.setObjectName(u"Keyword_Button")
         self.Keyword_Button.setEnabled(True)
-        self.Keyword_Button.setGeometry(QRect(440, 60, 41, 41))
+        self.Keyword_Button.setGeometry(QRect(580, 60, 41, 41))
         self.Keyword_Button.setFont(font2)
         self.label_11 = QLabel(Pokemon_Info)
         self.label_11.setObjectName(u"label_11")
@@ -272,13 +272,19 @@ class Ui_Pokemon_Info(object):
         self.Type2_ComboBox = QComboBox(Pokemon_Info)
         self.Type2_ComboBox.addItem("")
         self.Type2_ComboBox.setObjectName(u"Type2_ComboBox")
-        self.Type2_ComboBox.setGeometry(QRect(840, 60, 241, 41))
+        self.Type2_ComboBox.setGeometry(QRect(980, 60, 241, 41))
         self.Type2_ComboBox.setFont(font1)
         self.label_19 = QLabel(Pokemon_Info)
         self.label_19.setObjectName(u"label_19")
-        self.label_19.setGeometry(QRect(840, 20, 241, 31))
+        self.label_19.setGeometry(QRect(980, 20, 241, 31))
         self.label_19.setFont(font)
         self.label_19.setAlignment(Qt.AlignJustify|Qt.AlignVCenter)
+        self.Pic_Label = QLabel(Pokemon_Info)
+        self.Pic_Label.setObjectName(u"Pic_Label")
+        self.Pic_Label.setGeometry(QRect(10, 20, 181, 80))
+        self.Pic_Label.setFont(font)
+        self.Pic_Label.setFrameShape(QFrame.NoFrame)
+        self.Pic_Label.setAlignment(Qt.AlignCenter)
         self.Keyword_Button.raise_()
         self.label_1.raise_()
         self.Pokemon_ComboBox.raise_()
@@ -317,6 +323,7 @@ class Ui_Pokemon_Info(object):
         self.label_16.raise_()
         self.Type2_ComboBox.raise_()
         self.label_19.raise_()
+        self.Pic_Label.raise_()
 
         self.retranslateUi(Pokemon_Info)
 
@@ -363,5 +370,6 @@ class Ui_Pokemon_Info(object):
 
         self.Type2_ComboBox.setCurrentText(QCoreApplication.translate("Pokemon_Info", u"All Types", None))
         self.label_19.setText(QCoreApplication.translate("Pokemon_Info", u"Type2: ", None))
+        self.Pic_Label.setText("")
     # retranslateUi
 

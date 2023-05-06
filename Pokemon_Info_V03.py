@@ -100,6 +100,13 @@ class AppWindow(QWidget):  # Reusable
         self.ui.WinIcon_img.loadFromData(img_data)
         self.ui.WinIcon_img = self.ui.WinIcon_img.scaled(75, 75)
         self.setWindowIcon(QIcon(self.ui.WinIcon_img))
+        self.ui.Logo_img = QPixmap()
+        url2 = 'https://raw.githubusercontent.com/LeBronWilly/Pokemon_Info/main/data/images/pokemon_logo.png'
+        img_data2 = urllib.request.urlopen(url2).read()
+        self.ui.Logo_img.loadFromData(img_data2)
+        self.ui.Logo_img = self.ui.Logo_img.scaled(175, 75)
+        self.ui.Pic_Label.setPixmap(self.ui.Logo_img)
+        self.ui.Pic_Label.setAlignment(Qt.AlignCenter)
         self.ui.Pokemon_Image.setScene(QtWidgets.QGraphicsScene())
         self.ui.Pokemon_Image.setBackgroundBrush(QBrush(Qt.black, Qt.SolidPattern))
 
