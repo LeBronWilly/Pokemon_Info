@@ -17,6 +17,8 @@ Created on 03/12, 2023
 # https://sparkbyexamples.com/pandas/pandas-split-column/
 # https://stackoverflow.com/questions/61095091/how-to-strip-and-split-in-pandas
 # https://stackoverflow.com/questions/20025882/add-a-string-prefix-to-each-value-in-a-string-column-using-pandas
+# https://sparkbyexamples.com/pandas/convert-pandas-series-to-list/
+# https://stackoverflow.com/questions/64521219/i-get-invalidurl-url-cant-contain-control-characters-when-i-try-to-send-a-requ
 
 
 from UI_V03 import *
@@ -116,7 +118,9 @@ class AppWindow(QWidget):  # Reusable
         self.ui.Pokemon_ID_Name = sorted(set(self.Pokemon_data["ID_Name"]), key=lambda x: int(x.split('.')[0]))
         for ID_Name in self.ui.Pokemon_ID_Name:
             self.ui.Pokemon_ComboBox.addItem(ID_Name)
-        self.ui.Pokemon_ComboBox.setCurrentIndex(25)  # 初始預設皮卡丘
+
+        self.ui.Forme_ComboBox.clear()
+        self.ui.Forme_ComboBox.addItem("-")
 
         self.ui.Type_ComboBox.clear()
         self.ui.Type_ComboBox.addItem("All Types")
@@ -128,9 +132,9 @@ class AppWindow(QWidget):  # Reusable
             self.ui.Type2_ComboBox.addItem(PType)
 
         self.ui.Search_Button.clicked.connect(
-            lambda: self.Search_Button_Clicked(self.ui.Pokemon_ComboBox.currentText()))
+            lambda: self.Search_Button_Clicked(self.ui.Pokemon_ComboBox.currentText(),
+                                               self.ui.Forme_ComboBox.currentText()))
         self.ui.Refresh_Button.clicked.connect(self.Refresh_Button_Clicked)
-        self.Search_Button_Clicked(self.ui.Pokemon_ComboBox.currentText())
 
         self.ui.Type_ComboBox.currentTextChanged.connect(
             lambda: self.Filter_Change(self.ui.KeyWord_Text.text().strip(),
@@ -144,6 +148,11 @@ class AppWindow(QWidget):  # Reusable
             lambda: self.Filter_Change(self.ui.KeyWord_Text.text().strip(),
                                        self.ui.Type_ComboBox.currentText(),
                                        self.ui.Type2_ComboBox.currentText()))
+        self.ui.Pokemon_ComboBox.currentTextChanged.connect(
+            lambda: self.Pokemon_Change(self.ui.Pokemon_ComboBox.currentText()))
+
+        self.ui.Pokemon_ComboBox.setCurrentIndex(25)  # 初始預設皮卡丘
+        self.Search_Button_Clicked(self.ui.Pokemon_ComboBox.currentText(), self.ui.Forme_ComboBox.currentText())
 
     def Filter_Change(self, Pokemon_Name_Keyword, Pokemon_Type, Pokemon_Type2):
         if Pokemon_Type is None or Pokemon_Type2 is None:
@@ -184,15 +193,26 @@ class AppWindow(QWidget):  # Reusable
         for ID_Name in self.ui.Pokemon_ID_Name:
             self.ui.Pokemon_ComboBox.addItem(ID_Name)
 
-    def Search_Button_Clicked(self, Pokemon_ID_Name):
-        selected_Pokemon_data = self.Pokemon_data[self.Pokemon_data["ID_Name"] == Pokemon_ID_Name]
+    def Pokemon_Change(self, Pokemon_ID_Name):
+        self.ui.Forme_ComboBox.clear()
+        if Pokemon_ID_Name is None or Pokemon_ID_Name == "Choose Pokémon":
+            self.ui.Forme_ComboBox.addItem("-")
+            return None
+        else:
+            self.ui.Pokemon_Forme = self.Pokemon_data[self.Pokemon_data["ID_Name"] == Pokemon_ID_Name]["Forme"]
+            for PForme in self.ui.Pokemon_Forme:
+                self.ui.Forme_ComboBox.addItem(PForme)
+
+    def Search_Button_Clicked(self, Pokemon_ID_Name, Pokemon_Forme):
+        selected_Pokemon_data = self.Pokemon_data[(self.Pokemon_data["ID_Name"] == Pokemon_ID_Name) &
+                                                  (self.Pokemon_data["Forme"] == Pokemon_Forme)]
         if len(selected_Pokemon_data) == 0:
             print("Please Choose Pokémon!")
             return None
-        print(Pokemon_ID_Name)
+        print(Pokemon_ID_Name, Pokemon_Forme)
         self.ui.Genus_Text.setText(selected_Pokemon_data["Genus"].values[0])
-        self.ui.Type1_Text.setText(selected_Pokemon_data["Type1"].values[0])
-        self.ui.Type2_Text.setText(selected_Pokemon_data["Type2"].values[0])
+        # self.ui.Type1_Text.setText(selected_Pokemon_data["Type1"].values[0])
+        # self.ui.Type2_Text.setText(selected_Pokemon_data["Type2"].values[0])
         self.ui.Desc_TextEdit.setText(selected_Pokemon_data["Desc"].values[0])
         self.ui.SS_Text.setText(str(selected_Pokemon_data["Species Strength"].values[0]))
         self.ui.HP_Text.setText(str(selected_Pokemon_data["HP"].values[0]))
@@ -202,9 +222,17 @@ class AppWindow(QWidget):  # Reusable
         self.ui.SpAtk_Text.setText(str(selected_Pokemon_data["Sp. Atk"].values[0]))
         self.ui.SpDef_Text.setText(str(selected_Pokemon_data["Sp. Def"].values[0]))
         # self.ui.Desc_TextEdit.setAlignment(Qt.AlignLeft)
-        url = "https://raw.githubusercontent.com/LeBronWilly/Pokemon_Info/main/data/images/official-artwork/" + \
-              Pokemon_ID_Name.split(".")[0].zfill(3) + ".png"
-        img_data = urllib.request.urlopen(url).read()
+        if Pokemon_Forme == "Normal":
+            url = "https://raw.githubusercontent.com/LeBronWilly/Pokemon_Info/main/data/images/official-artwork/" + \
+                  Pokemon_ID_Name.split(".")[0].zfill(3) + ".png"
+            self.ui.Type1_Text.setText(selected_Pokemon_data["Type1"].values[0])
+            self.ui.Type2_Text.setText(selected_Pokemon_data["Type2"].values[0])
+        else:
+            url = "https://raw.githubusercontent.com/LeBronWilly/Pokemon_Info/main/data/images/official-artwork/" + \
+                  Pokemon_ID_Name.split(".")[0].zfill(3) + "-" + Pokemon_Forme + ".png"
+            self.ui.Type1_Text.setText(selected_Pokemon_data["Type1_D"].values[0])
+            self.ui.Type2_Text.setText(selected_Pokemon_data["Type2_D"].values[0])
+        img_data = urllib.request.urlopen(url.replace("%", "%25").replace(" ", "%20")).read()
         self.Pokemon_img.loadFromData(img_data)
         self.Pokemon_img = self.Pokemon_img.scaled(350, 350)
         Pokemon_scene = QtWidgets.QGraphicsScene()

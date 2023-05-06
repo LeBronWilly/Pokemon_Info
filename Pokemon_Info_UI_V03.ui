@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1260</width>
-    <height>725</height>
+    <height>864</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -56,14 +56,14 @@
     </font>
    </property>
    <property name="currentText">
-    <string>Choose Pokemon</string>
+    <string>Choose Pokémon</string>
    </property>
    <property name="maxVisibleItems">
     <number>14</number>
    </property>
    <item>
     <property name="text">
-     <string>Choose Pokemon</string>
+     <string>Choose Pokémon</string>
     </property>
    </item>
   </widget>
@@ -74,7 +74,7 @@
    <property name="geometry">
     <rect>
      <x>90</x>
-     <y>270</y>
+     <y>410</y>
      <width>201</width>
      <height>41</height>
     </rect>
@@ -98,7 +98,7 @@
    <property name="geometry">
     <rect>
      <x>400</x>
-     <y>640</y>
+     <y>780</y>
      <width>191</width>
      <height>41</height>
     </rect>
@@ -119,7 +119,7 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>690</y>
+     <y>830</y>
      <width>611</width>
      <height>31</height>
     </rect>
@@ -144,9 +144,9 @@
    <property name="geometry">
     <rect>
      <x>620</x>
-     <y>310</y>
+     <y>350</y>
      <width>321</width>
-     <height>371</height>
+     <height>471</height>
     </rect>
    </property>
    <property name="font">
@@ -239,7 +239,7 @@
    <property name="geometry">
     <rect>
      <x>620</x>
-     <y>250</y>
+     <y>270</y>
      <width>141</width>
      <height>41</height>
     </rect>
@@ -264,7 +264,7 @@
    <property name="geometry">
     <rect>
      <x>510</x>
-     <y>250</y>
+     <y>270</y>
      <width>111</width>
      <height>41</height>
     </rect>
@@ -291,7 +291,7 @@
    <property name="geometry">
     <rect>
      <x>510</x>
-     <y>310</y>
+     <y>350</y>
      <width>111</width>
      <height>41</height>
     </rect>
@@ -318,7 +318,7 @@
    <property name="geometry">
     <rect>
      <x>800</x>
-     <y>250</y>
+     <y>270</y>
      <width>141</width>
      <height>41</height>
     </rect>
@@ -343,7 +343,7 @@
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>330</y>
+     <y>470</y>
      <width>351</width>
      <height>351</height>
     </rect>
@@ -534,7 +534,7 @@
    <property name="geometry">
     <rect>
      <x>670</x>
-     <y>690</y>
+     <y>830</y>
      <width>581</width>
      <height>31</height>
     </rect>
@@ -1015,6 +1015,60 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
+  <widget class="QComboBox" name="Forme_ComboBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>320</y>
+     <width>351</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="currentText">
+    <string>Choose Forme</string>
+   </property>
+   <property name="maxVisibleItems">
+    <number>14</number>
+   </property>
+   <item>
+    <property name="text">
+     <string>Choose Forme</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_20">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>270</y>
+     <width>341</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Pokémon Forme: </string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+   </property>
+  </widget>
   <zorder>Keyword_Button</zorder>
   <zorder>label_1</zorder>
   <zorder>Pokemon_ComboBox</zorder>
@@ -1054,6 +1108,8 @@
   <zorder>Type2_ComboBox</zorder>
   <zorder>label_19</zorder>
   <zorder>Pic_Label</zorder>
+  <zorder>Forme_ComboBox</zorder>
+  <zorder>label_20</zorder>
  </widget>
  <resources/>
  <connections/>
