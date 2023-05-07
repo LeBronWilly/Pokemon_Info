@@ -103,7 +103,7 @@ class AppWindow(QWidget):  # Reusable
         self.ui.WinIcon_img = self.ui.WinIcon_img.scaled(75, 75)
         self.setWindowIcon(QIcon(self.ui.WinIcon_img))
         self.ui.Logo_img = QPixmap()
-        url2 = 'https://raw.githubusercontent.com/LeBronWilly/Pokemon_Info/main/data/images/pokemon_logo.png'
+        url2 = 'https://raw.githubusercontent.com/LeBronWilly/Pokemon_Info/main/data/images/pokemon_logo_zh.png'
         img_data2 = urllib.request.urlopen(url2).read()
         self.ui.Logo_img.loadFromData(img_data2)
         self.ui.Logo_img = self.ui.Logo_img.scaled(175, 75)
