@@ -83,6 +83,16 @@ def Pokemon_data_refresh_ETL():
     return pokemon_data
 
 
+def type_chart_data():
+    type_chart = pd.read_csv("https://raw.githubusercontent.com/LeBronWilly/Pokemon_Info/main/data/info/Type_Chart.csv",
+                             encoding='utf8').fillna("")
+    type_chart = type_chart.melt(id_vars=["Defense-Type1", "Defense-Type2"],
+                                 var_name="Countered",
+                                 value_name="X_Value")
+    # type_chart.index += 1
+    return type_chart
+
+
 class AppWindow(QWidget):  # Reusable
     def __init__(self):  # Reusable
         super().__init__()
@@ -91,6 +101,8 @@ class AppWindow(QWidget):  # Reusable
         print("Loading Pokémon Data......")
         self.Pokemon_data_source = Pokemon_data_refresh_ETL()
         self.Pokemon_data = self.Pokemon_data_source.copy()
+        self.type_chart_data_source = type_chart_data()
+        print("Done!")
         self.Pokemon_img = QPixmap()
         self.setup_control()
         self.show()
@@ -109,6 +121,12 @@ class AppWindow(QWidget):  # Reusable
         self.ui.Logo_img = self.ui.Logo_img.scaled(175, 75)
         self.ui.Pic_Label.setPixmap(self.ui.Logo_img)
         self.ui.Pic_Label.setAlignment(Qt.AlignCenter)
+        self.ui.Counter_Table.clear()
+        self.ui.Counter_Table.setColumnCount(0)
+        self.ui.Counter_Table.setRowCount(0)
+        self.ui.Weakness_Table.clear()
+        self.ui.Weakness_Table.setColumnCount(0)
+        self.ui.Weakness_Table.setRowCount(0)
         self.ui.Pokemon_Image.setScene(QtWidgets.QGraphicsScene())
         self.ui.Pokemon_Image.setBackgroundBrush(QBrush(Qt.black, Qt.SolidPattern))
 
@@ -227,11 +245,33 @@ class AppWindow(QWidget):  # Reusable
                   Pokemon_ID_Name.split(".")[0].zfill(3) + ".png"
             self.ui.Type1_Text.setText(selected_Pokemon_data["Type1"].values[0])
             self.ui.Type2_Text.setText(selected_Pokemon_data["Type2"].values[0])
+            counter_list = self.type_chart_data_source[
+                (self.type_chart_data_source["Defense-Type2"] == "") &
+                ((self.type_chart_data_source["Countered"] == selected_Pokemon_data["Type1"].values[0]) |
+                 (self.type_chart_data_source["Countered"] == selected_Pokemon_data["Type2"].values[0])) &
+                (self.type_chart_data_source["X_Value"] > 1)][["Defense-Type1"]].drop_duplicates().rename(
+                columns={"Defense-Type1": "Counters"})
+            weakness_list = self.type_chart_data_source[
+                (self.type_chart_data_source["Defense-Type1"] == selected_Pokemon_data["Type1"].values[0]) &
+                (self.type_chart_data_source["Defense-Type2"] == selected_Pokemon_data["Type2"].values[0]) &
+                (self.type_chart_data_source["X_Value"] > 1.0)][["Countered"]].rename(
+                columns={"Countered": "Weaknesses"})
         else:
             url = "https://raw.githubusercontent.com/LeBronWilly/Pokemon_Info/main/data/images/official-artwork/" + \
                   Pokemon_ID_Name.split(".")[0].zfill(3) + "-" + Pokemon_Forme + ".png"
             self.ui.Type1_Text.setText(selected_Pokemon_data["Type1_D"].values[0])
             self.ui.Type2_Text.setText(selected_Pokemon_data["Type2_D"].values[0])
+            counter_list = self.type_chart_data_source[
+                (self.type_chart_data_source["Defense-Type2"] == "") &
+                ((self.type_chart_data_source["Countered"] == selected_Pokemon_data["Type1_D"].values[0]) |
+                 (self.type_chart_data_source["Countered"] == selected_Pokemon_data["Type2_D"].values[0])) &
+                (self.type_chart_data_source["X_Value"] > 1)][["Defense-Type1"]].drop_duplicates().rename(
+                columns={"Defense-Type1": "Counters"})
+            weakness_list = self.type_chart_data_source[
+                (self.type_chart_data_source["Defense-Type1"] == selected_Pokemon_data["Type1_D"].values[0]) &
+                (self.type_chart_data_source["Defense-Type2"] == selected_Pokemon_data["Type2_D"].values[0]) &
+                (self.type_chart_data_source["X_Value"] > 1.0)][["Countered"]].rename(
+                columns={"Countered": "Weaknesses"})
         img_data = urllib.request.urlopen(url.replace("%", "%25").replace(" ", "%20")).read()
         self.Pokemon_img.loadFromData(img_data)
         self.Pokemon_img = self.Pokemon_img.scaled(350, 350)
@@ -239,12 +279,52 @@ class AppWindow(QWidget):  # Reusable
         Pokemon_scene.addPixmap(self.Pokemon_img)
         self.ui.Pokemon_Image.setScene(Pokemon_scene)
         # self.ui.Pokemon_Image.setAlignment(Qt.AlignCenter)
+        df_table_nrows = counter_list.shape[0]
+        df_table_ncolumns = counter_list.shape[1]
+        df_table_columns_names = counter_list.columns
+        self.ui.Counter_Table.clear()
+        self.ui.Counter_Table.setColumnCount(df_table_ncolumns)
+        self.ui.Counter_Table.setRowCount(df_table_nrows)
+        self.ui.Counter_Table.setHorizontalHeaderLabels(df_table_columns_names)
+        for i in range(0, df_table_nrows):
+            df_table_row_values_list = list(counter_list.iloc[i])
+            self.ui.Counter_Table.setRowHeight(i, 1)
+            for j in range(0, df_table_ncolumns):
+                df_table_values_item = str(df_table_row_values_list[j])
+                new_item = QTableWidgetItem(df_table_values_item)
+                new_item.setTextAlignment(Qt.AlignHCenter | Qt.AlignVCenter)
+                self.ui.Counter_Table.setItem(i, j, new_item)
+                self.ui.Counter_Table.horizontalHeader().setSectionResizeMode(j, QHeaderView.ResizeToContents)
+        df_table_nrows = weakness_list.shape[0]
+        df_table_ncolumns = weakness_list.shape[1]
+        df_table_columns_names = weakness_list.columns
+        self.ui.Weakness_Table.clear()
+        self.ui.Weakness_Table.setColumnCount(df_table_ncolumns)
+        self.ui.Weakness_Table.setRowCount(df_table_nrows)
+        self.ui.Weakness_Table.setHorizontalHeaderLabels(df_table_columns_names)
+        for i in range(0, df_table_nrows):
+            df_table_row_values_list = list(weakness_list.iloc[i])
+            self.ui.Weakness_Table.setRowHeight(i, 1)
+            for j in range(0, df_table_ncolumns):
+                df_table_values_item = str(df_table_row_values_list[j])
+                new_item = QTableWidgetItem(df_table_values_item)
+                new_item.setTextAlignment(Qt.AlignHCenter | Qt.AlignVCenter)
+                self.ui.Weakness_Table.setItem(i, j, new_item)
+                self.ui.Weakness_Table.horizontalHeader().setSectionResizeMode(j, QHeaderView.ResizeToContents)
 
     def Refresh_Button_Clicked(self):
         print("Refreshing Pokémon Data......")
         self.Pokemon_data_source = Pokemon_data_refresh_ETL()
         self.Pokemon_data = self.Pokemon_data_source.copy()
+        self.type_chart_data_source = type_chart_data()
+        print("Done!")
 
+        self.ui.Counter_Table.clear()
+        self.ui.Counter_Table.setColumnCount(0)
+        self.ui.Counter_Table.setRowCount(0)
+        self.ui.Weakness_Table.clear()
+        self.ui.Weakness_Table.setColumnCount(0)
+        self.ui.Weakness_Table.setRowCount(0)
         self.ui.KeyWord_Text.clear()
         self.ui.Pokemon_ComboBox.clear()
         self.ui.Pokemon_ComboBox.addItem("Choose Pokémon")

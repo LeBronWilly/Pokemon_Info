@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'Pokemon_Info_UI_V03uSOFPe.ui'
+## Form generated from reading UI file 'Pokemon_Info_UI_V03WvpBeq.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -297,6 +297,25 @@ class Ui_Pokemon_Info(object):
         self.label_20.setFont(font)
         self.label_20.setTextFormat(Qt.PlainText)
         self.label_20.setAlignment(Qt.AlignJustify|Qt.AlignVCenter)
+        self.label_21 = QLabel(Pokemon_Info)
+        self.label_21.setObjectName(u"label_21")
+        self.label_21.setGeometry(QRect(970, 510, 281, 41))
+        self.label_21.setFont(font5)
+        self.label_21.setTextFormat(Qt.PlainText)
+        self.label_21.setAlignment(Qt.AlignJustify|Qt.AlignVCenter)
+        self.Counter_Table = QTableWidget(Pokemon_Info)
+        self.Counter_Table.setObjectName(u"Counter_Table")
+        self.Counter_Table.setGeometry(QRect(970, 560, 131, 261))
+        font7 = QFont()
+        font7.setFamily(u"Arial")
+        font7.setPointSize(10)
+        self.Counter_Table.setFont(font7)
+        self.Counter_Table.setAlternatingRowColors(False)
+        self.Weakness_Table = QTableWidget(Pokemon_Info)
+        self.Weakness_Table.setObjectName(u"Weakness_Table")
+        self.Weakness_Table.setGeometry(QRect(1110, 560, 131, 261))
+        self.Weakness_Table.setFont(font7)
+        self.Weakness_Table.setAlternatingRowColors(False)
         self.Keyword_Button.raise_()
         self.label_1.raise_()
         self.Pokemon_ComboBox.raise_()
@@ -338,6 +357,9 @@ class Ui_Pokemon_Info(object):
         self.Pic_Label.raise_()
         self.Forme_ComboBox.raise_()
         self.label_20.raise_()
+        self.label_21.raise_()
+        self.Counter_Table.raise_()
+        self.Weakness_Table.raise_()
 
         self.retranslateUi(Pokemon_Info)
 
@@ -389,5 +411,6 @@ class Ui_Pokemon_Info(object):
 
         self.Forme_ComboBox.setCurrentText(QCoreApplication.translate("Pokemon_Info", u"Choose Forme", None))
         self.label_20.setText(QCoreApplication.translate("Pokemon_Info", u"Pok\u00e9mon Forme: ", None))
+        self.label_21.setText(QCoreApplication.translate("Pokemon_Info", u"Counters & Weaknesses:", None))
     # retranslateUi
 

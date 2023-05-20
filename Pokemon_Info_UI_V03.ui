@@ -1069,6 +1069,71 @@
     <set>Qt::AlignJustify|Qt::AlignVCenter</set>
    </property>
   </widget>
+  <widget class="QLabel" name="label_21">
+   <property name="geometry">
+    <rect>
+     <x>970</x>
+     <y>510</y>
+     <width>281</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Counters &amp; Weaknesses:</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignJustify|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="Counter_Table">
+   <property name="geometry">
+    <rect>
+     <x>970</x>
+     <y>560</y>
+     <width>131</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="alternatingRowColors">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="Weakness_Table">
+   <property name="geometry">
+    <rect>
+     <x>1110</x>
+     <y>560</y>
+     <width>131</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="alternatingRowColors">
+    <bool>false</bool>
+   </property>
+  </widget>
   <zorder>Keyword_Button</zorder>
   <zorder>label_1</zorder>
   <zorder>Pokemon_ComboBox</zorder>
@@ -1110,6 +1175,9 @@
   <zorder>Pic_Label</zorder>
   <zorder>Forme_ComboBox</zorder>
   <zorder>label_20</zorder>
+  <zorder>label_21</zorder>
+  <zorder>Counter_Table</zorder>
+  <zorder>Weakness_Table</zorder>
  </widget>
  <resources/>
  <connections/>
