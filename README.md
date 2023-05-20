@@ -24,5 +24,6 @@ Remembering Ash and Pikachu for this 26-year-journey with all of us!
 Download Application (.exe): [here](https://github.com/LeBronWilly/Pokemon_Info/releases)
 
 User Interface: <br>
-<img src="https://github.com/LeBronWilly/Pokemon_Info/assets/38752414/a0852d20-3086-4aa2-93dd-415204f052f0" width=84% height=84%>
-<img src="https://github.com/LeBronWilly/Pokemon_Info/assets/38752414/e2bbebf5-784f-4f3c-9d67-a8192273a580" width=84% height=84%>
+<img src="https://github.com/LeBronWilly/Pokemon_Info/assets/38752414/723998e0-eb10-49e0-91f1-10c35076496e" width=84% height=84%>
+<img src="https://github.com/LeBronWilly/Pokemon_Info/assets/38752414/d26a23cb-8ae8-4f7c-9167-2099c322c647" width=84% height=84%>
+
