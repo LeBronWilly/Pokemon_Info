@@ -1134,6 +1134,36 @@
     <bool>false</bool>
    </property>
   </widget>
+  <widget class="QLabel" name="Pokemon_Image_Label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>470</y>
+     <width>351</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
   <zorder>Keyword_Button</zorder>
   <zorder>label_1</zorder>
   <zorder>Pokemon_ComboBox</zorder>
@@ -1178,6 +1208,7 @@
   <zorder>label_21</zorder>
   <zorder>Counter_Table</zorder>
   <zorder>Weakness_Table</zorder>
+  <zorder>Pokemon_Image_Label</zorder>
  </widget>
  <resources/>
  <connections/>

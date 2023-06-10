@@ -114,13 +114,16 @@ class AppWindow(QWidget):  # Reusable
         self.ui.WinIcon_img.loadFromData(img_data)
         self.ui.WinIcon_img = self.ui.WinIcon_img.scaled(75, 75)
         self.setWindowIcon(QIcon(self.ui.WinIcon_img))
+
         self.ui.Logo_img = QPixmap()
         url2 = 'https://raw.githubusercontent.com/LeBronWilly/Pokemon_Info/main/data/images/pokemon_logo_zh.png'
         img_data2 = urllib.request.urlopen(url2).read()
         self.ui.Logo_img.loadFromData(img_data2)
-        self.ui.Logo_img = self.ui.Logo_img.scaled(175, 75)
+        # self.ui.Logo_img = self.ui.Logo_img.scaled(175, 75)
         self.ui.Pic_Label.setPixmap(self.ui.Logo_img)
         self.ui.Pic_Label.setAlignment(Qt.AlignCenter)
+        self.ui.Pic_Label.setScaledContents(True)  # 圖片就不會失真
+
         self.ui.Counter_Table.clear()
         self.ui.Counter_Table.setColumnCount(0)
         self.ui.Counter_Table.setRowCount(0)
@@ -129,6 +132,7 @@ class AppWindow(QWidget):  # Reusable
         self.ui.Weakness_Table.setRowCount(0)
         self.ui.Pokemon_Image.setScene(QtWidgets.QGraphicsScene())
         self.ui.Pokemon_Image.setBackgroundBrush(QBrush(Qt.black, Qt.SolidPattern))
+        self.ui.Pokemon_Image_Label.clear()
 
         self.ui.KeyWord_Text.clear()
         self.ui.Pokemon_ComboBox.clear()
@@ -219,7 +223,8 @@ class AppWindow(QWidget):  # Reusable
         else:
             self.ui.Pokemon_Forme = self.Pokemon_data[self.Pokemon_data["ID_Name"] == Pokemon_ID_Name]["Forme"]
             for PForme in self.ui.Pokemon_Forme:
-                self.ui.Forme_ComboBox.addItem(PForme)
+                if PForme != "Paldean":
+                    self.ui.Forme_ComboBox.addItem(PForme)
 
     def Search_Button_Clicked(self, Pokemon_ID_Name, Pokemon_Forme):
         selected_Pokemon_data = self.Pokemon_data[(self.Pokemon_data["ID_Name"] == Pokemon_ID_Name) &
@@ -274,11 +279,13 @@ class AppWindow(QWidget):  # Reusable
                 columns={"Countered": "Weaknesses"})
         img_data = urllib.request.urlopen(url.replace("%", "%25").replace(" ", "%20")).read()
         self.Pokemon_img.loadFromData(img_data)
-        self.Pokemon_img = self.Pokemon_img.scaled(350, 350)
-        Pokemon_scene = QtWidgets.QGraphicsScene()
-        Pokemon_scene.addPixmap(self.Pokemon_img)
-        self.ui.Pokemon_Image.setScene(Pokemon_scene)
-        # self.ui.Pokemon_Image.setAlignment(Qt.AlignCenter)
+        # self.Pokemon_img = self.Pokemon_img.scaled(350, 350)
+        # Pokemon_scene = QtWidgets.QGraphicsScene()
+        # Pokemon_scene.addPixmap(self.Pokemon_img)
+        # self.ui.Pokemon_Image.setScene(Pokemon_scene)
+        self.ui.Pokemon_Image_Label.setPixmap(self.Pokemon_img)
+        self.ui.Pokemon_Image_Label.setAlignment(Qt.AlignCenter)
+        self.ui.Pokemon_Image_Label.setScaledContents(True)  # 圖片就不會失真
         df_table_nrows = counter_list.shape[0]
         df_table_ncolumns = counter_list.shape[1]
         df_table_columns_names = counter_list.columns
@@ -354,6 +361,7 @@ class AppWindow(QWidget):  # Reusable
         self.ui.SpAtk_Text.clear()
         self.ui.SpDef_Text.clear()
         self.ui.Pokemon_Image.setScene(QtWidgets.QGraphicsScene())
+        self.ui.Pokemon_Image_Label.clear()
 
 
 if __name__ == "__main__":  # Reusable

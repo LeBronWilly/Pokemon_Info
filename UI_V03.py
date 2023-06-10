@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'Pokemon_Info_UI_V03WvpBeq.ui'
+## Form generated from reading UI file 'Pokemon_Info_UI_V03sxeqgT.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -316,6 +316,13 @@ class Ui_Pokemon_Info(object):
         self.Weakness_Table.setGeometry(QRect(1110, 560, 131, 261))
         self.Weakness_Table.setFont(font7)
         self.Weakness_Table.setAlternatingRowColors(False)
+        self.Pokemon_Image_Label = QLabel(Pokemon_Info)
+        self.Pokemon_Image_Label.setObjectName(u"Pokemon_Image_Label")
+        self.Pokemon_Image_Label.setGeometry(QRect(20, 470, 351, 351))
+        self.Pokemon_Image_Label.setFont(font)
+        self.Pokemon_Image_Label.setFrameShape(QFrame.NoFrame)
+        self.Pokemon_Image_Label.setScaledContents(True)
+        self.Pokemon_Image_Label.setAlignment(Qt.AlignCenter)
         self.Keyword_Button.raise_()
         self.label_1.raise_()
         self.Pokemon_ComboBox.raise_()
@@ -360,6 +367,7 @@ class Ui_Pokemon_Info(object):
         self.label_21.raise_()
         self.Counter_Table.raise_()
         self.Weakness_Table.raise_()
+        self.Pokemon_Image_Label.raise_()
 
         self.retranslateUi(Pokemon_Info)
 
@@ -412,5 +420,6 @@ class Ui_Pokemon_Info(object):
         self.Forme_ComboBox.setCurrentText(QCoreApplication.translate("Pokemon_Info", u"Choose Forme", None))
         self.label_20.setText(QCoreApplication.translate("Pokemon_Info", u"Pok\u00e9mon Forme: ", None))
         self.label_21.setText(QCoreApplication.translate("Pokemon_Info", u"Counters & Weaknesses:", None))
+        self.Pokemon_Image_Label.setText("")
     # retranslateUi
 
