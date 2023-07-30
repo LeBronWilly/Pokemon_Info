@@ -1,3 +1,6 @@
 # .gitignore 
 pokemon_data.xlsx
 ~$pokemon_data.xlsx
+dist/
+build/
+

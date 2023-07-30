@@ -333,11 +333,11 @@ class AppWindow(QWidget):  # Reusable
                 self.ui.Weakness_Table.horizontalHeader().setSectionResizeMode(j, QHeaderView.ResizeToContents)
 
     def Refresh_Button_Clicked(self):
-        print("Refreshing Pokémon Data......")
-        self.Pokemon_data_source = Pokemon_data_refresh_ETL()
+        # print("Refreshing Pokémon Data......")
+        print("Resetting......")
+        # self.Pokemon_data_source = Pokemon_data_refresh_ETL()
         self.Pokemon_data = self.Pokemon_data_source.copy()
         self.type_chart_data_source = type_chart_data()
-        print("Done!")
 
         self.ui.Counter_Table.clear()
         self.ui.Counter_Table.setColumnCount(0)
@@ -375,6 +375,7 @@ class AppWindow(QWidget):  # Reusable
         self.ui.SpDef_Text.clear()
         self.ui.Pokemon_Image.setScene(QtWidgets.QGraphicsScene())
         self.ui.Pokemon_Image_Label.clear()
+        print("Done!")
 
 
 if __name__ == "__main__":  # Reusable
